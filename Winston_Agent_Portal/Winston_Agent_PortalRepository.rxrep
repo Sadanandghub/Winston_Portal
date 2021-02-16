@@ -1,0 +1,139 @@
+﻿<repository
+id="0ebf7ece-ba43-48b5-8ae9-42cf3e6dd6e4"
+name="Winston_Agent_PortalRepository">
+	<codegen
+	classname="Winston_Agent_PortalRepository"
+	namespace="Winston_Agent_Portal">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="7f2a20b6-644f-4206-825f-8ef87802e496"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="ee96e4cd-5a4c-4be2-828f-6b678101c20f"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/dom[@domain='dev_winston.fwcins.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="60526d6e-c662-4ed1-b53c-ba575967ab29"
+		isrooted="True"
+		name="HttpsDevWinstonFwcinsComFWCPortal"
+		refpath="/dom[@domain='dev_winston.fwcins.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="603579aa-6208-46fa-93f0-40ef83876138"
+			name="TxtBranchId"
+			refimgid="0f708f88-eded-4682-afcb-cb8aebad3498"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//input[#'txtBranchId']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//input[#'txtBranchId']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="a2b09389-5c49-49e3-af85-718e44d4020a"
+			name="TxtPassword"
+			refimgid="04956a68-70d5-4492-b264-1e8ecb665036"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//input[#'txtPassword']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//input[#'txtPassword']
+			</item>
+			<item
+			addcaps="unknown,webelement,buttontag"
+			capname="buttontag"
+			id="be8727b1-1d9b-486f-9e17-4661ba84ba46"
+			name="SignIn"
+			refimgid="9e09a808-3867-44a9-966d-6079e5bdabce"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//form[#'frmLogin']/div/div/div/div[2]/div[2]/div[4]/button[@innertext='Sign in']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//form[#'frmLogin']/div/div/div/div[2]/div[2]/div[4]/button[@innertext='Sign in']
+			</item>
+			<item
+			addcaps="unknown,webelement,btag"
+			capname="btag"
+			id="0b13023d-75df-4681-9c74-7db54b04541c"
+			name="SomeBTag"
+			refimgid="6f26eaca-28eb-4e8a-9841-de4b7b45bb61"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//form[#'frmSelectAgency']/div/div[1]/div/div[2]/div/span/span[1]/span/span[2]/b"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//form[#'frmSelectAgency']/div/div[1]/div/div[2]/div/span/span[1]//b
+			</item>
+			<item
+			addcaps="unknown,webelement,litag"
+			capname="litag"
+			id="ada8c2df-ff5a-4f10-b71b-9f110598e45a"
+			name="AgencyName"
+			refimgid="ddcfe52d-8427-4afe-9641-16fb2d1acb4f"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//ul[#'select2-ddlAgencyContact-results']/li[@innertext=$AgencyName]
+			</item>
+			<item
+			addcaps="unknown,webelement,buttontag"
+			capname="buttontag"
+			id="aff91744-5dcc-4875-9fd5-d57ec5865c90"
+			name="BtnContinue"
+			refimgid="840658fb-0065-42ed-a1cc-d638b88ae469"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//button[#'btnContinue']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//button[#'btnContinue']
+			</item>
+			<basepath>
+				/dom[@domain='dev_winston.fwcins.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="077dd62f-01bc-453b-9b30-9275e4326288"
+		name="AgencyName">
+			Christina Bowman
+		</var>
+	</variables>
+</repository>

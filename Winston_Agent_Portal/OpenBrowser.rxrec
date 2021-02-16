@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="5e3279a7-27b8-4b84-be6f-98f3c6f958e1"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="Winston_Agent_Portal">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="Chrome"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://dev_winston.fwcins.com/FWCPortal/User/Login/Login.html
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="0ebf7ece-ba43-48b5-8ae9-42cf3e6dd6e4"
+	name="Winston_Agent_PortalRepository"
+	relativepath="Winston_Agent_PortalRepository.rxrep">
+		<codegen
+		classname="Winston_Agent_PortalRepository"
+		namespace="Winston_Agent_Portal">
+		</codegen>
+		<rootfolder
+		id="7f2a20b6-644f-4206-825f-8ef87802e496"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
