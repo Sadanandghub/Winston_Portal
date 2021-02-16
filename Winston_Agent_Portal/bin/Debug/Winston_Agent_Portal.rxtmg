@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="Winston_Agent_Portal"
+      id="ffef330b-ee41-4bc3-89c6-9e50fc752b0b"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="Winston_Agent_Portal"
+      id="ffef330b-ee41-4bc3-89c6-9e50fc752b0b"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

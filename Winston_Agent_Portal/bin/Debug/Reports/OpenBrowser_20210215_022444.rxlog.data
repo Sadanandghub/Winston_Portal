@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="4.69s"
+		durationms="4685"
+		type="root"
+		rid="14b66bd0183629df"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="SadanandG"
+		rxversion="9.3.2.0"
+		host="SADG-VM-W10"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="2/15/2021 2:24:48 AM"
+		timestampiso="2021-02-15T07:24:48"
+		endtime="2/15/2021 2:24:52 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="OpenBrowser">
+		<detail>
+			OpenBrowser
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.425"
+			timeRelativeToTestModuleStartTime="00:04.425"
+			timeWallClock="02:24:52"
+			time="00:04.425"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://dev_winston.fwcins.com/FWCPortal/User/Login/Login.html' with browser 'Chrome' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\SadanandG\Documents\Ranorex\RanorexStudio Projects\Winston\Winston_Agent_Portal\OpenBrowser.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

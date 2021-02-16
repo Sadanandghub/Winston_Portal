@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Winston_Agent_Portal</name>
+    </assembly>
+    <members>
+        <member name="T:Winston_Agent_Portal.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:Winston_Agent_Portal.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the Winston_Agent_PortalRepository repository.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Winston_Agent_Portal.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Winston_Agent_Portal.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Winston_Agent_Portal.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:Winston_Agent_Portal.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the Winston_Agent_PortalRepository repository.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Winston_Agent_Portal.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Winston_Agent_Portal.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Winston_Agent_Portal.Login">
+             <summary>
+            The Login recording.
+             </summary>
+        </member>
+        <member name="F:Winston_Agent_Portal.Login.repo">
+            <summary>
+            Holds an instance of the Winston_Agent_PortalRepository repository.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.Login.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Login.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Login.UserName">
+            <summary>
+            Gets or sets the value of variable UserName.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Login.Password">
+            <summary>
+            Gets or sets the value of variable Password.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Login.AgencyName">
+            <summary>
+            Gets or sets the value of variable AgencyName.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.Login.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Winston_Agent_Portal.Login.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.Login.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Winston_Agent_Portal.Login.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Winston_Agent_Portal.Winston_Agent_PortalRepository">
+            <summary>
+            The class representing the Winston_Agent_PortalRepository element repository.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the Winston_Agent_PortalRepository element repository.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.Winston_Agent_PortalRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepository.AgencyName">
+            <summary>
+            Gets or sets the value of variable AgencyName.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepository.HttpsDevWinstonFwcinsComFWCPortal">
+            <summary>
+            The HttpsDevWinstonFwcinsComFWCPortal folder.
+            </summary>
+        </member>
+        <member name="T:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.HttpsDevWinstonFwcinsComFWCPortalAppFolder">
+            <summary>
+            The HttpsDevWinstonFwcinsComFWCPortalAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.HttpsDevWinstonFwcinsComFWCPortalAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new HttpsDevWinstonFwcinsComFWCPortal  folder.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.HttpsDevWinstonFwcinsComFWCPortalAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.HttpsDevWinstonFwcinsComFWCPortalAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.HttpsDevWinstonFwcinsComFWCPortalAppFolder.TxtBranchId">
+            <summary>
+            The TxtBranchId item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.HttpsDevWinstonFwcinsComFWCPortalAppFolder.TxtBranchIdInfo">
+            <summary>
+            The TxtBranchId item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.HttpsDevWinstonFwcinsComFWCPortalAppFolder.TxtPassword">
+            <summary>
+            The TxtPassword item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.HttpsDevWinstonFwcinsComFWCPortalAppFolder.TxtPasswordInfo">
+            <summary>
+            The TxtPassword item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.HttpsDevWinstonFwcinsComFWCPortalAppFolder.SignIn">
+            <summary>
+            The SignIn item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.HttpsDevWinstonFwcinsComFWCPortalAppFolder.SignInInfo">
+            <summary>
+            The SignIn item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.HttpsDevWinstonFwcinsComFWCPortalAppFolder.SomeBTag">
+            <summary>
+            The SomeBTag item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.HttpsDevWinstonFwcinsComFWCPortalAppFolder.SomeBTagInfo">
+            <summary>
+            The SomeBTag item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.HttpsDevWinstonFwcinsComFWCPortalAppFolder.AgencyName">
+            <summary>
+            The AgencyName item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.HttpsDevWinstonFwcinsComFWCPortalAppFolder.AgencyNameInfo">
+            <summary>
+            The AgencyName item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.HttpsDevWinstonFwcinsComFWCPortalAppFolder.BtnContinue">
+            <summary>
+            The BtnContinue item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.HttpsDevWinstonFwcinsComFWCPortalAppFolder.BtnContinueInfo">
+            <summary>
+            The BtnContinue item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

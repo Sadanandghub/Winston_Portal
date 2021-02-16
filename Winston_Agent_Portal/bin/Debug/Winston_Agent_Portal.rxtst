@@ -82,10 +82,6 @@
 			ref="2fe4b19c-ce56-4e71-a860-46c435e5f8d3"
 			type="Recording">
 			</testmodule>
-			<smartfoldernode
-			id="8d81a7ba-8836-4015-ab77-bd88f1456f5e"
-			name="SmartFolder">
-			</smartfoldernode>
 			<testcase
 			id="a5f96f3d-ac04-41a7-81cc-10d21890c3c9"
 			name="Winston_Agent_Portal"
@@ -124,10 +120,6 @@
 						id="27956c92-1e58-4033-911b-159a29d53f8d"
 						name="Login">
 						</testmodule>
-						<smartfoldernode
-						id="8d81a7ba-8836-4015-ab77-bd88f1456f5e"
-						name="SmartFolder">
-						</smartfoldernode>
 						<teardown
 						id="417f079b-97c0-4dc4-bfea-b4b246297ada"
 						name="teardown">
@@ -175,9 +167,6 @@
 		name="TestRun">
 			<testcontainer
 			id="4074b71f-6cfc-4680-a79d-c26b3a159ae9">
-			</testcontainer>
-			<testcontainer
-			id="8d81a7ba-8836-4015-ab77-bd88f1456f5e">
 			</testcontainer>
 			<testcontainer
 			id="a5f96f3d-ac04-41a7-81cc-10d21890c3c9">

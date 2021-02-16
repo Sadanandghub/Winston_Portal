@@ -1,0 +1,13 @@
+C:\Users\SadanandG\Documents\Ranorex\RanorexStudio Projects\Winston\Winston_Agent_Portal\bin\Debug\Winston_Agent_Portal.rxtmg
+C:\Users\SadanandG\Documents\Ranorex\RanorexStudio Projects\Winston\Winston_Agent_Portal\bin\Debug\Winston_Agent_Portal.rxtst
+C:\Users\SadanandG\Documents\Ranorex\RanorexStudio Projects\Winston\Winston_Agent_Portal\bin\Debug\Winston_Agent_Portal.exe.config
+C:\Users\SadanandG\Documents\Ranorex\RanorexStudio Projects\Winston\Winston_Agent_Portal\bin\Debug\Winston_Agent_Portal.xml
+C:\Users\SadanandG\Documents\Ranorex\RanorexStudio Projects\Winston\Winston_Agent_Portal\bin\Debug\Winston_Agent_Portal.exe
+C:\Users\SadanandG\Documents\Ranorex\RanorexStudio Projects\Winston\Winston_Agent_Portal\bin\Debug\Winston_Agent_Portal.pdb
+C:\Users\SadanandG\Documents\Ranorex\RanorexStudio Projects\Winston\Winston_Agent_Portal\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\SadanandG\Documents\Ranorex\RanorexStudio Projects\Winston\Winston_Agent_Portal\obj\x86\Debug\Winston_Agent_Portal.csprojAssemblyReference.cache
+C:\Users\SadanandG\Documents\Ranorex\RanorexStudio Projects\Winston\Winston_Agent_Portal\obj\x86\Debug\Winston_Agent_Portal.csproj.CoreCompileInputs.cache
+C:\Users\SadanandG\Documents\Ranorex\RanorexStudio Projects\Winston\Winston_Agent_Portal\obj\x86\Debug\Winston_Agent_Portal.csproj.CopyComplete
+C:\Users\SadanandG\Documents\Ranorex\RanorexStudio Projects\Winston\Winston_Agent_Portal\obj\x86\Debug\Winston_Agent_Portal.exe
+C:\Users\SadanandG\Documents\Ranorex\RanorexStudio Projects\Winston\Winston_Agent_Portal\obj\x86\Debug\Winston_Agent_Portal.pdb
+C:\Users\SadanandG\Documents\Ranorex\RanorexStudio Projects\Winston\Winston_Agent_Portal\bin\Debug\AgentPortal.xlsx

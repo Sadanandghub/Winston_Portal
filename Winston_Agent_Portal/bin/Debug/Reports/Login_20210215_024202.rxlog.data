@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="11.04s"
+		durationms="11036"
+		type="root"
+		rid="1f98a2c261c0f821"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="SadanandG"
+		rxversion="9.3.2.0"
+		host="SADG-VM-W10"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="2/15/2021 2:42:06 AM"
+		timestampiso="2021-02-15T07:42:06"
+		endtime="2/15/2021 2:42:17 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Login">
+		<detail>
+			Login
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.204"
+			timeRelativeToTestModuleStartTime="00:04.204"
+			timeWallClock="02:42:10"
+			time="00:04.204"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HttpsDevWinstonFwcinsComFWCPortal.TxtBranchId' at 27;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='dev_winston.fwcins.com']//input[#'txtBranchId']"
+				itempath=".//input[#'txtBranchId']"
+				fullname="Winston_Agent_PortalRepository.HttpsDevWinstonFwcinsComFWCPortal.TxtBranchId"
+				id="603579aa620846fa93f040ef83876138"
+				timeout="60000"
+				codefile="C:\Users\SadanandG\Documents\Ranorex\RanorexStudio Projects\Winston\Winston_Agent_Portal\Login.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.337"
+			timeRelativeToTestModuleStartTime="00:07.337"
+			timeWallClock="02:42:13"
+			time="00:07.337"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to 'Acentria36' on item 'HttpsDevWinstonFwcinsComFWCPortal.TxtBranchId'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='dev_winston.fwcins.com']//input[#'txtBranchId']"
+				itempath=".//input[#'txtBranchId']"
+				fullname="Winston_Agent_PortalRepository.HttpsDevWinstonFwcinsComFWCPortal.TxtBranchId"
+				id="603579aa620846fa93f040ef83876138"
+				timeout="60000"
+				codefile="C:\Users\SadanandG\Documents\Ranorex\RanorexStudio Projects\Winston\Winston_Agent_Portal\Login.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.439"
+			timeRelativeToTestModuleStartTime="00:07.439"
+			timeWallClock="02:42:14"
+			time="00:07.439"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HttpsDevWinstonFwcinsComFWCPortal.TxtPassword' at 48;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='dev_winston.fwcins.com']//input[#'txtPassword']"
+				itempath=".//input[#'txtPassword']"
+				fullname="Winston_Agent_PortalRepository.HttpsDevWinstonFwcinsComFWCPortal.TxtPassword"
+				id="a2b093895c4949e3af85718e44d4020a"
+				timeout="60000"
+				codefile="C:\Users\SadanandG\Documents\Ranorex\RanorexStudio Projects\Winston\Winston_Agent_Portal\Login.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.037"
+			timeRelativeToTestModuleStartTime="00:08.037"
+			timeWallClock="02:42:14"
+			time="00:08.037"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to 'AI495!' on item 'HttpsDevWinstonFwcinsComFWCPortal.TxtPassword'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='dev_winston.fwcins.com']//input[#'txtPassword']"
+				itempath=".//input[#'txtPassword']"
+				fullname="Winston_Agent_PortalRepository.HttpsDevWinstonFwcinsComFWCPortal.TxtPassword"
+				id="a2b093895c4949e3af85718e44d4020a"
+				timeout="60000"
+				codefile="C:\Users\SadanandG\Documents\Ranorex\RanorexStudio Projects\Winston\Winston_Agent_Portal\Login.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.131"
+			timeRelativeToTestModuleStartTime="00:08.131"
+			timeWallClock="02:42:14"
+			time="00:08.131"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HttpsDevWinstonFwcinsComFWCPortal.SignIn' at 60;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='dev_winston.fwcins.com']//form[#'frmLogin']/div/div/div/div[2]/div[2]/div[4]/button[@innertext='Sign in']"
+				itempath=".//form[#'frmLogin']/div/div/div/div[2]/div[2]/div[4]/button[@innertext='Sign in']"
+				fullname="Winston_Agent_PortalRepository.HttpsDevWinstonFwcinsComFWCPortal.SignIn"
+				id="be8727b11d9b486f9e174661ba84ba46"
+				timeout="60000"
+				codefile="C:\Users\SadanandG\Documents\Ranorex\RanorexStudio Projects\Winston\Winston_Agent_Portal\Login.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.737"
+			timeRelativeToTestModuleStartTime="00:08.737"
+			timeWallClock="02:42:15"
+			time="00:08.737"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HttpsDevWinstonFwcinsComFWCPortal.SomeBTag' at 4;3.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='dev_winston.fwcins.com']//form[#'frmSelectAgency']/div/div[1]/div/div[2]/div/span/span[1]//b"
+				itempath=".//form[#'frmSelectAgency']/div/div[1]/div/div[2]/div/span/span[1]//b"
+				fullname="Winston_Agent_PortalRepository.HttpsDevWinstonFwcinsComFWCPortal.SomeBTag"
+				id="0b13023d75df46819c747db54b04541c"
+				timeout="60000"
+				codefile="C:\Users\SadanandG\Documents\Ranorex\RanorexStudio Projects\Winston\Winston_Agent_Portal\Login.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.953"
+			timeRelativeToTestModuleStartTime="00:09.953"
+			timeWallClock="02:42:16"
+			time="00:09.953"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HttpsDevWinstonFwcinsComFWCPortal.ChristinaBowman' at 46;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='dev_winston.fwcins.com']//ul[#'select2-ddlAgencyContact-results']/li[@innertext='Christina Bowman']"
+				itempath=".//ul[#'select2-ddlAgencyContact-results']/li[@innertext='Christina Bowman']"
+				fullname="Winston_Agent_PortalRepository.HttpsDevWinstonFwcinsComFWCPortal.ChristinaBowman"
+				id="ada8c2dfff5a4f10b71b9f110598e45a"
+				timeout="60000"
+				codefile="C:\Users\SadanandG\Documents\Ranorex\RanorexStudio Projects\Winston\Winston_Agent_Portal\Login.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.494"
+			timeRelativeToTestModuleStartTime="00:10.494"
+			timeWallClock="02:42:17"
+			time="00:10.494"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HttpsDevWinstonFwcinsComFWCPortal.BtnContinue' at 48;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='dev_winston.fwcins.com']//button[#'btnContinue']"
+				itempath=".//button[#'btnContinue']"
+				fullname="Winston_Agent_PortalRepository.HttpsDevWinstonFwcinsComFWCPortal.BtnContinue"
+				id="aff917445dcc48759fd5d57ec5865c90"
+				timeout="60000"
+				codefile="C:\Users\SadanandG\Documents\Ranorex\RanorexStudio Projects\Winston\Winston_Agent_Portal\Login.cs"
+				codeline="118"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>
