@@ -2,15 +2,6 @@
 <testsuitedoc>
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
-			<setup
-			id="14929a97-31c1-40ec-8102-add22daa6316"
-			name="setup">
-			</setup>
-			<smartfoldernode
-			datasource="NewConnector"
-			id="209a0f22-379b-4f89-ab77-6fa927113537"
-			name="Login">
-			</smartfoldernode>
 			<testmodule
 			id="27956c92-1e58-4033-911b-159a29d53f8d"
 			name="Login"
@@ -19,19 +10,19 @@
 				<databinding>
 					<var
 					dataname="UserName"
-					datasourceid="11afc8c7-1fa2-4bf7-bfec-15a15578ce6f"
+					datasourceid="d35026aa-6f44-4c55-b54c-32b643143f2d"
 					variableid="20599425-e60c-4195-a8d2-809e2794351c"
 					variablename="UserName">
 					</var>
 					<var
 					dataname="Password"
-					datasourceid="11afc8c7-1fa2-4bf7-bfec-15a15578ce6f"
+					datasourceid="d35026aa-6f44-4c55-b54c-32b643143f2d"
 					variableid="c038f557-472c-4119-964e-7fe35c4cc745"
 					variablename="Password">
 					</var>
 					<var
 					dataname="AgencyName"
-					datasourceid="11afc8c7-1fa2-4bf7-bfec-15a15578ce6f"
+					datasourceid="d35026aa-6f44-4c55-b54c-32b643143f2d"
 					variableid="077dd62f-01bc-453b-9b30-9275e4326288"
 					variablename="AgencyName">
 					</var>
@@ -39,19 +30,19 @@
 				<missingdatabinding>
 					<var
 					dataname="UserName"
-					datasourceid="8cb8a9fd-683a-4df5-997d-a4fe7fe30a0a"
+					datasourceid="11afc8c7-1fa2-4bf7-bfec-15a15578ce6f"
 					variableid="20599425-e60c-4195-a8d2-809e2794351c"
 					variablename="UserName">
 					</var>
 					<var
 					dataname="Password"
-					datasourceid="8cb8a9fd-683a-4df5-997d-a4fe7fe30a0a"
+					datasourceid="11afc8c7-1fa2-4bf7-bfec-15a15578ce6f"
 					variableid="c038f557-472c-4119-964e-7fe35c4cc745"
 					variablename="Password">
 					</var>
 					<var
 					dataname="AgencyName"
-					datasourceid="8cb8a9fd-683a-4df5-997d-a4fe7fe30a0a"
+					datasourceid="11afc8c7-1fa2-4bf7-bfec-15a15578ce6f"
 					variableid="077dd62f-01bc-453b-9b30-9275e4326288"
 					variablename="AgencyName">
 					</var>
@@ -77,8 +68,9 @@
 			reportwriteinterval="30000ms">
 			</testsuite>
 			<testcase
+			datasource="NewConnector"
 			id="4074b71f-6cfc-4680-a79d-c26b3a159ae9"
-			name="TestCases">
+			name="Login">
 			</testcase>
 			<teardown
 			id="417f079b-97c0-4dc4-bfea-b4b246297ada"
@@ -90,12 +82,6 @@
 			ref="2fe4b19c-ce56-4e71-a860-46c435e5f8d3"
 			type="Recording">
 			</testmodule>
-			<testmodule
-			id="871bc611-8b6e-4ed1-a52e-c46f3121509f"
-			name="CloseBrowser"
-			ref="2fe4b19c-ce56-4e71-a860-46c435e5f8d3"
-			type="Recording">
-			</testmodule>
 			<testcase
 			id="a5f96f3d-ac04-41a7-81cc-10d21890c3c9"
 			name="Winston_Agent_Portal"
@@ -103,16 +89,6 @@
 			</testcase>
 			<testmodule
 			id="cf366710-5f53-4318-9129-99736406584b"
-			name="OpenBrowser"
-			ref="5e3279a7-27b8-4b84-be6f-98f3c6f958e1"
-			type="Recording">
-			</testmodule>
-			<teardown
-			id="d5b92124-85a9-47a4-b3eb-16fe70fa306b"
-			name="teardown">
-			</teardown>
-			<testmodule
-			id="e9757038-59ef-41ba-8365-4c95a3eb4236"
 			name="OpenBrowser"
 			ref="5e3279a7-27b8-4b84-be6f-98f3c6f958e1"
 			type="Recording">
@@ -131,7 +107,7 @@
 				name="Winston_Agent_Portal">
 					<testcase
 					id="4074b71f-6cfc-4680-a79d-c26b3a159ae9"
-					name="TestCases">
+					name="Login">
 						<setup
 						id="ee76c150-5bcb-4fc3-82d2-4be02e9fcd86"
 						name="setup">
@@ -140,30 +116,10 @@
 							name="OpenBrowser">
 							</testmodule>
 						</setup>
-						<smartfoldernode
-						id="209a0f22-379b-4f89-ab77-6fa927113537"
+						<testmodule
+						id="27956c92-1e58-4033-911b-159a29d53f8d"
 						name="Login">
-							<setup
-							id="14929a97-31c1-40ec-8102-add22daa6316"
-							name="setup">
-								<testmodule
-								id="e9757038-59ef-41ba-8365-4c95a3eb4236"
-								name="OpenBrowser">
-								</testmodule>
-							</setup>
-							<testmodule
-							id="27956c92-1e58-4033-911b-159a29d53f8d"
-							name="Login">
-							</testmodule>
-							<teardown
-							id="d5b92124-85a9-47a4-b3eb-16fe70fa306b"
-							name="teardown">
-								<testmodule
-								id="871bc611-8b6e-4ed1-a52e-c46f3121509f"
-								name="CloseBrowser">
-								</testmodule>
-							</teardown>
-						</smartfoldernode>
+						</testmodule>
 						<teardown
 						id="417f079b-97c0-4dc4-bfea-b4b246297ada"
 						name="teardown">
@@ -180,7 +136,7 @@
 	<datasources>
 		<DataSource
 		filename="AgentPortal.xlsx"
-		id="11afc8c7-1fa2-4bf7-bfec-15a15578ce6f"
+		id="d35026aa-6f44-4c55-b54c-32b643143f2d"
 		includefile="Checked"
 		lastknownrowcount="3"
 		name="NewConnector"
@@ -209,9 +165,6 @@
 	default="TestRun">
 		<testconfiguration
 		name="TestRun">
-			<testcontainer
-			id="209a0f22-379b-4f89-ab77-6fa927113537">
-			</testcontainer>
 			<testcontainer
 			id="4074b71f-6cfc-4680-a79d-c26b3a159ae9">
 			</testcontainer>

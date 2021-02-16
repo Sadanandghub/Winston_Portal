@@ -178,7 +178,7 @@
       <BoundTo>eb840b83-b03a-48bd-948f-bba02868382d</BoundTo>
       <DependentUpon>Winston_Agent_Portal.rxtst</DependentUpon>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>daa19630-c7bb-4c2c-b5ca-74bafa18faba</id>
+      <id>aa5c48b5-f084-48a2-a622-da2d88165d72</id>
     </Content>
     <None Include="app.config">
       <id>b6ad7086-fba5-4faa-90c2-691bdd2eea94</id>
