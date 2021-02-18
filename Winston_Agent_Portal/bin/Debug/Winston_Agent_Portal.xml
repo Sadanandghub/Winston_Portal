@@ -43,6 +43,45 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="T:Winston_Agent_Portal.NQ_GL">
+             <summary>
+            The NQ_GL recording.
+             </summary>
+        </member>
+        <member name="F:Winston_Agent_Portal.NQ_GL.repo">
+            <summary>
+            Holds an instance of the Winston_Agent_PortalRepository repository.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.NQ_GL.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.NQ_GL.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.NQ_GL.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Winston_Agent_Portal.NQ_GL.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.NQ_GL.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Winston_Agent_Portal.NQ_GL.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
         <member name="T:Winston_Agent_Portal.OpenBrowser">
              <summary>
             The OpenBrowser recording.
@@ -136,6 +175,45 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="T:Winston_Agent_Portal.Record_screen">
+             <summary>
+            The Record_screen recording.
+             </summary>
+        </member>
+        <member name="F:Winston_Agent_Portal.Record_screen.repo">
+            <summary>
+            Holds an instance of the Winston_Agent_PortalRepository repository.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.Record_screen.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Record_screen.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.Record_screen.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Winston_Agent_Portal.Record_screen.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.Record_screen.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Winston_Agent_Portal.Record_screen.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
         <member name="T:Winston_Agent_Portal.Winston_Agent_PortalRepository">
             <summary>
             The class representing the Winston_Agent_PortalRepository element repository.
@@ -194,6 +272,86 @@
         <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
             <summary>
             The Self item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.LnkNewQuote">
+            <summary>
+            The LnkNewQuote item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.LnkNewQuoteInfo">
+            <summary>
+            The LnkNewQuote item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.HideThisMessage">
+            <summary>
+            The HideThisMessage item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.HideThisMessageInfo">
+            <summary>
+            The HideThisMessage item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.GeneralLiability">
+            <summary>
+            The GeneralLiability item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.GeneralLiabilityInfo">
+            <summary>
+            The GeneralLiability item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.BtnSave">
+            <summary>
+            The BtnSave item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.BtnSaveInfo">
+            <summary>
+            The BtnSave item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Select2DdlAgencyContactContainer">
+            <summary>
+            The Select2DdlAgencyContactContainer item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Select2DdlAgencyContactContainerInfo">
+            <summary>
+            The Select2DdlAgencyContactContainer item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Wait">
+            <summary>
+            The Wait item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.WaitInfo">
+            <summary>
+            The Wait item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.SomeDivTag">
+            <summary>
+            The SomeDivTag item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.SomeDivTagInfo">
+            <summary>
+            The SomeDivTag item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.ColMd">
+            <summary>
+            The ColMd item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.ColMdInfo">
+            <summary>
+            The ColMd item info.
             </summary>
         </member>
         <member name="T:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.HttpsDevWinstonFwcinsComFWCPortalAppFolder">

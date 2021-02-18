@@ -18,8 +18,89 @@ name="Winston_Agent_PortalRepository">
 		id="ee96e4cd-5a4c-4be2-828f-6b678101c20f"
 		isrooted="True"
 		name="ApplicationUnderTest"
+		refimgid="007168d4-929c-4813-804b-3dca0d25b53e"
 		searchtimeout="30000ms"
 		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="250a74c8-deba-4833-a3fb-61ac0b8bfa69"
+			name="LnkNewQuote"
+			refimgid="37e91d15-339f-462e-bed0-8f9d67c054df"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//a[#'lnkNewQuote']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//a[#'lnkNewQuote']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="317786c5-ae48-43b8-9580-dc3c5da6bae9"
+			name="HideThisMessage"
+			refimgid="1621e182-5ea8-4181-8f4c-dc591063753d"
+			refpath="/dom[@domain='dev_winston.fwcins.com']/body/div[7]/tag/iframe/body/tag[@tagname='appcues']/tag/tag[@tagname='cue']/div/div/a[@innertext='Hide this message']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']/body/div[7]/?/?/iframe[@src='about:blank']/body//tag[@tagname='cue']/div/?/?/a[@innertext='Hide this message']
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="fe8fd9b1-a9dc-4a29-b77e-75ce5d582454"
+			name="GeneralLiability"
+			refimgid="5be9a50a-02f8-4695-bc54-36d32eb9980b"
+			refpath="/dom[@domain='dev_winston.fwcins.com']/body/div[3]/div[4]/div[2]/div/div[2]/div/label[@innertext='General Liability']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']/body/div[3]/div[4]/div[2]/div/div[2]/?/?/label[@innertext='General Liability']
+			</item>
+			<item
+			addcaps="unknown,webelement,buttontag"
+			capname="buttontag"
+			id="978f3d25-9361-44df-ae50-9c8ce7a211b2"
+			name="BtnSave"
+			refimgid="d6329453-c8de-4913-bdd6-18578551c1a6"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//button[#'BtnSave']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//button[#'BtnSave']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="2927f3ac-5772-4396-bb8f-2e702056eb7c"
+			name="Select2DdlAgencyContactContainer"
+			refimgid="08c40ce2-a42f-47e6-a142-094119c59e64"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//span[#'select2-ddlAgencyContact-container']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//span[#'select2-ddlAgencyContact-container']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="1ccd8c12-29cb-435f-a39f-68bef1b2a24f"
+			name="Wait"
+			refimgid="60f96fcb-d685-4942-895a-1af755f3628b"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//div[#'wait']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//div[#'wait']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="5f26b9b3-758e-4809-bb8d-2ee9535b3ca0"
+			name="SomeDivTag"
+			refimgid="e4a7cd65-01e7-467c-90e1-5db7f51fd267"
+			refpath="/dom[@domain='dev_winston.fwcins.com']/body/div[2]"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']/body/div[2]
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="d6dc7dc3-232f-4e4d-8f69-88e09b20d96c"
+			name="ColMd"
+			refimgid="b437c5db-693f-4667-9cde-ee41d4fee39a"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//form[#'frmLogin']/div/div/div/div[2]/div[3]"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//form[#'frmLogin']/div/div/div/div[2]/div[3]
+			</item>
 			<basepath>
 				/dom[@domain='dev_winston.fwcins.com']
 			</basepath>

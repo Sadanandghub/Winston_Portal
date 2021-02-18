@@ -108,6 +108,14 @@ namespace Winston_Agent_Portal
         [RepositoryFolder("ee96e4cd-5a4c-4be2-828f-6b678101c20f")]
         public partial class ApplicationUnderTestAppFolder : RepoGenBaseFolder
         {
+            RepoItemInfo _lnknewquoteInfo;
+            RepoItemInfo _hidethismessageInfo;
+            RepoItemInfo _generalliabilityInfo;
+            RepoItemInfo _btnsaveInfo;
+            RepoItemInfo _select2ddlagencycontactcontainerInfo;
+            RepoItemInfo _waitInfo;
+            RepoItemInfo _somedivtagInfo;
+            RepoItemInfo _colmdInfo;
 
             /// <summary>
             /// Creates a new ApplicationUnderTest  folder.
@@ -115,6 +123,14 @@ namespace Winston_Agent_Portal
             public ApplicationUnderTestAppFolder(RepoGenBaseFolder parentFolder) :
                     base("ApplicationUnderTest", "/dom[@domain='dev_winston.fwcins.com']", parentFolder, 30000, null, false, "ee96e4cd-5a4c-4be2-828f-6b678101c20f", "")
             {
+                _lnknewquoteInfo = new RepoItemInfo(this, "LnkNewQuote", ".//a[#'lnkNewQuote']", 30000, null, "250a74c8-deba-4833-a3fb-61ac0b8bfa69");
+                _hidethismessageInfo = new RepoItemInfo(this, "HideThisMessage", "body/div[7]/?/?/iframe[@src='about:blank']/body//tag[@tagname='cue']/div/?/?/a[@innertext='Hide this message']", 30000, null, "317786c5-ae48-43b8-9580-dc3c5da6bae9");
+                _generalliabilityInfo = new RepoItemInfo(this, "GeneralLiability", "body/div[3]/div[4]/div[2]/div/div[2]/?/?/label[@innertext='General Liability']", 30000, null, "fe8fd9b1-a9dc-4a29-b77e-75ce5d582454");
+                _btnsaveInfo = new RepoItemInfo(this, "BtnSave", ".//button[#'BtnSave']", 30000, null, "978f3d25-9361-44df-ae50-9c8ce7a211b2");
+                _select2ddlagencycontactcontainerInfo = new RepoItemInfo(this, "Select2DdlAgencyContactContainer", ".//span[#'select2-ddlAgencyContact-container']", 30000, null, "2927f3ac-5772-4396-bb8f-2e702056eb7c");
+                _waitInfo = new RepoItemInfo(this, "Wait", ".//div[#'wait']", 30000, null, "1ccd8c12-29cb-435f-a39f-68bef1b2a24f");
+                _somedivtagInfo = new RepoItemInfo(this, "SomeDivTag", "body/div[2]", 30000, null, "5f26b9b3-758e-4809-bb8d-2ee9535b3ca0");
+                _colmdInfo = new RepoItemInfo(this, "ColMd", ".//form[#'frmLogin']/div/div/div/div[2]/div[3]", 30000, null, "d6dc7dc3-232f-4e4d-8f69-88e09b20d96c");
             }
 
             /// <summary>
@@ -138,6 +154,198 @@ namespace Winston_Agent_Portal
                 get
                 {
                     return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The LnkNewQuote item.
+            /// </summary>
+            [RepositoryItem("250a74c8-deba-4833-a3fb-61ac0b8bfa69")]
+            public virtual Ranorex.ATag LnkNewQuote
+            {
+                get
+                {
+                    return _lnknewquoteInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LnkNewQuote item info.
+            /// </summary>
+            [RepositoryItemInfo("250a74c8-deba-4833-a3fb-61ac0b8bfa69")]
+            public virtual RepoItemInfo LnkNewQuoteInfo
+            {
+                get
+                {
+                    return _lnknewquoteInfo;
+                }
+            }
+
+            /// <summary>
+            /// The HideThisMessage item.
+            /// </summary>
+            [RepositoryItem("317786c5-ae48-43b8-9580-dc3c5da6bae9")]
+            public virtual Ranorex.ATag HideThisMessage
+            {
+                get
+                {
+                    return _hidethismessageInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HideThisMessage item info.
+            /// </summary>
+            [RepositoryItemInfo("317786c5-ae48-43b8-9580-dc3c5da6bae9")]
+            public virtual RepoItemInfo HideThisMessageInfo
+            {
+                get
+                {
+                    return _hidethismessageInfo;
+                }
+            }
+
+            /// <summary>
+            /// The GeneralLiability item.
+            /// </summary>
+            [RepositoryItem("fe8fd9b1-a9dc-4a29-b77e-75ce5d582454")]
+            public virtual Ranorex.LabelTag GeneralLiability
+            {
+                get
+                {
+                    return _generalliabilityInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The GeneralLiability item info.
+            /// </summary>
+            [RepositoryItemInfo("fe8fd9b1-a9dc-4a29-b77e-75ce5d582454")]
+            public virtual RepoItemInfo GeneralLiabilityInfo
+            {
+                get
+                {
+                    return _generalliabilityInfo;
+                }
+            }
+
+            /// <summary>
+            /// The BtnSave item.
+            /// </summary>
+            [RepositoryItem("978f3d25-9361-44df-ae50-9c8ce7a211b2")]
+            public virtual Ranorex.ButtonTag BtnSave
+            {
+                get
+                {
+                    return _btnsaveInfo.CreateAdapter<Ranorex.ButtonTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The BtnSave item info.
+            /// </summary>
+            [RepositoryItemInfo("978f3d25-9361-44df-ae50-9c8ce7a211b2")]
+            public virtual RepoItemInfo BtnSaveInfo
+            {
+                get
+                {
+                    return _btnsaveInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Select2DdlAgencyContactContainer item.
+            /// </summary>
+            [RepositoryItem("2927f3ac-5772-4396-bb8f-2e702056eb7c")]
+            public virtual Ranorex.SpanTag Select2DdlAgencyContactContainer
+            {
+                get
+                {
+                    return _select2ddlagencycontactcontainerInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Select2DdlAgencyContactContainer item info.
+            /// </summary>
+            [RepositoryItemInfo("2927f3ac-5772-4396-bb8f-2e702056eb7c")]
+            public virtual RepoItemInfo Select2DdlAgencyContactContainerInfo
+            {
+                get
+                {
+                    return _select2ddlagencycontactcontainerInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Wait item.
+            /// </summary>
+            [RepositoryItem("1ccd8c12-29cb-435f-a39f-68bef1b2a24f")]
+            public virtual Ranorex.DivTag Wait
+            {
+                get
+                {
+                    return _waitInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Wait item info.
+            /// </summary>
+            [RepositoryItemInfo("1ccd8c12-29cb-435f-a39f-68bef1b2a24f")]
+            public virtual RepoItemInfo WaitInfo
+            {
+                get
+                {
+                    return _waitInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SomeDivTag item.
+            /// </summary>
+            [RepositoryItem("5f26b9b3-758e-4809-bb8d-2ee9535b3ca0")]
+            public virtual Ranorex.DivTag SomeDivTag
+            {
+                get
+                {
+                    return _somedivtagInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SomeDivTag item info.
+            /// </summary>
+            [RepositoryItemInfo("5f26b9b3-758e-4809-bb8d-2ee9535b3ca0")]
+            public virtual RepoItemInfo SomeDivTagInfo
+            {
+                get
+                {
+                    return _somedivtagInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ColMd item.
+            /// </summary>
+            [RepositoryItem("d6dc7dc3-232f-4e4d-8f69-88e09b20d96c")]
+            public virtual Ranorex.DivTag ColMd
+            {
+                get
+                {
+                    return _colmdInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ColMd item info.
+            /// </summary>
+            [RepositoryItemInfo("d6dc7dc3-232f-4e4d-8f69-88e09b20d96c")]
+            public virtual RepoItemInfo ColMdInfo
+            {
+                get
+                {
+                    return _colmdInfo;
                 }
             }
         }

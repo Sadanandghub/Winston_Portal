@@ -137,22 +137,26 @@ namespace Winston_Agent_Portal
             repo.HttpsDevWinstonFwcinsComFWCPortal.TxtPassword.Element.SetAttributeValue("Value", Password);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HttpsDevWinstonFwcinsComFWCPortal.SignIn' at 60;13.", repo.HttpsDevWinstonFwcinsComFWCPortal.SignInInfo, new RecordItemIndex(6));
-            repo.HttpsDevWinstonFwcinsComFWCPortal.SignIn.Click("60;13");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.ColMd' at Center.", repo.ApplicationUnderTest.ColMdInfo, new RecordItemIndex(6));
+            repo.ApplicationUnderTest.ColMd.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HttpsDevWinstonFwcinsComFWCPortal.SignIn' at Center.", repo.HttpsDevWinstonFwcinsComFWCPortal.SignInInfo, new RecordItemIndex(7));
+            repo.HttpsDevWinstonFwcinsComFWCPortal.SignIn.Click();
             Delay.Milliseconds(0);
             
             // Agency selection
-            Report.Log(ReportLevel.Info, "Section", "Agency selection", new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Section", "Agency selection", new RecordItemIndex(8));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HttpsDevWinstonFwcinsComFWCPortal.SomeBTag' at 4;3.", repo.HttpsDevWinstonFwcinsComFWCPortal.SomeBTagInfo, new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HttpsDevWinstonFwcinsComFWCPortal.SomeBTag' at 4;3.", repo.HttpsDevWinstonFwcinsComFWCPortal.SomeBTagInfo, new RecordItemIndex(9));
             repo.HttpsDevWinstonFwcinsComFWCPortal.SomeBTag.Click("4;3");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HttpsDevWinstonFwcinsComFWCPortal.AgencyName' at 46;17.", repo.HttpsDevWinstonFwcinsComFWCPortal.AgencyNameInfo, new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HttpsDevWinstonFwcinsComFWCPortal.AgencyName' at 46;17.", repo.HttpsDevWinstonFwcinsComFWCPortal.AgencyNameInfo, new RecordItemIndex(10));
             repo.HttpsDevWinstonFwcinsComFWCPortal.AgencyName.Click("46;17");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HttpsDevWinstonFwcinsComFWCPortal.BtnContinue' at 48;13.", repo.HttpsDevWinstonFwcinsComFWCPortal.BtnContinueInfo, new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HttpsDevWinstonFwcinsComFWCPortal.BtnContinue' at 48;13.", repo.HttpsDevWinstonFwcinsComFWCPortal.BtnContinueInfo, new RecordItemIndex(11));
             repo.HttpsDevWinstonFwcinsComFWCPortal.BtnContinue.Click("48;13");
             Delay.Milliseconds(0);
             
