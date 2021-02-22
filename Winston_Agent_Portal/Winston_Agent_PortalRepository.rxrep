@@ -18,7 +18,7 @@ name="Winston_Agent_PortalRepository">
 		id="ee96e4cd-5a4c-4be2-828f-6b678101c20f"
 		isrooted="True"
 		name="ApplicationUnderTest"
-		refimgid="007168d4-929c-4813-804b-3dca0d25b53e"
+		refimgid="e2f89234-040b-4f2b-9960-559a143bfa38"
 		searchtimeout="30000ms"
 		usecache="False">
 			<item
@@ -101,6 +101,260 @@ name="Winston_Agent_PortalRepository">
 			searchtimeout="30000ms">
 				/dom[@domain='dev_winston.fwcins.com']//form[#'frmLogin']/div/div/div/div[2]/div[3]
 			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="fbaffab1-953e-4e41-bc71-ade8580fd528"
+			name="BtnSave1"
+			refimgid="2a0063c5-3674-4a06-8d92-dfc16df0c58b"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//input[#'BtnSave']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//input[#'BtnSave']
+			</item>
+			<folder
+			capname="table"
+			id="33f035cf-284c-43cf-89fa-7e00886d150e"
+			isrooted="True"
+			name="MyTable"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="bc4eab26-e9da-463d-944e-7cb1c855dbe9"
+				name="LabelTagNo"
+				refimgid="a7534b7f-e2f1-4d70-b6a0-55a3df391571"
+				refpath="/dom[@domain='dev_winston.fwcins.com']//table[#'myTable']/tbody/tr[2]/td[4]/div/label[@innertext='No']"
+				searchtimeout="30000ms">
+					/dom[@domain='dev_winston.fwcins.com']//table[#'myTable']/tbody/tr[2]//label[@innertext='No']
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="9d2c8adb-f5f8-4abc-9e17-4242e5a73c9b"
+				name="LabelTagNo1"
+				refimgid="e41efeb3-3e00-4481-82cb-23ac30b62d31"
+				refpath="/dom[@domain='dev_winston.fwcins.com']//table[#'myTable']/tbody/tr[3]/td[4]/div/label[@innertext='No']"
+				searchtimeout="30000ms">
+					/dom[@domain='dev_winston.fwcins.com']//table[#'myTable']/tbody/tr[3]//label[@innertext='No']
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="5b7670a0-884c-4d24-9af0-fdfaa05613b6"
+				name="LabelTagNo2"
+				refimgid="80b38f47-ab69-4c16-bdc7-4f8f4ba6635b"
+				refpath="/dom[@domain='dev_winston.fwcins.com']//table[#'myTable']/tbody/tr[4]/td[4]/div/label[@innertext='No']"
+				searchtimeout="30000ms">
+					/dom[@domain='dev_winston.fwcins.com']//table[#'myTable']/tbody/tr[4]//label[@innertext='No']
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="e751984b-851b-426e-9838-674a70a041eb"
+				name="LabelTagNo3"
+				refimgid="ea6f3bf9-6678-4f83-afae-f7ecb38753ed"
+				refpath="/dom[@domain='dev_winston.fwcins.com']//table[#'myTable']/tbody/tr[5]/td[4]/div/label[@innertext='No']"
+				searchtimeout="30000ms">
+					/dom[@domain='dev_winston.fwcins.com']//table[#'myTable']/tbody/tr[5]//label[@innertext='No']
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="85ed780c-86f8-47e9-818f-cf6bcbdfd69a"
+				name="LabelTagNo4"
+				refimgid="39af55c2-abb5-4f7f-befe-c07260f989c5"
+				refpath="/dom[@domain='dev_winston.fwcins.com']//table[#'myTable']/tbody/tr[6]/td[4]/div/label[@innertext='No']"
+				searchtimeout="30000ms">
+					/dom[@domain='dev_winston.fwcins.com']//table[#'myTable']/tbody/tr[6]//label[@innertext='No']
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="2a10b31d-3070-4ae0-b03f-5d22849be0a1"
+				name="LabelTagYes"
+				refimgid="def06eab-c2b7-47a3-a6cb-4d32f1388483"
+				refpath="/dom[@domain='dev_winston.fwcins.com']//table[#'myTable']/tbody/tr[7]/td[3]/div/label[@innertext='Yes']"
+				searchtimeout="30000ms">
+					/dom[@domain='dev_winston.fwcins.com']//table[#'myTable']/tbody/tr[7]//label[@innertext='Yes']
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="c0d622bd-21e4-478a-856f-3f98ea363b95"
+				name="LabelTagNo5"
+				refimgid="362f9291-43a2-4706-bfb0-c09f0e019a22"
+				refpath="/dom[@domain='dev_winston.fwcins.com']//table[#'myTable']/tbody/tr[8]/td[4]/div/label[@innertext='No']"
+				searchtimeout="30000ms">
+					/dom[@domain='dev_winston.fwcins.com']//table[#'myTable']/tbody/tr[8]//label[@innertext='No']
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="1c67d4cd-c891-4128-ae41-7c215a1b34fd"
+				name="LabelTagNo6"
+				refimgid="a9f741e9-a2c7-48a4-ba1f-1ab05b68c5b7"
+				refpath="/dom[@domain='dev_winston.fwcins.com']//table[#'myTable']/tbody/tr[7]/td[4]/div/label[@innertext='No']"
+				searchtimeout="30000ms">
+					/dom[@domain='dev_winston.fwcins.com']//table[#'myTable']/tbody/tr[7]//label[@innertext='No']
+				</item>
+				<basepath>
+					/dom[@domain='dev_winston.fwcins.com']//table[#'myTable']
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,litag"
+			capname="litag"
+			id="b59c7018-3902-4b5d-9681-99492263a363"
+			name="Florida"
+			refimgid="c5020ac8-85f2-49db-a1b3-ccbd4f1f7037"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//ul[#'select2-ddlState-results']/li[@innertext='Florida']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//ul[#'select2-ddlState-results']/li[@innertext='Florida']
+			</item>
+			<item
+			addcaps="unknown,webelement,litag"
+			capname="litag"
+			id="cba587c5-7287-46a5-a7a1-e3cae4349510"
+			name="LiTagBay"
+			refimgid="0e6b3800-4068-4e6e-bdbb-36fbe38bdd7e"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//ul[#'select2-ddlCounty-results']/li[@innertext='Bay']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//ul[#'select2-ddlCounty-results']/li[@innertext='Bay']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="8fd765f7-097b-4aee-975f-8eef1012e784"
+			name="TxtNameOfInsured"
+			refimgid="7e892e57-6ba4-4df6-9269-d9165b6d6464"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//input[#'txtNameOfInsured']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//input[#'txtNameOfInsured']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="9b845f8c-523a-4f50-8799-6c276ce2e165"
+			name="Search"
+			refimgid="4f8c4bee-0ef5-44af-b45e-bc239b62ce50"
+			refpath="/dom[@domain='dev_winston.fwcins.com']/body/span/span/span[1]/input[@type='search']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']/body/span//input[@type='search']
+			</item>
+			<item
+			addcaps="unknown,webelement,textareatag"
+			capname="textareatag"
+			id="898d7505-5180-4918-8a11-88b63fdd6bf9"
+			name="TxtDescriptionOfBusiness"
+			refimgid="1d1a22d8-f6a9-42fa-8efd-a93a032bba17"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//textarea[#'txtDescriptionOfBusiness']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//textarea[#'txtDescriptionOfBusiness']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="0c4f34cf-0846-4499-90ab-997443cd8774"
+			name="TxtIndividualFirstName"
+			refimgid="d58a6528-8d37-4b05-a5b5-8de01ce01e7c"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//input[#'txtIndividualFirstName']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//input[#'txtIndividualFirstName']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="ac37a2d3-6d55-42c8-a9e7-73342420c54e"
+			name="TxtIndividualLastName"
+			refimgid="c4dcc2eb-d49e-4ff4-aa31-934badfaf765"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//input[#'txtIndividualLastName']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//input[#'txtIndividualLastName']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="4bdecb6a-ad97-423e-a557-1d2eb4edb94b"
+			name="TxtYearsInBusiness"
+			refimgid="06b42e63-3b52-43b8-903a-28197897c54f"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//input[#'txtYearsInBusiness']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//input[#'txtYearsInBusiness']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="314267e2-0aa3-49fc-a8ed-66eab69a9af6"
+			name="TxtClaims"
+			refimgid="37a327ed-f3ed-492e-bef2-e3b2677c9c0d"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//input[#'txtClaims']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//input[#'txtClaims']
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="1801c96c-ed64-4db6-8583-02eff12079dc"
+			name="LabelTagNo"
+			refimgid="bf3258b2-3008-4345-8fe3-8452cc04cd3d"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//form[#'frmRisLevel']/div[1]/div[2]/div[5]/div[1]/div/label[@innertext='No']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//form[#'frmRisLevel']/div[1]/div[2]/div[5]/div[1]/?/?/label[@innertext='No']
+			</item>
+			<item
+			addcaps="unknown,webelement,btag"
+			capname="btag"
+			id="7febeac9-13ab-475f-a6c0-0106cffa182e"
+			name="SomeBTag2"
+			refimgid="77e73fe7-2c20-4742-ad10-5640c0ff8c39"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//form[#'frmRisLevel']/div[1]/div[2]/div[5]/div[2]/span/span[1]/span/span[2]/b"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//form[#'frmRisLevel']/div[1]/div[2]/div[5]/div[2]//b
+			</item>
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="a9dafd6e-bced-4b6e-86f8-1af1bd4f37a4"
+			isrooted="True"
+			name="Mb4Pb2Row"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//form[#'frmRisLevel']/div[1]/div[2]/div[5]"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,btag"
+				capname="btag"
+				id="135a323c-3e06-4ac1-8685-360226b66aed"
+				name="SomeBTag"
+				refimgid="44890b00-811a-4cae-a780-582a78408ddc"
+				refpath="/dom[@domain='dev_winston.fwcins.com']//form[#'frmRisLevel']/div[1]/div[2]/div[1]/div[1]/span/span[1]/span/span[2]/b"
+				searchtimeout="30000ms">
+					/dom[@domain='dev_winston.fwcins.com']//form[#'frmRisLevel']/div[1]/div[2]/div[1]/div[1]//b
+				</item>
+				<item
+				addcaps="unknown,webelement,btag"
+				capname="btag"
+				id="565e1d22-825b-453d-8c31-f227c82c79ed"
+				name="SomeBTag1"
+				refimgid="953d3e91-db3e-4b70-a9a6-44f8fddacddc"
+				refpath="/dom[@domain='dev_winston.fwcins.com']//form[#'frmRisLevel']/div[1]/div[2]/div[1]/div[3]/span/span[1]/span/span[2]/b"
+				searchtimeout="30000ms">
+					/dom[@domain='dev_winston.fwcins.com']//form[#'frmRisLevel']/div[1]/div[2]/div[1]/div[3]//b
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="94b7ec23-c606-439a-b722-6a05d1cfaf24"
+				name="Select2SelectionArrow"
+				refimgid="747476c4-066e-4c08-82b0-451a6aec20b8"
+				refpath="/dom[@domain='dev_winston.fwcins.com']//form[#'frmRisLevel']/div[1]/div[2]/div[1]/div[3]/span/span[1]/span/span[2]"
+				searchtimeout="30000ms">
+					/dom[@domain='dev_winston.fwcins.com']//form[#'frmRisLevel']/div[1]/div[2]/div[1]/div[3]/span/span[1]/span/span[2]
+				</item>
+				<basepath>
+					/dom[@domain='dev_winston.fwcins.com']//form[#'frmRisLevel']/div[1]/div[2]/div[1]
+				</basepath>
+			</folder>
 			<basepath>
 				/dom[@domain='dev_winston.fwcins.com']
 			</basepath>
@@ -205,6 +459,81 @@ lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
 zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
 8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
 F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="desktop,nativewindow"
+		capname="desktop"
+		id="55128fb1-e2b8-4033-8aa0-56e6ce4c2621"
+		isrooted="True"
+		name="Explorer"
+		refpath="/desktop[@processname='explorer']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="list,nativewindow"
+			capname="list"
+			id="deaf57b9-31e3-425a-b7f0-283fce94945e"
+			name="List1"
+			refimgid="98fd3c0f-5d67-48d9-9471-e9e3f4c039f0"
+			refpath="/desktop[@processname='explorer']/container/list[@controlid='1']"
+			searchtimeout="30000ms">
+				/desktop[@processname='explorer']/?/?/list[@controlid='1']
+			</item>
+			<basepath>
+				/desktop[@processname='explorer']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACBElEQVQ4T4WSUWgScRzHHfQcLPZcL0EQFNtTQU9FRUHSXhaTRbBA
+ixBRiIhAMIz2JERgT0bI1ALZy6BCyY0RMtuZeqPi0hlUE0JcyZXV7S6/u9/vdnezC/rDB/7c///5
+8L//net/43TmG/6m2Wxie9kYC8I6Xjc7eLL0wbH50aqMWVHm+Y2ChiMz7xGPx+3IgduStZnmmUoX
+i1IX6GsOaA8FQqEQRFG0A/kNsNzXflhQ5Pi8yhy7Vbae/zPAstphRmd/WWJvE2jJMAL6GsnEg/17
+kcvl7EDtUwv9zS8MBWiY8pp+OlMst4C3F/dBvnsYubFhFItFcOCP8tGCAor+yiQTJL5aB8sZ0bhE
+kj0eD5LJ5Hbg95oFBUz5/p1plu+97FmnGLpShtvtRjgctk/Q2XgD7aeBGRjZPcSYIkHrFPB6vYN3
+UFit6os1hgJ03J3QJZrrFHB8hReiALW3wlBg+bMtmpBM/4gjsGfqGQq1ZWjfi8xOSf363ILl8aeM
+I0CU3y1ClRegdnWB0KXRm0sDHDpxFecnLiMWi6HRaNiBXWfnMHzusUM4euoSJqem4ff7EQwGEYlE
+kEqlUKlUIMuyEZhJreDghYcYO3MdJ8evwefzIRAI8DGj0Siy2SxKpRKq1SokSUK73YaiKIZsjnw+
+j0QigXQ6DZoLgsDvWK/XBzc6hsu1BRMfpP7Bj/TsAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="af7f34a6-d981-4c18-80a3-95596321ab21"
+		isrooted="True"
+		name="FCGAGLGoogleChrome"
+		refpath="/form[@title='FCGA - GL - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="3ba0c3c2-1f7c-4b1c-a9f4-97b1ea6a3a18"
+			name="Pane"
+			refimgid="31da40c5-2b99-4626-8e72-98ef665d71e5"
+			refpath="/form[@title='FCGA - GL - Google Chrome']/container/container/container[2]/container[1]/tabpagelist/container[2]"
+			searchtimeout="30000ms">
+				/form[@title='FCGA - GL - Google Chrome']/container[@accessiblename='FCGA - GL - Google Chrome']/container[@accessiblename='Google Chrome']//tabpagelist/container[2]
+			</item>
+			<basepath>
+				/form[@title='FCGA - GL - Google Chrome']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJMSURBVDhPrZJLTxNhFIbnD8CmgqDiJbKQlUsT
+pbTTaaWt9EYVlaGUFht0ISsT117QqGw06o5eMYArSNSNxHgtKIylBMXYmWkxxii40WkkKp3X+YYZ
+sVFX+ibP7nvec07yUf89H1l7pdjmOC+22WdFv0MSfM2S6LNmea+tb8m9u0J79ufkD7ns+bZ9bwR/
+M4TWvRB8NggeBrybBt9iBu+iFwSXxaY9Lw/nsTLCAYcs7rdDLSCy16oUWFYLXKTEBN5hlHl7I6Np
+q6m/c7yyr9f7dk4R1AJteo71loQT/rzQY+KFSBMvRsw5MWIkpMvOqR86em7XtcDKXece5DxKSfgg
+hAcTuPlEwvBjCfmXaSze8uDz7UYsj5vw/X4TSpPMWU2nqK03ume3DUZw5KQHzxxGiA8n0Hm9CFd/
+ES2XimCvFvEuPwk8t2kwkDk6o+lKwWC3tCXVjR0DIQwHWjCiTNVl58VVhh5JKGVaFdkKcKTAImk6
+RdUlQ9LmVBgEtj+oFvwqOy7oBX5VBmchG6wVbEp2ZTcmukCoS4Tk9PzrJbK2Lh++UsSr/PwHfbpW
+sHZCbSp4ZkMiCEKtws7hXoy9yKhTCaNZDu+n2K+6DI5GiaNPaTpFGUbDFTWx4EJNvBOE9fGASsPQ
+MTQke3B5zPtzsipPWwryvLv8V1YnAtbqeEBWAKEq1oF1MRbbB9qxPGWTdVnmzLI8Q1s0rTyGGMtU
+RQMFQ5SFzvg957e1yebCX2U95BxDvOO0Ido+Q4+0L355ynxamTZnyM2/rf3voagf2nKwO/rr1QsA
+AAAASUVORK5CYII=
 			</icon>
 		</appfolder>
 		<basepath>

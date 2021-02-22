@@ -175,6 +175,45 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="T:Winston_Agent_Portal.QuickStartQuestions">
+             <summary>
+            The QuickStartQuestions recording.
+             </summary>
+        </member>
+        <member name="F:Winston_Agent_Portal.QuickStartQuestions.repo">
+            <summary>
+            Holds an instance of the Winston_Agent_PortalRepository repository.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.QuickStartQuestions.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.QuickStartQuestions.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.QuickStartQuestions.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Winston_Agent_Portal.QuickStartQuestions.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.QuickStartQuestions.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Winston_Agent_Portal.QuickStartQuestions.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
         <member name="T:Winston_Agent_Portal.Record_screen">
              <summary>
             The Record_screen recording.
@@ -352,6 +391,121 @@
         <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.ColMdInfo">
             <summary>
             The ColMd item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.BtnSave1">
+            <summary>
+            The BtnSave1 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.BtnSave1Info">
+            <summary>
+            The BtnSave1 item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.MyTable">
+            <summary>
+            The MyTable folder.
+            </summary>
+        </member>
+        <member name="T:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.MyTableFolder">
+            <summary>
+            The MyTableFolder folder.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.MyTableFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MyTable  folder.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.MyTableFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.MyTableFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.MyTableFolder.LabelTagNo">
+            <summary>
+            The LabelTagNo item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.MyTableFolder.LabelTagNoInfo">
+            <summary>
+            The LabelTagNo item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.MyTableFolder.LabelTagNo1">
+            <summary>
+            The LabelTagNo1 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.MyTableFolder.LabelTagNo1Info">
+            <summary>
+            The LabelTagNo1 item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.MyTableFolder.LabelTagNo2">
+            <summary>
+            The LabelTagNo2 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.MyTableFolder.LabelTagNo2Info">
+            <summary>
+            The LabelTagNo2 item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.MyTableFolder.LabelTagNo3">
+            <summary>
+            The LabelTagNo3 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.MyTableFolder.LabelTagNo3Info">
+            <summary>
+            The LabelTagNo3 item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.MyTableFolder.LabelTagNo4">
+            <summary>
+            The LabelTagNo4 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.MyTableFolder.LabelTagNo4Info">
+            <summary>
+            The LabelTagNo4 item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.MyTableFolder.LabelTagYes">
+            <summary>
+            The LabelTagYes item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.MyTableFolder.LabelTagYesInfo">
+            <summary>
+            The LabelTagYes item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.MyTableFolder.LabelTagNo5">
+            <summary>
+            The LabelTagNo5 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.MyTableFolder.LabelTagNo5Info">
+            <summary>
+            The LabelTagNo5 item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.MyTableFolder.LabelTagNo6">
+            <summary>
+            The LabelTagNo6 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.MyTableFolder.LabelTagNo6Info">
+            <summary>
+            The LabelTagNo6 item info.
             </summary>
         </member>
         <member name="T:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.HttpsDevWinstonFwcinsComFWCPortalAppFolder">

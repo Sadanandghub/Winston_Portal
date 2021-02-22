@@ -84,6 +84,12 @@
 					</var>
 				</missingdatabinding>
 			</testmodule>
+			<testmodule
+			id="2b1866c4-f61c-4e94-acbc-6f4a2bd5e81d"
+			name="QuickStartQuestions"
+			ref="c75cb8d3-62f7-473f-8daa-8ff4a44bccc2"
+			type="Recording">
+			</testmodule>
 			<testcase
 			datasource="NewConnector"
 			id="2e8d166d-9c34-43b5-bc66-8ee0c9f248bd"
@@ -214,6 +220,10 @@
 						<testmodule
 						id="0beb7c9f-bbcb-4a1a-bf52-8a77a8b079d1"
 						name="NQ_GL">
+						</testmodule>
+						<testmodule
+						id="2b1866c4-f61c-4e94-acbc-6f4a2bd5e81d"
+						name="QuickStartQuestions">
 						</testmodule>
 						<teardown
 						id="1fd395ef-21d4-4eaf-9a65-27aee895dbd4"

@@ -138,6 +138,18 @@
       <UserCode>true</UserCode>
       <id>8db40f1b-be90-4260-84dd-b2ef7d659ba7</id>
     </Compile>
+    <Compile Include="GLRiskLevel.cs">
+      <BoundTo>22cdd3bd-971f-49a8-8c5e-568685e70f8f</BoundTo>
+      <DependentUpon>GLRiskLevel.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>57868914-eaa9-40db-8a72-a7e5be554a48</id>
+    </Compile>
+    <Compile Include="GLRiskLevel.UserCode.cs">
+      <BoundTo>22cdd3bd-971f-49a8-8c5e-568685e70f8f</BoundTo>
+      <DependentUpon>GLRiskLevel.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>65524933-9e25-4ed6-8e7b-8df6b9f6a01f</id>
+    </Compile>
     <Compile Include="NQ_GL.cs">
       <BoundTo>5b0689c3-f40f-4ee2-ba1b-57df9bf61050</BoundTo>
       <DependentUpon>NQ_GL.rxrec</DependentUpon>
@@ -177,6 +189,18 @@
       <UserCode>true</UserCode>
       <id>36b5a044-afc6-431c-bd0d-b0ca9deb1cf7</id>
     </Compile>
+    <Compile Include="QuickStartQuestions.cs">
+      <BoundTo>ced3848a-6908-41d3-aa6a-05a7c98614ba</BoundTo>
+      <DependentUpon>QuickStartQuestions.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8c72d167-8241-40ce-bc38-46da16a0e2c7</id>
+    </Compile>
+    <Compile Include="QuickStartQuestions.UserCode.cs">
+      <BoundTo>ced3848a-6908-41d3-aa6a-05a7c98614ba</BoundTo>
+      <DependentUpon>QuickStartQuestions.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>67d65484-cf6d-43b2-a521-7c2b20390b89</id>
+    </Compile>
     <Compile Include="Record_screen.cs">
       <BoundTo>cf48be0f-b76b-4dc1-b5b6-5f607cd7635f</BoundTo>
       <DependentUpon>Record_screen.rxrec</DependentUpon>
@@ -212,6 +236,11 @@
       <id>05bdfd82-2222-4ae2-8e42-040ebe0bb521</id>
       <recordtableid>2fe4b19c-ce56-4e71-a860-46c435e5f8d3</recordtableid>
     </None>
+    <None Include="GLRiskLevel.rxrec">
+      <BoundTo>0e49320b-8b55-4200-b36f-05e86fb26edd</BoundTo>
+      <id>22cdd3bd-971f-49a8-8c5e-568685e70f8f</id>
+      <recordtableid>7e41b08e-b8f7-4d24-b0a1-ac49ffcfee0d</recordtableid>
+    </None>
     <None Include="NQ_GL.rxrec">
       <BoundTo>0e49320b-8b55-4200-b36f-05e86fb26edd</BoundTo>
       <id>5b0689c3-f40f-4ee2-ba1b-57df9bf61050</id>
@@ -226,6 +255,11 @@
       <BoundTo>0e49320b-8b55-4200-b36f-05e86fb26edd</BoundTo>
       <id>c016d85d-dcdc-4f64-bb76-7c1191e37abe</id>
       <recordtableid>4b2b5806-8a2c-4b87-80b3-9d1ae3343323</recordtableid>
+    </None>
+    <None Include="QuickStartQuestions.rxrec">
+      <BoundTo>0e49320b-8b55-4200-b36f-05e86fb26edd</BoundTo>
+      <id>ced3848a-6908-41d3-aa6a-05a7c98614ba</id>
+      <recordtableid>c75cb8d3-62f7-473f-8daa-8ff4a44bccc2</recordtableid>
     </None>
     <None Include="Record_screen.rxrec">
       <BoundTo>0e49320b-8b55-4200-b36f-05e86fb26edd</BoundTo>

@@ -22,7 +22,7 @@ using Ranorex.Core.Testing;
 
 namespace Winston_Agent_Portal
 {
-    public partial class NQ_GL
+    public partial class QuickStartQuestions
     {
         /// <summary>
         /// This method gets called right after the recording has been started.
@@ -33,16 +33,5 @@ namespace Winston_Agent_Portal
             // Your recording specific initialization code goes here.
         }
 
-        public void Mouse_Click_GeneralLiability(RepoItemInfo labeltagInfo)
-        {
-        	
-     
-        		
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'labeltagInfo' at Center.", labeltagInfo);
-            labeltagInfo.FindAdapter<LabelTag>().Click();
-        	}
-        	
-
-   
-}
+    }
 }
