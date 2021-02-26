@@ -91,8 +91,11 @@
 			type="Recording">
 			</testmodule>
 			<testcase
+			datarangeactive="True"
 			datasource="NewConnector"
 			id="2e8d166d-9c34-43b5-bc66-8ee0c9f248bd"
+			maxrange="0"
+			minrange="0"
 			name="New_quote_-_GL">
 			</testcase>
 			<testsuite
@@ -140,6 +143,12 @@
 			name="Winston_Agent_Portal"
 			reportlevel="Info;20">
 			</testcase>
+			<testmodule
+			id="ac8365dc-5835-496b-80d2-52b1a4ee1c09"
+			name="GLRiskLevel"
+			ref="7e41b08e-b8f7-4d24-b0a1-ac49ffcfee0d"
+			type="Recording">
+			</testmodule>
 			<setup
 			id="b193cd41-247a-4ca3-9c21-0d863eed535d"
 			name="setup">
@@ -157,6 +166,7 @@
 			type="Recording">
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="d203bcee-ebbb-4af8-b3a3-a89bf32fc87f"
 			name="CloseBrowser"
 			ref="2fe4b19c-ce56-4e71-a860-46c435e5f8d3"
@@ -224,6 +234,10 @@
 						<testmodule
 						id="2b1866c4-f61c-4e94-acbc-6f4a2bd5e81d"
 						name="QuickStartQuestions">
+						</testmodule>
+						<testmodule
+						id="ac8365dc-5835-496b-80d2-52b1a4ee1c09"
+						name="GLRiskLevel">
 						</testmodule>
 						<teardown
 						id="1fd395ef-21d4-4eaf-9a65-27aee895dbd4"

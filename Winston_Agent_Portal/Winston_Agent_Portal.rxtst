@@ -91,8 +91,11 @@
 			type="Recording">
 			</testmodule>
 			<testcase
+			datarangeactive="True"
 			datasource="NewConnector"
 			id="2e8d166d-9c34-43b5-bc66-8ee0c9f248bd"
+			maxrange="0"
+			minrange="0"
 			name="New_quote_-_GL">
 			</testcase>
 			<testsuite
@@ -163,6 +166,7 @@
 			type="Recording">
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="d203bcee-ebbb-4af8-b3a3-a89bf32fc87f"
 			name="CloseBrowser"
 			ref="2fe4b19c-ce56-4e71-a860-46c435e5f8d3"

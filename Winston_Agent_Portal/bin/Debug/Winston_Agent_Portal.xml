@@ -19,11 +19,6 @@
             Constructs a new instance.
             </summary>
         </member>
-        <member name="P:Winston_Agent_Portal.CloseBrowser.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
         <member name="M:Winston_Agent_Portal.CloseBrowser.Start">
             <summary>
             Starts the replay of the static recording <see cref="P:Winston_Agent_Portal.CloseBrowser.Instance"/>.
@@ -43,6 +38,50 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="P:Winston_Agent_Portal.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Winston_Agent_Portal.GLRiskLevel">
+             <summary>
+            The GLRiskLevel recording.
+             </summary>
+        </member>
+        <member name="F:Winston_Agent_Portal.GLRiskLevel.repo">
+            <summary>
+            Holds an instance of the Winston_Agent_PortalRepository repository.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.GLRiskLevel.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.GLRiskLevel.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Winston_Agent_Portal.GLRiskLevel.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.GLRiskLevel.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Winston_Agent_Portal.GLRiskLevel.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.GLRiskLevel.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:Winston_Agent_Portal.NQ_GL">
              <summary>
             The NQ_GL recording.
@@ -56,11 +95,6 @@
         <member name="M:Winston_Agent_Portal.NQ_GL.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:Winston_Agent_Portal.NQ_GL.Instance">
-            <summary>
-            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:Winston_Agent_Portal.NQ_GL.Start">
@@ -82,6 +116,11 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="P:Winston_Agent_Portal.NQ_GL.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:Winston_Agent_Portal.OpenBrowser">
              <summary>
             The OpenBrowser recording.
@@ -95,11 +134,6 @@
         <member name="M:Winston_Agent_Portal.OpenBrowser.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:Winston_Agent_Portal.OpenBrowser.Instance">
-            <summary>
-            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:Winston_Agent_Portal.OpenBrowser.Start">
@@ -121,6 +155,11 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="P:Winston_Agent_Portal.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:Winston_Agent_Portal.Login">
              <summary>
             The Login recording.
@@ -134,6 +173,25 @@
         <member name="M:Winston_Agent_Portal.Login.#ctor">
             <summary>
             Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.Login.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Winston_Agent_Portal.Login.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.Login.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Winston_Agent_Portal.Login.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
             </summary>
         </member>
         <member name="P:Winston_Agent_Portal.Login.Instance">
@@ -156,25 +214,6 @@
             Gets or sets the value of variable AgencyName.
             </summary>
         </member>
-        <member name="M:Winston_Agent_Portal.Login.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:Winston_Agent_Portal.Login.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:Winston_Agent_Portal.Login.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:Winston_Agent_Portal.Login.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
-        </member>
         <member name="T:Winston_Agent_Portal.QuickStartQuestions">
              <summary>
             The QuickStartQuestions recording.
@@ -188,11 +227,6 @@
         <member name="M:Winston_Agent_Portal.QuickStartQuestions.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:Winston_Agent_Portal.QuickStartQuestions.Instance">
-            <summary>
-            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:Winston_Agent_Portal.QuickStartQuestions.Start">
@@ -214,6 +248,11 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="P:Winston_Agent_Portal.QuickStartQuestions.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:Winston_Agent_Portal.Record_screen">
              <summary>
             The Record_screen recording.
@@ -227,11 +266,6 @@
         <member name="M:Winston_Agent_Portal.Record_screen.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:Winston_Agent_Portal.Record_screen.Instance">
-            <summary>
-            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:Winston_Agent_Portal.Record_screen.Start">
@@ -253,19 +287,24 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="P:Winston_Agent_Portal.Record_screen.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:Winston_Agent_Portal.Winston_Agent_PortalRepository">
             <summary>
             The class representing the Winston_Agent_PortalRepository element repository.
             </summary>
         </member>
-        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepository.Instance">
-            <summary>
-            Gets the singleton class instance representing the Winston_Agent_PortalRepository element repository.
-            </summary>
-        </member>
         <member name="M:Winston_Agent_Portal.Winston_Agent_PortalRepository.#ctor">
             <summary>
             Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the Winston_Agent_PortalRepository element repository.
             </summary>
         </member>
         <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepository.AgencyName">
@@ -286,6 +325,16 @@
         <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepository.HttpsDevWinstonFwcinsComFWCPortal">
             <summary>
             The HttpsDevWinstonFwcinsComFWCPortal folder.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepository.Explorer">
+            <summary>
+            The Explorer folder.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepository.FCGAGLGoogleChrome">
+            <summary>
+            The FCGAGLGoogleChrome folder.
             </summary>
         </member>
         <member name="T:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders">
@@ -403,9 +452,159 @@
             The BtnSave1 item info.
             </summary>
         </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Florida">
+            <summary>
+            The Florida item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.FloridaInfo">
+            <summary>
+            The Florida item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.LiTagBay">
+            <summary>
+            The LiTagBay item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.LiTagBayInfo">
+            <summary>
+            The LiTagBay item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.TxtNameOfInsured">
+            <summary>
+            The TxtNameOfInsured item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.TxtNameOfInsuredInfo">
+            <summary>
+            The TxtNameOfInsured item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Search">
+            <summary>
+            The Search item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.SearchInfo">
+            <summary>
+            The Search item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.TxtDescriptionOfBusiness">
+            <summary>
+            The TxtDescriptionOfBusiness item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.TxtDescriptionOfBusinessInfo">
+            <summary>
+            The TxtDescriptionOfBusiness item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.TxtIndividualFirstName">
+            <summary>
+            The TxtIndividualFirstName item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.TxtIndividualFirstNameInfo">
+            <summary>
+            The TxtIndividualFirstName item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.TxtIndividualLastName">
+            <summary>
+            The TxtIndividualLastName item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.TxtIndividualLastNameInfo">
+            <summary>
+            The TxtIndividualLastName item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.TxtYearsInBusiness">
+            <summary>
+            The TxtYearsInBusiness item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.TxtYearsInBusinessInfo">
+            <summary>
+            The TxtYearsInBusiness item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.TxtClaims">
+            <summary>
+            The TxtClaims item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.TxtClaimsInfo">
+            <summary>
+            The TxtClaims item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.LabelTagNo">
+            <summary>
+            The LabelTagNo item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.LabelTagNoInfo">
+            <summary>
+            The LabelTagNo item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.SomeBTag2">
+            <summary>
+            The SomeBTag2 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.SomeBTag2Info">
+            <summary>
+            The SomeBTag2 item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.TxtNoofLocation">
+            <summary>
+            The TxtNoofLocation item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.TxtNoofLocationInfo">
+            <summary>
+            The TxtNoofLocation item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.TxtNoofProject">
+            <summary>
+            The TxtNoofProject item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.TxtNoofProjectInfo">
+            <summary>
+            The TxtNoofProject item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.BtnSubmitRI">
+            <summary>
+            The BtnSubmitRI item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.BtnSubmitRIInfo">
+            <summary>
+            The BtnSubmitRI item info.
+            </summary>
+        </member>
         <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.MyTable">
             <summary>
             The MyTable folder.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Mb4Pb2Row">
+            <summary>
+            The Mb4Pb2Row folder.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.BgGreyBorderBorderBottomBorderWhi">
+            <summary>
+            The BgGreyBorderBorderBottomBorderWhi folder.
             </summary>
         </member>
         <member name="T:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.MyTableFolder">
@@ -508,6 +707,116 @@
             The LabelTagNo6 item info.
             </summary>
         </member>
+        <member name="T:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.Mb4Pb2RowFolder">
+            <summary>
+            The Mb4Pb2RowFolder folder.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.Mb4Pb2RowFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Mb4Pb2Row  folder.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.Mb4Pb2RowFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.Mb4Pb2RowFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.Mb4Pb2RowFolder.SomeBTag">
+            <summary>
+            The SomeBTag item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.Mb4Pb2RowFolder.SomeBTagInfo">
+            <summary>
+            The SomeBTag item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.Mb4Pb2RowFolder.SomeBTag1">
+            <summary>
+            The SomeBTag1 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.Mb4Pb2RowFolder.SomeBTag1Info">
+            <summary>
+            The SomeBTag1 item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.Mb4Pb2RowFolder.Select2SelectionArrow">
+            <summary>
+            The Select2SelectionArrow item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.Mb4Pb2RowFolder.Select2SelectionArrowInfo">
+            <summary>
+            The Select2SelectionArrow item info.
+            </summary>
+        </member>
+        <member name="T:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.BgGreyBorderBorderBottomBorderWhiFolder">
+            <summary>
+            The BgGreyBorderBorderBottomBorderWhiFolder folder.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.BgGreyBorderBorderBottomBorderWhiFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new BgGreyBorderBorderBottomBorderWhi  folder.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.BgGreyBorderBorderBottomBorderWhiFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.BgGreyBorderBorderBottomBorderWhiFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.BgGreyBorderBorderBottomBorderWhiFolder.SomeBTag">
+            <summary>
+            The SomeBTag item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.BgGreyBorderBorderBottomBorderWhiFolder.SomeBTagInfo">
+            <summary>
+            The SomeBTag item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.BgGreyBorderBorderBottomBorderWhiFolder.LabelTagYes">
+            <summary>
+            The LabelTagYes item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.BgGreyBorderBorderBottomBorderWhiFolder.LabelTagYesInfo">
+            <summary>
+            The LabelTagYes item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.BgGreyBorderBorderBottomBorderWhiFolder.LabelTagYes1">
+            <summary>
+            The LabelTagYes1 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.BgGreyBorderBorderBottomBorderWhiFolder.LabelTagYes1Info">
+            <summary>
+            The LabelTagYes1 item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.BgGreyBorderBorderBottomBorderWhiFolder.LabelTagYes2">
+            <summary>
+            The LabelTagYes2 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.BgGreyBorderBorderBottomBorderWhiFolder.LabelTagYes2Info">
+            <summary>
+            The LabelTagYes2 item info.
+            </summary>
+        </member>
         <member name="T:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.HttpsDevWinstonFwcinsComFWCPortalAppFolder">
             <summary>
             The HttpsDevWinstonFwcinsComFWCPortalAppFolder folder.
@@ -586,6 +895,66 @@
         <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.HttpsDevWinstonFwcinsComFWCPortalAppFolder.BtnContinueInfo">
             <summary>
             The BtnContinue item info.
+            </summary>
+        </member>
+        <member name="T:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ExplorerAppFolder">
+            <summary>
+            The ExplorerAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ExplorerAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Explorer  folder.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ExplorerAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ExplorerAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ExplorerAppFolder.List1">
+            <summary>
+            The List1 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ExplorerAppFolder.List1Info">
+            <summary>
+            The List1 item info.
+            </summary>
+        </member>
+        <member name="T:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.FCGAGLGoogleChromeAppFolder">
+            <summary>
+            The FCGAGLGoogleChromeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.FCGAGLGoogleChromeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FCGAGLGoogleChrome  folder.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.FCGAGLGoogleChromeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.FCGAGLGoogleChromeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.FCGAGLGoogleChromeAppFolder.Pane">
+            <summary>
+            The Pane item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.FCGAGLGoogleChromeAppFolder.PaneInfo">
+            <summary>
+            The Pane item info.
             </summary>
         </member>
         <member name="T:__RxMain.__RxProgram">

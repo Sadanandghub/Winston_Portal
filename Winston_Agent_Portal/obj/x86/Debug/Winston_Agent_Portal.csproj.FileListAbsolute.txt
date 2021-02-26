@@ -21,6 +21,4 @@ C:\Winston_Portal\Winston_Agent_Portal\bin\Debug\Winston_Agent_Portal.pdb
 C:\Winston_Portal\Winston_Agent_Portal\bin\Debug\Ranorex.Core.Resolver.dll
 C:\Winston_Portal\Winston_Agent_Portal\obj\x86\Debug\Winston_Agent_Portal.exe
 C:\Winston_Portal\Winston_Agent_Portal\obj\x86\Debug\Winston_Agent_Portal.pdb
-C:\Winston_Portal\Winston_Agent_Portal\obj\x86\Debug\Winston_Agent_Portal.csprojAssemblyReference.cache
-C:\Winston_Portal\Winston_Agent_Portal\obj\x86\Debug\Winston_Agent_Portal.csproj.CoreCompileInputs.cache
-C:\Winston_Portal\Winston_Agent_Portal\obj\x86\Debug\Winston_Agent_Portal.csproj.CopyComplete
+C:\Winston_Portal\Winston_Agent_Portal\obj\x86\Debug\Winston_Agent_Portal.csprojResolveAssemblyReference.cache

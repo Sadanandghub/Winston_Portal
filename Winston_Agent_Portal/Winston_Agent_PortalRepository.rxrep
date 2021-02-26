@@ -18,7 +18,7 @@ name="Winston_Agent_PortalRepository">
 		id="ee96e4cd-5a4c-4be2-828f-6b678101c20f"
 		isrooted="True"
 		name="ApplicationUnderTest"
-		refimgid="e2f89234-040b-4f2b-9960-559a143bfa38"
+		refimgid="96e62cf8-6651-420e-b5f4-43729bdc829e"
 		searchtimeout="30000ms"
 		usecache="False">
 			<item
@@ -353,6 +353,89 @@ name="Winston_Agent_PortalRepository">
 				</item>
 				<basepath>
 					/dom[@domain='dev_winston.fwcins.com']//form[#'frmRisLevel']/div[1]/div[2]/div[1]
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="e1583205-7a75-4456-bffa-3a9d775c746f"
+			name="TxtNoofLocation"
+			refimgid="ed5b411f-4843-4e44-a278-564f5403e9bd"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//input[#'txtNoofLocation']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//input[#'txtNoofLocation']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="5ee9c9fd-3385-489c-9957-0aa370fc70c0"
+			name="TxtNoofProject"
+			refimgid="717e06d8-4877-45d4-8288-9177362eb9a5"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//input[#'txtNoofProject']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//input[#'txtNoofProject']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="0e501700-257f-47f3-b032-6e6fc946cc8b"
+			name="BtnSubmitRI"
+			refimgid="92cd3439-e6a5-4b12-a060-34d1619bb9bc"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//input[#'btnSubmitRI']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//input[#'btnSubmitRI']
+			</item>
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="4ce48f42-8f89-4e4d-8655-6a7d2a942bb2"
+			isrooted="True"
+			name="BgGreyBorderBorderBottomBorderWhi"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//form[#'frmRisLevel']/div[1]/div[2]"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,btag"
+				capname="btag"
+				id="38a9557a-e8ca-4394-8afc-875745debf65"
+				name="SomeBTag"
+				refimgid="bd9a68ed-5ff8-4c85-bd37-db9bcf0cebb5"
+				refpath="/dom[@domain='dev_winston.fwcins.com']//form[#'frmRisLevel']/div[1]/div[2]/div[5]/div[3]/span/span[1]/span/span[2]/b"
+				searchtimeout="30000ms">
+					/dom[@domain='dev_winston.fwcins.com']//form[#'frmRisLevel']/div[1]/div[2]/div[5]/div[3]//b
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="3987cce7-8e48-41b6-85e9-780c325c8ee7"
+				name="LabelTagYes"
+				refimgid="f9fafc61-5073-4484-a06e-8bb57b4c8bc2"
+				refpath="/dom[@domain='dev_winston.fwcins.com']//form[#'frmRisLevel']/div[1]/div[2]/div[6]/div[1]/p/label[@innertext='Yes']"
+				searchtimeout="30000ms">
+					/dom[@domain='dev_winston.fwcins.com']//form[#'frmRisLevel']/div[1]/div[2]/div[6]/div[1]/?/?/label[@innertext='Yes']
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="35b0209d-06fe-4284-8c59-ea1c85f8ec2e"
+				name="LabelTagYes1"
+				refimgid="88dee065-35f2-405f-893c-9cdae450a11c"
+				refpath="/dom[@domain='dev_winston.fwcins.com']//form[#'frmRisLevel']/div[1]/div[2]/div[6]/div[2]/p/label[@innertext='Yes']"
+				searchtimeout="30000ms">
+					/dom[@domain='dev_winston.fwcins.com']//form[#'frmRisLevel']/div[1]/div[2]/div[6]/div[2]/?/?/label[@innertext='Yes']
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="c24b4ec4-718b-4261-8a9b-9c768afde2ee"
+				name="LabelTagYes2"
+				refimgid="f8cd686d-82eb-424e-8bc7-84a0ee6eebef"
+				refpath="/dom[@domain='dev_winston.fwcins.com']//form[#'frmRisLevel']/div[1]/div[2]/div[7]/div/p/label[@innertext='Yes']"
+				searchtimeout="30000ms">
+					/dom[@domain='dev_winston.fwcins.com']//form[#'frmRisLevel']/div[1]/div[2]/div[7]//label[@innertext='Yes']
+				</item>
+				<basepath>
+					/dom[@domain='dev_winston.fwcins.com']//form[#'frmRisLevel']/div[1]/div[2]
 				</basepath>
 			</folder>
 			<basepath>

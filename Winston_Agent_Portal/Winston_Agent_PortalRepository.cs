@@ -132,6 +132,7 @@ namespace Winston_Agent_Portal
         {
             Winston_Agent_PortalRepositoryFolders.MyTableFolder _mytable;
             Winston_Agent_PortalRepositoryFolders.Mb4Pb2RowFolder _mb4pb2row;
+            Winston_Agent_PortalRepositoryFolders.BgGreyBorderBorderBottomBorderWhiFolder _bggreyborderborderbottomborderwhi;
             RepoItemInfo _lnknewquoteInfo;
             RepoItemInfo _hidethismessageInfo;
             RepoItemInfo _generalliabilityInfo;
@@ -152,6 +153,9 @@ namespace Winston_Agent_Portal
             RepoItemInfo _txtclaimsInfo;
             RepoItemInfo _labeltagnoInfo;
             RepoItemInfo _somebtag2Info;
+            RepoItemInfo _txtnooflocationInfo;
+            RepoItemInfo _txtnoofprojectInfo;
+            RepoItemInfo _btnsubmitriInfo;
 
             /// <summary>
             /// Creates a new ApplicationUnderTest  folder.
@@ -161,6 +165,7 @@ namespace Winston_Agent_Portal
             {
                 _mytable = new Winston_Agent_PortalRepositoryFolders.MyTableFolder(this);
                 _mb4pb2row = new Winston_Agent_PortalRepositoryFolders.Mb4Pb2RowFolder(this);
+                _bggreyborderborderbottomborderwhi = new Winston_Agent_PortalRepositoryFolders.BgGreyBorderBorderBottomBorderWhiFolder(this);
                 _lnknewquoteInfo = new RepoItemInfo(this, "LnkNewQuote", ".//a[#'lnkNewQuote']", 30000, null, "250a74c8-deba-4833-a3fb-61ac0b8bfa69");
                 _hidethismessageInfo = new RepoItemInfo(this, "HideThisMessage", "body/div[7]/?/?/iframe[@src='about:blank']/body//tag[@tagname='cue']/div/?/?/a[@innertext='Hide this message']", 30000, null, "317786c5-ae48-43b8-9580-dc3c5da6bae9");
                 _generalliabilityInfo = new RepoItemInfo(this, "GeneralLiability", "body/div[3]/div[4]/div[2]/div/div[2]/?/?/label[@innertext='General Liability']", 30000, null, "fe8fd9b1-a9dc-4a29-b77e-75ce5d582454");
@@ -181,6 +186,9 @@ namespace Winston_Agent_Portal
                 _txtclaimsInfo = new RepoItemInfo(this, "TxtClaims", ".//input[#'txtClaims']", 30000, null, "314267e2-0aa3-49fc-a8ed-66eab69a9af6");
                 _labeltagnoInfo = new RepoItemInfo(this, "LabelTagNo", ".//form[#'frmRisLevel']/div[1]/div[2]/div[5]/div[1]/?/?/label[@innertext='No']", 30000, null, "1801c96c-ed64-4db6-8583-02eff12079dc");
                 _somebtag2Info = new RepoItemInfo(this, "SomeBTag2", ".//form[#'frmRisLevel']/div[1]/div[2]/div[5]/div[2]//b", 30000, null, "7febeac9-13ab-475f-a6c0-0106cffa182e");
+                _txtnooflocationInfo = new RepoItemInfo(this, "TxtNoofLocation", ".//input[#'txtNoofLocation']", 30000, null, "e1583205-7a75-4456-bffa-3a9d775c746f");
+                _txtnoofprojectInfo = new RepoItemInfo(this, "TxtNoofProject", ".//input[#'txtNoofProject']", 30000, null, "5ee9c9fd-3385-489c-9957-0aa370fc70c0");
+                _btnsubmitriInfo = new RepoItemInfo(this, "BtnSubmitRI", ".//input[#'btnSubmitRI']", 30000, null, "0e501700-257f-47f3-b032-6e6fc946cc8b");
             }
 
             /// <summary>
@@ -688,6 +696,78 @@ namespace Winston_Agent_Portal
             }
 
             /// <summary>
+            /// The TxtNoofLocation item.
+            /// </summary>
+            [RepositoryItem("e1583205-7a75-4456-bffa-3a9d775c746f")]
+            public virtual Ranorex.InputTag TxtNoofLocation
+            {
+                get
+                {
+                    return _txtnooflocationInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TxtNoofLocation item info.
+            /// </summary>
+            [RepositoryItemInfo("e1583205-7a75-4456-bffa-3a9d775c746f")]
+            public virtual RepoItemInfo TxtNoofLocationInfo
+            {
+                get
+                {
+                    return _txtnooflocationInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TxtNoofProject item.
+            /// </summary>
+            [RepositoryItem("5ee9c9fd-3385-489c-9957-0aa370fc70c0")]
+            public virtual Ranorex.InputTag TxtNoofProject
+            {
+                get
+                {
+                    return _txtnoofprojectInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TxtNoofProject item info.
+            /// </summary>
+            [RepositoryItemInfo("5ee9c9fd-3385-489c-9957-0aa370fc70c0")]
+            public virtual RepoItemInfo TxtNoofProjectInfo
+            {
+                get
+                {
+                    return _txtnoofprojectInfo;
+                }
+            }
+
+            /// <summary>
+            /// The BtnSubmitRI item.
+            /// </summary>
+            [RepositoryItem("0e501700-257f-47f3-b032-6e6fc946cc8b")]
+            public virtual Ranorex.InputTag BtnSubmitRI
+            {
+                get
+                {
+                    return _btnsubmitriInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The BtnSubmitRI item info.
+            /// </summary>
+            [RepositoryItemInfo("0e501700-257f-47f3-b032-6e6fc946cc8b")]
+            public virtual RepoItemInfo BtnSubmitRIInfo
+            {
+                get
+                {
+                    return _btnsubmitriInfo;
+                }
+            }
+
+            /// <summary>
             /// The MyTable folder.
             /// </summary>
             [RepositoryFolder("33f035cf-284c-43cf-89fa-7e00886d150e")]
@@ -703,6 +783,15 @@ namespace Winston_Agent_Portal
             public virtual Winston_Agent_PortalRepositoryFolders.Mb4Pb2RowFolder Mb4Pb2Row
             {
                 get { return _mb4pb2row; }
+            }
+
+            /// <summary>
+            /// The BgGreyBorderBorderBottomBorderWhi folder.
+            /// </summary>
+            [RepositoryFolder("4ce48f42-8f89-4e4d-8655-6a7d2a942bb2")]
+            public virtual Winston_Agent_PortalRepositoryFolders.BgGreyBorderBorderBottomBorderWhiFolder BgGreyBorderBorderBottomBorderWhi
+            {
+                get { return _bggreyborderborderbottomborderwhi; }
             }
         }
 
@@ -1068,6 +1157,150 @@ namespace Winston_Agent_Portal
                 get
                 {
                     return _select2selectionarrowInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The BgGreyBorderBorderBottomBorderWhiFolder folder.
+        /// </summary>
+        [RepositoryFolder("4ce48f42-8f89-4e4d-8655-6a7d2a942bb2")]
+        public partial class BgGreyBorderBorderBottomBorderWhiFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _somebtagInfo;
+            RepoItemInfo _labeltagyesInfo;
+            RepoItemInfo _labeltagyes1Info;
+            RepoItemInfo _labeltagyes2Info;
+
+            /// <summary>
+            /// Creates a new BgGreyBorderBorderBottomBorderWhi  folder.
+            /// </summary>
+            public BgGreyBorderBorderBottomBorderWhiFolder(RepoGenBaseFolder parentFolder) :
+                    base("BgGreyBorderBorderBottomBorderWhi", ".//form[#'frmRisLevel']/div[1]/div[2]", parentFolder, 30000, null, false, "4ce48f42-8f89-4e4d-8655-6a7d2a942bb2", "")
+            {
+                _somebtagInfo = new RepoItemInfo(this, "SomeBTag", "div[5]/div[3]//b", 30000, null, "38a9557a-e8ca-4394-8afc-875745debf65");
+                _labeltagyesInfo = new RepoItemInfo(this, "LabelTagYes", "div[6]/div[1]/?/?/label[@innertext='Yes']", 30000, null, "3987cce7-8e48-41b6-85e9-780c325c8ee7");
+                _labeltagyes1Info = new RepoItemInfo(this, "LabelTagYes1", "div[6]/div[2]/?/?/label[@innertext='Yes']", 30000, null, "35b0209d-06fe-4284-8c59-ea1c85f8ec2e");
+                _labeltagyes2Info = new RepoItemInfo(this, "LabelTagYes2", "div[7]//label[@innertext='Yes']", 30000, null, "c24b4ec4-718b-4261-8a9b-9c768afde2ee");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("4ce48f42-8f89-4e4d-8655-6a7d2a942bb2")]
+            public virtual Ranorex.DivTag Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("4ce48f42-8f89-4e4d-8655-6a7d2a942bb2")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SomeBTag item.
+            /// </summary>
+            [RepositoryItem("38a9557a-e8ca-4394-8afc-875745debf65")]
+            public virtual Ranorex.BTag SomeBTag
+            {
+                get
+                {
+                    return _somebtagInfo.CreateAdapter<Ranorex.BTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SomeBTag item info.
+            /// </summary>
+            [RepositoryItemInfo("38a9557a-e8ca-4394-8afc-875745debf65")]
+            public virtual RepoItemInfo SomeBTagInfo
+            {
+                get
+                {
+                    return _somebtagInfo;
+                }
+            }
+
+            /// <summary>
+            /// The LabelTagYes item.
+            /// </summary>
+            [RepositoryItem("3987cce7-8e48-41b6-85e9-780c325c8ee7")]
+            public virtual Ranorex.LabelTag LabelTagYes
+            {
+                get
+                {
+                    return _labeltagyesInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LabelTagYes item info.
+            /// </summary>
+            [RepositoryItemInfo("3987cce7-8e48-41b6-85e9-780c325c8ee7")]
+            public virtual RepoItemInfo LabelTagYesInfo
+            {
+                get
+                {
+                    return _labeltagyesInfo;
+                }
+            }
+
+            /// <summary>
+            /// The LabelTagYes1 item.
+            /// </summary>
+            [RepositoryItem("35b0209d-06fe-4284-8c59-ea1c85f8ec2e")]
+            public virtual Ranorex.LabelTag LabelTagYes1
+            {
+                get
+                {
+                    return _labeltagyes1Info.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LabelTagYes1 item info.
+            /// </summary>
+            [RepositoryItemInfo("35b0209d-06fe-4284-8c59-ea1c85f8ec2e")]
+            public virtual RepoItemInfo LabelTagYes1Info
+            {
+                get
+                {
+                    return _labeltagyes1Info;
+                }
+            }
+
+            /// <summary>
+            /// The LabelTagYes2 item.
+            /// </summary>
+            [RepositoryItem("c24b4ec4-718b-4261-8a9b-9c768afde2ee")]
+            public virtual Ranorex.LabelTag LabelTagYes2
+            {
+                get
+                {
+                    return _labeltagyes2Info.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LabelTagYes2 item info.
+            /// </summary>
+            [RepositoryItemInfo("c24b4ec4-718b-4261-8a9b-9c768afde2ee")]
+            public virtual RepoItemInfo LabelTagYes2Info
+            {
+                get
+                {
+                    return _labeltagyes2Info;
                 }
             }
         }

@@ -79,187 +79,144 @@ namespace Winston_Agent_Portal
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Explorer.List1' at Center.", repo.Explorer.List1Info, new RecordItemIndex(0));
-            repo.Explorer.List1.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Tab up}{LShiftKey up}{RShiftKey up}{LControlKey up}{RControlKey up}' with focus on 'ApplicationUnderTest'.", repo.ApplicationUnderTest.SelfInfo, new RecordItemIndex(1));
-            repo.ApplicationUnderTest.Self.EnsureVisible();
-            Keyboard.Press("{Tab up}{LShiftKey up}{RShiftKey up}{LControlKey up}{RControlKey up}");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Down item 'FCGAGLGoogleChrome.Pane' at Center.", repo.FCGAGLGoogleChrome.PaneInfo, new RecordItemIndex(2));
-            repo.FCGAGLGoogleChrome.Pane.MoveTo();
-            Mouse.ButtonDown(System.Windows.Forms.MouseButtons.Left);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Tab up}' with focus on 'ApplicationUnderTest'.", repo.ApplicationUnderTest.SelfInfo, new RecordItemIndex(3));
-            repo.ApplicationUnderTest.Self.EnsureVisible();
-            Keyboard.Press("{Tab up}");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Up item 'FCGAGLGoogleChrome.Pane' at Center.", repo.FCGAGLGoogleChrome.PaneInfo, new RecordItemIndex(4));
-            repo.FCGAGLGoogleChrome.Pane.MoveTo();
-            Mouse.ButtonUp(System.Windows.Forms.MouseButtons.Left);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LMenu up}{Tab up}{RMenu up}{Tab up}{Tab up}{LShiftKey up}{RShiftKey up}{LControlKey up}{RControlKey up}{Tab up}{LMenu up}{Tab up}{RMenu up}{Tab up}{Tab up}{LShiftKey up}{RShiftKey up}{LControlKey up}{RControlKey up}{Tab up}{LMenu up}{Tab up}{RMenu up}{Tab up}' with focus on 'ApplicationUnderTest'.", repo.ApplicationUnderTest.SelfInfo, new RecordItemIndex(5));
-            repo.ApplicationUnderTest.Self.EnsureVisible();
-            Keyboard.Press("{LMenu up}{Tab up}{RMenu up}{Tab up}{Tab up}{LShiftKey up}{RShiftKey up}{LControlKey up}{RControlKey up}{Tab up}{LMenu up}{Tab up}{RMenu up}{Tab up}{Tab up}{LShiftKey up}{RShiftKey up}{LControlKey up}{RControlKey up}{Tab up}{LMenu up}{Tab up}{RMenu up}{Tab up}");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Florida' at Center.", repo.ApplicationUnderTest.FloridaInfo, new RecordItemIndex(6));
-            repo.ApplicationUnderTest.Florida.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Mb4Pb2Row.Select2SelectionArrow' at Center.", repo.ApplicationUnderTest.Mb4Pb2Row.Select2SelectionArrowInfo, new RecordItemIndex(7));
-            repo.ApplicationUnderTest.Mb4Pb2Row.Select2SelectionArrow.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LiTagBay' at Center.", repo.ApplicationUnderTest.LiTagBayInfo, new RecordItemIndex(8));
-            repo.ApplicationUnderTest.LiTagBay.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtNameOfInsured' at Center.", repo.ApplicationUnderTest.TxtNameOfInsuredInfo, new RecordItemIndex(9));
-            repo.ApplicationUnderTest.TxtNameOfInsured.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'TEst GL{LControlKey up}{LShiftKey up}{LMenu up}{LWin up}' with focus on 'ApplicationUnderTest.TxtNameOfInsured'.", repo.ApplicationUnderTest.TxtNameOfInsuredInfo, new RecordItemIndex(10));
-            repo.ApplicationUnderTest.TxtNameOfInsured.PressKeys("TEst GL{LControlKey up}{LShiftKey up}{LMenu up}{LWin up}");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Mb4Pb2Row.SomeBTag' at Center.", repo.ApplicationUnderTest.Mb4Pb2Row.SomeBTagInfo, new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Mb4Pb2Row.SomeBTag' at Center.", repo.ApplicationUnderTest.Mb4Pb2Row.SomeBTagInfo, new RecordItemIndex(0));
             repo.ApplicationUnderTest.Mb4Pb2Row.SomeBTag.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'flo' with focus on 'ApplicationUnderTest'.", repo.ApplicationUnderTest.SelfInfo, new RecordItemIndex(12));
-            repo.ApplicationUnderTest.Self.EnsureVisible();
-            Keyboard.Press("flo");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Florida' at Center.", repo.ApplicationUnderTest.FloridaInfo, new RecordItemIndex(13));
-            repo.ApplicationUnderTest.Florida.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Mb4Pb2Row.SomeBTag' at Center.", repo.ApplicationUnderTest.Mb4Pb2Row.SomeBTagInfo, new RecordItemIndex(14));
-            repo.ApplicationUnderTest.Mb4Pb2Row.SomeBTag.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Search' at Center.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(15));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Search' at Center.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(1));
             repo.ApplicationUnderTest.Search.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'florida{Return}' with focus on 'ApplicationUnderTest.Search'.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(16));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'florida{Return}' with focus on 'ApplicationUnderTest.Search'.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(2));
             repo.ApplicationUnderTest.Search.PressKeys("florida{Return}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Mb4Pb2Row.SomeBTag1' at Center.", repo.ApplicationUnderTest.Mb4Pb2Row.SomeBTag1Info, new RecordItemIndex(17));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Mb4Pb2Row.SomeBTag1' at Center.", repo.ApplicationUnderTest.Mb4Pb2Row.SomeBTag1Info, new RecordItemIndex(3));
             repo.ApplicationUnderTest.Mb4Pb2Row.SomeBTag1.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Search' at Center.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(18));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Search' at Center.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(4));
             repo.ApplicationUnderTest.Search.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'bay{Return}' with focus on 'ApplicationUnderTest.Search'.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(19));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'bay{Return}' with focus on 'ApplicationUnderTest.Search'.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(5));
             repo.ApplicationUnderTest.Search.PressKeys("bay{Return}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtDescriptionOfBusiness' at Center.", repo.ApplicationUnderTest.TxtDescriptionOfBusinessInfo, new RecordItemIndex(20));
-            repo.ApplicationUnderTest.TxtDescriptionOfBusiness.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'test' with focus on 'ApplicationUnderTest.TxtDescriptionOfBusiness'.", repo.ApplicationUnderTest.TxtDescriptionOfBusinessInfo, new RecordItemIndex(21));
-            repo.ApplicationUnderTest.TxtDescriptionOfBusiness.PressKeys("test");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtNameOfInsured' at Center.", repo.ApplicationUnderTest.TxtNameOfInsuredInfo, new RecordItemIndex(22));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtNameOfInsured' at Center.", repo.ApplicationUnderTest.TxtNameOfInsuredInfo, new RecordItemIndex(6));
             repo.ApplicationUnderTest.TxtNameOfInsured.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Down item 'ApplicationUnderTest.TxtNameOfInsured' at Center.", repo.ApplicationUnderTest.TxtNameOfInsuredInfo, new RecordItemIndex(23));
-            repo.ApplicationUnderTest.TxtNameOfInsured.MoveTo();
-            Mouse.ButtonDown(System.Windows.Forms.MouseButtons.Left);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Prath' with focus on 'ApplicationUnderTest.TxtNameOfInsured'.", repo.ApplicationUnderTest.TxtNameOfInsuredInfo, new RecordItemIndex(7));
+            repo.ApplicationUnderTest.TxtNameOfInsured.PressKeys("Prath");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Up item 'ApplicationUnderTest.TxtNameOfInsured' at Center.", repo.ApplicationUnderTest.TxtNameOfInsuredInfo, new RecordItemIndex(24));
-            repo.ApplicationUnderTest.TxtNameOfInsured.MoveTo();
-            Mouse.ButtonUp(System.Windows.Forms.MouseButtons.Left);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtNameOfInsured' at Center.", repo.ApplicationUnderTest.TxtNameOfInsuredInfo, new RecordItemIndex(25));
-            repo.ApplicationUnderTest.TxtNameOfInsured.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}Demo GL' with focus on 'ApplicationUnderTest.TxtNameOfInsured'.", repo.ApplicationUnderTest.TxtNameOfInsuredInfo, new RecordItemIndex(26));
-            repo.ApplicationUnderTest.TxtNameOfInsured.PressKeys("{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}Demo GL");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtIndividualFirstName' at Center.", repo.ApplicationUnderTest.TxtIndividualFirstNameInfo, new RecordItemIndex(27));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtIndividualFirstName' at Center.", repo.ApplicationUnderTest.TxtIndividualFirstNameInfo, new RecordItemIndex(8));
             repo.ApplicationUnderTest.TxtIndividualFirstName.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Test1' with focus on 'ApplicationUnderTest.TxtIndividualFirstName'.", repo.ApplicationUnderTest.TxtIndividualFirstNameInfo, new RecordItemIndex(28));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Test1' with focus on 'ApplicationUnderTest.TxtIndividualFirstName'.", repo.ApplicationUnderTest.TxtIndividualFirstNameInfo, new RecordItemIndex(9));
             repo.ApplicationUnderTest.TxtIndividualFirstName.PressKeys("Test1");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtIndividualLastName' at Center.", repo.ApplicationUnderTest.TxtIndividualLastNameInfo, new RecordItemIndex(29));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtIndividualLastName' at Center.", repo.ApplicationUnderTest.TxtIndividualLastNameInfo, new RecordItemIndex(10));
             repo.ApplicationUnderTest.TxtIndividualLastName.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Test2' with focus on 'ApplicationUnderTest.TxtIndividualLastName'.", repo.ApplicationUnderTest.TxtIndividualLastNameInfo, new RecordItemIndex(30));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Test2' with focus on 'ApplicationUnderTest.TxtIndividualLastName'.", repo.ApplicationUnderTest.TxtIndividualLastNameInfo, new RecordItemIndex(11));
             repo.ApplicationUnderTest.TxtIndividualLastName.PressKeys("Test2");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtDescriptionOfBusiness' at Center.", repo.ApplicationUnderTest.TxtDescriptionOfBusinessInfo, new RecordItemIndex(31));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtDescriptionOfBusiness' at Center.", repo.ApplicationUnderTest.TxtDescriptionOfBusinessInfo, new RecordItemIndex(12));
             repo.ApplicationUnderTest.TxtDescriptionOfBusiness.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}abcd' with focus on 'ApplicationUnderTest.TxtDescriptionOfBusiness'.", repo.ApplicationUnderTest.TxtDescriptionOfBusinessInfo, new RecordItemIndex(32));
-            repo.ApplicationUnderTest.TxtDescriptionOfBusiness.PressKeys("{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}abcd");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'test' with focus on 'ApplicationUnderTest.TxtDescriptionOfBusiness'.", repo.ApplicationUnderTest.TxtDescriptionOfBusinessInfo, new RecordItemIndex(13));
+            repo.ApplicationUnderTest.TxtDescriptionOfBusiness.PressKeys("test");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtYearsInBusiness' at Center.", repo.ApplicationUnderTest.TxtYearsInBusinessInfo, new RecordItemIndex(33));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtYearsInBusiness' at Center.", repo.ApplicationUnderTest.TxtYearsInBusinessInfo, new RecordItemIndex(14));
             repo.ApplicationUnderTest.TxtYearsInBusiness.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '6' with focus on 'ApplicationUnderTest.TxtYearsInBusiness'.", repo.ApplicationUnderTest.TxtYearsInBusinessInfo, new RecordItemIndex(34));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '6' with focus on 'ApplicationUnderTest.TxtYearsInBusiness'.", repo.ApplicationUnderTest.TxtYearsInBusinessInfo, new RecordItemIndex(15));
             repo.ApplicationUnderTest.TxtYearsInBusiness.PressKeys("6");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtClaims' at Center.", repo.ApplicationUnderTest.TxtClaimsInfo, new RecordItemIndex(35));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtClaims' at Center.", repo.ApplicationUnderTest.TxtClaimsInfo, new RecordItemIndex(16));
             repo.ApplicationUnderTest.TxtClaims.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '0' with focus on 'ApplicationUnderTest.TxtClaims'.", repo.ApplicationUnderTest.TxtClaimsInfo, new RecordItemIndex(36));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '0' with focus on 'ApplicationUnderTest.TxtClaims'.", repo.ApplicationUnderTest.TxtClaimsInfo, new RecordItemIndex(17));
             repo.ApplicationUnderTest.TxtClaims.PressKeys("0");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -480 units.", new RecordItemIndex(37));
-            Mouse.ScrollWheel(-480);
-            Delay.Milliseconds(300);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LabelTagNo' at Center.", repo.ApplicationUnderTest.LabelTagNoInfo, new RecordItemIndex(38));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LabelTagNo' at Center.", repo.ApplicationUnderTest.LabelTagNoInfo, new RecordItemIndex(18));
             repo.ApplicationUnderTest.LabelTagNo.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SomeBTag2' at Center.", repo.ApplicationUnderTest.SomeBTag2Info, new RecordItemIndex(39));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SomeBTag2' at Center.", repo.ApplicationUnderTest.SomeBTag2Info, new RecordItemIndex(19));
             repo.ApplicationUnderTest.SomeBTag2.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LShiftKey down}{$ down}{LMenu up}{RMenu up}{LControlKey up}{RControlKey up}{LShiftKey up}{RShiftKey up}' with focus on 'ApplicationUnderTest'.", repo.ApplicationUnderTest.SelfInfo, new RecordItemIndex(40));
-            repo.ApplicationUnderTest.Self.EnsureVisible();
-            Keyboard.Press("{LShiftKey down}{$ down}{LMenu up}{RMenu up}{LControlKey up}{RControlKey up}{LShiftKey up}{RShiftKey up}");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Search' at Center.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(20));
+            repo.ApplicationUnderTest.Search.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Tab up}{LShiftKey up}{LWin up}{RWin up}{LShiftKey down}{RShiftKey up}{LControlKey up}{RControlKey up}{Tab up}{LMenu up}{Tab up}{RMenu up}{Tab up}{LMenu up}{RMenu up}{LControlKey up}{RControlKey up}{LShiftKey up}{RShiftKey up}{Tab up}{LShiftKey}{LWin up}{RWin up}{RShiftKey up}{LControlKey up}{RControlKey up}{Tab up}{LMenu up}{Tab up}{RMenu up}{Tab up}{LMenu up}{RMenu up}{LControlKey up}{RControlKey up}{LShiftKey up}{RShiftKey up}' with focus on 'ApplicationUnderTest'.", repo.ApplicationUnderTest.SelfInfo, new RecordItemIndex(41));
-            repo.ApplicationUnderTest.Self.EnsureVisible();
-            Keyboard.Press("{Tab up}{LShiftKey up}{LWin up}{RWin up}{LShiftKey down}{RShiftKey up}{LControlKey up}{RControlKey up}{Tab up}{LMenu up}{Tab up}{RMenu up}{Tab up}{LMenu up}{RMenu up}{LControlKey up}{RControlKey up}{LShiftKey up}{RShiftKey up}{Tab up}{LShiftKey}{LWin up}{RWin up}{RShiftKey up}{LControlKey up}{RControlKey up}{Tab up}{LMenu up}{Tab up}{RMenu up}{Tab up}{LMenu up}{RMenu up}{LControlKey up}{RControlKey up}{LShiftKey up}{RShiftKey up}");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '$1,000,000/$2,000,000{Return}' with focus on 'ApplicationUnderTest.Search'.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(21));
+            repo.ApplicationUnderTest.Search.PressKeys("$1,000,000/$2,000,000{Return}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Tab up}{LShiftKey up}{LShiftKey down}{RShiftKey up}{LControlKey up}{RControlKey up}{Tab up}{LMenu up}{Tab up}{RMenu up}{Tab up}{Tab up}{LShiftKey up}{LShiftKey down}{RShiftKey up}{LControlKey up}{RControlKey up}{Tab up}{LMenu up}{Tab up}{RMenu up}{Tab up}{Tab up}{LShiftKey up}{LShiftKey down}{RShiftKey up}{LControlKey up}{RControlKey up}{Tab up}{LMenu up}{Tab up}{RMenu up}{Tab up}{Tab up}{LShiftKey up}{LShiftKey down}{RShiftKey up}{LControlKey up}{RControlKey up}{Tab up}{LMenu up}{Tab up}{RMenu up}{Tab up}{Tab up}{LShiftKey up}{LShiftKey down}{RShiftKey up}{LControlKey up}{RControlKey up}{Tab up}{LMenu up}{Tab up}{RMenu up}{Tab up}' with focus on 'ApplicationUnderTest'.", repo.ApplicationUnderTest.SelfInfo, new RecordItemIndex(42));
-            repo.ApplicationUnderTest.Self.EnsureVisible();
-            Keyboard.Press("{Tab up}{LShiftKey up}{LShiftKey down}{RShiftKey up}{LControlKey up}{RControlKey up}{Tab up}{LMenu up}{Tab up}{RMenu up}{Tab up}{Tab up}{LShiftKey up}{LShiftKey down}{RShiftKey up}{LControlKey up}{RControlKey up}{Tab up}{LMenu up}{Tab up}{RMenu up}{Tab up}{Tab up}{LShiftKey up}{LShiftKey down}{RShiftKey up}{LControlKey up}{RControlKey up}{Tab up}{LMenu up}{Tab up}{RMenu up}{Tab up}{Tab up}{LShiftKey up}{LShiftKey down}{RShiftKey up}{LControlKey up}{RControlKey up}{Tab up}{LMenu up}{Tab up}{RMenu up}{Tab up}{Tab up}{LShiftKey up}{LShiftKey down}{RShiftKey up}{LControlKey up}{RControlKey up}{Tab up}{LMenu up}{Tab up}{RMenu up}{Tab up}");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BgGreyBorderBorderBottomBorderWhi.SomeBTag' at Center.", repo.ApplicationUnderTest.BgGreyBorderBorderBottomBorderWhi.SomeBTagInfo, new RecordItemIndex(22));
+            repo.ApplicationUnderTest.BgGreyBorderBorderBottomBorderWhi.SomeBTag.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Search' at Center.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(23));
+            repo.ApplicationUnderTest.Search.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '$500{Return}' with focus on 'ApplicationUnderTest.Search'.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(24));
+            repo.ApplicationUnderTest.Search.PressKeys("$500{Return}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BgGreyBorderBorderBottomBorderWhi.LabelTagYes' at Center.", repo.ApplicationUnderTest.BgGreyBorderBorderBottomBorderWhi.LabelTagYesInfo, new RecordItemIndex(25));
+            repo.ApplicationUnderTest.BgGreyBorderBorderBottomBorderWhi.LabelTagYes.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BgGreyBorderBorderBottomBorderWhi.LabelTagYes1' at Center.", repo.ApplicationUnderTest.BgGreyBorderBorderBottomBorderWhi.LabelTagYes1Info, new RecordItemIndex(26));
+            repo.ApplicationUnderTest.BgGreyBorderBorderBottomBorderWhi.LabelTagYes1.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtNoofLocation' at Center.", repo.ApplicationUnderTest.TxtNoofLocationInfo, new RecordItemIndex(27));
+            repo.ApplicationUnderTest.TxtNoofLocation.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '0' on item 'ApplicationUnderTest.TxtNoofLocation'.", repo.ApplicationUnderTest.TxtNoofLocationInfo, new RecordItemIndex(28));
+            repo.ApplicationUnderTest.TxtNoofLocation.Element.SetAttributeValue("Value", "0");
+            Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '0' with focus on 'ApplicationUnderTest.TxtNoofLocation'.", repo.ApplicationUnderTest.TxtNoofLocationInfo, new RecordItemIndex(29));
+            //repo.ApplicationUnderTest.TxtNoofLocation.PressKeys("0");
+            //Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtNoofProject' at Center.", repo.ApplicationUnderTest.TxtNoofProjectInfo, new RecordItemIndex(30));
+            repo.ApplicationUnderTest.TxtNoofProject.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '0' on item 'ApplicationUnderTest.TxtNoofProject'.", repo.ApplicationUnderTest.TxtNoofProjectInfo, new RecordItemIndex(31));
+            repo.ApplicationUnderTest.TxtNoofProject.Element.SetAttributeValue("Value", "0");
+            Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '0' with focus on 'ApplicationUnderTest.TxtNoofProject'.", repo.ApplicationUnderTest.TxtNoofProjectInfo, new RecordItemIndex(32));
+            //repo.ApplicationUnderTest.TxtNoofProject.PressKeys("0");
+            //Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BgGreyBorderBorderBottomBorderWhi.LabelTagYes2' at Center.", repo.ApplicationUnderTest.BgGreyBorderBorderBottomBorderWhi.LabelTagYes2Info, new RecordItemIndex(33));
+            repo.ApplicationUnderTest.BgGreyBorderBorderBottomBorderWhi.LabelTagYes2.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnSubmitRI' at Center.", repo.ApplicationUnderTest.BtnSubmitRIInfo, new RecordItemIndex(34));
+            repo.ApplicationUnderTest.BtnSubmitRI.Click();
             Delay.Milliseconds(0);
             
         }
