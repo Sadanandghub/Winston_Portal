@@ -219,6 +219,9 @@ namespace Winston_Agent_Portal
             repo.ApplicationUnderTest.BtnSubmitRI.Click();
             Delay.Milliseconds(0);
             
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1m.", new RecordItemIndex(35));
+            Delay.Duration(60000, false);
+            
         }
 
 #region Image Feature Data

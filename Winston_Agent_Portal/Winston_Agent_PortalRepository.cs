@@ -156,6 +156,46 @@ namespace Winston_Agent_Portal
             RepoItemInfo _txtnooflocationInfo;
             RepoItemInfo _txtnoofprojectInfo;
             RepoItemInfo _btnsubmitriInfo;
+            RepoItemInfo _select2ddlclassificationcontainerInfo;
+            RepoItemInfo _btnaddclassificationInfo;
+            RepoItemInfo _percentageInfo;
+            RepoItemInfo _expectedgrossreceiptsInfo;
+            RepoItemInfo _insuredsubcontractorscostInfo;
+            RepoItemInfo _collg12colmd12colsm12pt2Info;
+            RepoItemInfo _insuredsubcontractorsoperationsInfo;
+            RepoItemInfo _select2ddlclasscodescontainerInfo;
+            RepoItemInfo _btnaddclasscodeInfo;
+            RepoItemInfo _percentage1Info;
+            RepoItemInfo _fulladmempInfo;
+            RepoItemInfo _partadmempInfo;
+            RepoItemInfo _totadmpayrollInfo;
+            RepoItemInfo _fullsalesempInfo;
+            RepoItemInfo _partsalesempInfo;
+            RepoItemInfo _totsalespayrollInfo;
+            RepoItemInfo _fullpartnersInfo;
+            RepoItemInfo _partpartnersInfo;
+            RepoItemInfo _fullotherempInfo;
+            RepoItemInfo _partotherempInfo;
+            RepoItemInfo _tototherpayrollInfo;
+            RepoItemInfo _btncontinueInfo;
+            RepoItemInfo _activeownervalueInfo;
+            RepoItemInfo _totalvalueInfo;
+            RepoItemInfo _labelcheckboxInfo;
+            RepoItemInfo _labelcheckbox1Info;
+            RepoItemInfo _textInfo;
+            RepoItemInfo _text1Info;
+            RepoItemInfo _text2Info;
+            RepoItemInfo _text3Info;
+            RepoItemInfo _text4Info;
+            RepoItemInfo _text5Info;
+            RepoItemInfo _text6Info;
+            RepoItemInfo _text7Info;
+            RepoItemInfo _text8Info;
+            RepoItemInfo _text9Info;
+            RepoItemInfo _text10Info;
+            RepoItemInfo _labelcheckbox2Info;
+            RepoItemInfo _btnsaveandcontinueInfo;
+            RepoItemInfo _fcg1002checkboxInfo;
 
             /// <summary>
             /// Creates a new ApplicationUnderTest  folder.
@@ -189,6 +229,46 @@ namespace Winston_Agent_Portal
                 _txtnooflocationInfo = new RepoItemInfo(this, "TxtNoofLocation", ".//input[#'txtNoofLocation']", 30000, null, "e1583205-7a75-4456-bffa-3a9d775c746f");
                 _txtnoofprojectInfo = new RepoItemInfo(this, "TxtNoofProject", ".//input[#'txtNoofProject']", 30000, null, "5ee9c9fd-3385-489c-9957-0aa370fc70c0");
                 _btnsubmitriInfo = new RepoItemInfo(this, "BtnSubmitRI", ".//input[#'btnSubmitRI']", 30000, null, "0e501700-257f-47f3-b032-6e6fc946cc8b");
+                _select2ddlclassificationcontainerInfo = new RepoItemInfo(this, "Select2DdlClassificationContainer", ".//span[#'select2-ddlClassification-container']", 30000, null, "43324844-4a89-423b-91d9-74e86ee77ad6");
+                _btnaddclassificationInfo = new RepoItemInfo(this, "BtnAddClassification", ".//button[#'btnAddClassification']", 30000, null, "7c60111a-d5dd-4ac1-938b-6872a6b2c314");
+                _percentageInfo = new RepoItemInfo(this, "Percentage", ".//table[#'ClassificationGrid']/tbody/tr/td[3]/input[@name='percentage']", 30000, null, "f01745ac-67e9-4e34-900e-6b95dbc51b77");
+                _expectedgrossreceiptsInfo = new RepoItemInfo(this, "ExpectedGrossReceipts", ".//input[#'expectedGrossReceipts']", 30000, null, "decf05d6-3116-493b-99db-cb2435514d89");
+                _insuredsubcontractorscostInfo = new RepoItemInfo(this, "InsuredSubcontractorsCost", ".//input[#'insuredSubcontractorsCost']", 30000, null, "5c80b600-3ae4-42f6-b415-d148fac466c5");
+                _collg12colmd12colsm12pt2Info = new RepoItemInfo(this, "ColLg12ColMd12ColSm12Pt2", ".//div[#'DVCP']/div/div/div[3]/div/div[6]/div", 30000, null, "7babae39-b1d5-4653-96ae-e1e33d58656c");
+                _insuredsubcontractorsoperationsInfo = new RepoItemInfo(this, "InsuredSubcontractorsOperations", ".//input[#'insuredSubcontractorsOperations']", 30000, null, "87697e81-6c0b-4c1a-aebe-bddd47f51035");
+                _select2ddlclasscodescontainerInfo = new RepoItemInfo(this, "Select2DdlClassCodesContainer", ".//span[#'select2-ddlClassCodes-container']", 30000, null, "e67d3504-e5e1-4da4-8610-36e73a2a1a7c");
+                _btnaddclasscodeInfo = new RepoItemInfo(this, "BtnAddClassCode", ".//button[#'btnAddClassCode']", 30000, null, "4c946563-6987-41c5-b5dc-e01195250e4b");
+                _percentage1Info = new RepoItemInfo(this, "Percentage1", ".//table[#'ClassCodeGrid']/tbody/tr/td[3]/input[@name='percentage']", 30000, null, "b85928a3-fff3-40fa-8eee-56a05fe9c5c5");
+                _fulladmempInfo = new RepoItemInfo(this, "FullAdmEmp", ".//input[#'fullAdmEmp']", 30000, null, "9c19ce70-0076-4a11-98f4-9e18bef2a572");
+                _partadmempInfo = new RepoItemInfo(this, "PartAdmEmp", ".//input[#'partAdmEmp']", 30000, null, "91f1d5d9-5dd9-4125-bc18-c9f95f2169cd");
+                _totadmpayrollInfo = new RepoItemInfo(this, "TotAdmPayroll", ".//input[#'totAdmPayroll']", 30000, null, "b0099066-26c2-4602-8e94-ce159e2d1c6d");
+                _fullsalesempInfo = new RepoItemInfo(this, "FullSalesEmp", ".//input[#'fullSalesEmp']", 30000, null, "887c5bcc-5cbe-4687-b69f-cdf50d74c523");
+                _partsalesempInfo = new RepoItemInfo(this, "PartSalesEmp", ".//input[#'partSalesEmp']", 30000, null, "bd3c23ed-152a-4787-b9fc-23cb95df82a9");
+                _totsalespayrollInfo = new RepoItemInfo(this, "TotSalesPayroll", ".//input[#'totSalesPayroll']", 30000, null, "f48d404a-6b5a-459f-a09b-a466c2d8ce1e");
+                _fullpartnersInfo = new RepoItemInfo(this, "FullPartners", ".//input[#'fullPartners']", 30000, null, "6c699fbb-bb2f-4ed0-a028-6395de80b462");
+                _partpartnersInfo = new RepoItemInfo(this, "PartPartners", ".//input[#'partPartners']", 30000, null, "dbece0f6-2442-4d68-b99b-89e26be02aff");
+                _fullotherempInfo = new RepoItemInfo(this, "FullOtherEmp", ".//input[#'fullOtherEmp']", 30000, null, "196f6018-2690-4915-be4a-5c6f6aa5288e");
+                _partotherempInfo = new RepoItemInfo(this, "PartOtherEmp", ".//input[#'partOtherEmp']", 30000, null, "612f3bd9-48d0-4fb4-b7db-55867be068ba");
+                _tototherpayrollInfo = new RepoItemInfo(this, "TotOtherPayroll", ".//input[#'totOtherPayroll']", 30000, null, "c5bb66b2-97ab-4135-831a-823f77106d99");
+                _btncontinueInfo = new RepoItemInfo(this, "BtnContinue", ".//input[#'btnContinue']", 30000, null, "7d72091a-5486-44c4-96d2-2b2c5c80d913");
+                _activeownervalueInfo = new RepoItemInfo(this, "ActiveOwnerValue", ".//input[#'totPartnersPayroll']", 30000, null, "a8ccd088-169f-4bba-bd71-7b6f403f21b4");
+                _totalvalueInfo = new RepoItemInfo(this, "TotalValue", ".//input[#'totPayroll']", 30000, null, "5e23acc7-3a7a-4ec3-8517-e29a6b591562");
+                _labelcheckboxInfo = new RepoItemInfo(this, "Labelcheckbox", ".//tbody[#'Automatictbl']/tr[2]//label", 30000, null, "ddbe08ec-29ac-4397-90d6-8cc4e084781f");
+                _labelcheckbox1Info = new RepoItemInfo(this, "Labelcheckbox1", ".//tbody[#'Automatictbl']/tr[3]//label", 30000, null, "502d6eec-13ae-49da-80e8-3f08700740d1");
+                _textInfo = new RepoItemInfo(this, "Text", ".//tbody[#'commonIndvtbl']//input[@type='text']", 30000, null, "576689c8-574c-4caf-ab26-ba1ae1c82375");
+                _text1Info = new RepoItemInfo(this, "Text1", ".//tbody[#'commonIndvtbl']/tr[2]/td[1]/input[@type='text']", 30000, null, "217638d0-dd55-4251-8b8f-d7f22de2f7a7");
+                _text2Info = new RepoItemInfo(this, "Text2", ".//tbody[#'commonIndvtbl']/tr[3]/td[1]/input[@type='text']", 30000, null, "f6abcf5d-1478-4015-ade1-c87e9e0cbfdf");
+                _text3Info = new RepoItemInfo(this, "Text3", ".//tbody[#'commonIndvtbl']/tr[4]/td[1]/input[@type='text']", 30000, null, "f2a96ab8-f42a-40fd-9331-2d7ca59cf9b6");
+                _text4Info = new RepoItemInfo(this, "Text4", ".//tbody[#'OtherAdditional']//input[@type='text']", 30000, null, "a1d5bb55-c73e-4de7-a666-1851b0867e3b");
+                _text5Info = new RepoItemInfo(this, "Text5", ".//tbody[#'OtherAdditional']/tr[2]/td[1]/input[@type='text']", 30000, null, "7a27d0a8-63cb-445a-82ec-441a15edae1e");
+                _text6Info = new RepoItemInfo(this, "Text6", ".//tbody[#'OtherAdditional']/tr[3]/td[1]/input[@type='text']", 30000, null, "01de28b7-3374-407c-9a63-a19d4b311f07");
+                _text7Info = new RepoItemInfo(this, "Text7", ".//tbody[#'OtherAdditional']/tr[4]/td[1]/input[@type='text']", 30000, null, "0fb2fbe1-4c42-43e9-b6f0-4a92af164632");
+                _text8Info = new RepoItemInfo(this, "Text8", ".//tbody[#'OtherAdditional']/tr[6]/td[1]/input[@type='text']", 30000, null, "5806982d-2694-4a1e-b9f6-b3b61d24d33c");
+                _text9Info = new RepoItemInfo(this, "Text9", ".//tbody[#'OtherAdditional']/tr[7]/td[1]/input[@type='text']", 30000, null, "820058cd-f2a5-439b-a9eb-e962253b7b7f");
+                _text10Info = new RepoItemInfo(this, "Text10", ".//tbody[#'OtherAdditional']/tr[8]/td[1]/input[@type='text']", 30000, null, "84f357c9-246a-4d01-9dd7-5ae22a0eccce");
+                _labelcheckbox2Info = new RepoItemInfo(this, "Labelcheckbox2", ".//tbody[#'OtherAdditional']/tr[9]//label", 30000, null, "f958ae69-bd3e-4928-afc3-69e1fbf1f28d");
+                _btnsaveandcontinueInfo = new RepoItemInfo(this, "BtnSaveandContinue", ".//input[#'btnSaveandContinue']", 30000, null, "ecd0aecf-55a2-49aa-8087-b656046ab56c");
+                _fcg1002checkboxInfo = new RepoItemInfo(this, "fcg1002checkbox", ".//tbody[#'Automatictbl']/tr[1]//input[@name='check']", 30000, null, "11a403e7-8085-489a-b150-6a6e9522d1d1");
             }
 
             /// <summary>
@@ -764,6 +844,966 @@ namespace Winston_Agent_Portal
                 get
                 {
                     return _btnsubmitriInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Select2DdlClassificationContainer item.
+            /// </summary>
+            [RepositoryItem("43324844-4a89-423b-91d9-74e86ee77ad6")]
+            public virtual Ranorex.SpanTag Select2DdlClassificationContainer
+            {
+                get
+                {
+                    return _select2ddlclassificationcontainerInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Select2DdlClassificationContainer item info.
+            /// </summary>
+            [RepositoryItemInfo("43324844-4a89-423b-91d9-74e86ee77ad6")]
+            public virtual RepoItemInfo Select2DdlClassificationContainerInfo
+            {
+                get
+                {
+                    return _select2ddlclassificationcontainerInfo;
+                }
+            }
+
+            /// <summary>
+            /// The BtnAddClassification item.
+            /// </summary>
+            [RepositoryItem("7c60111a-d5dd-4ac1-938b-6872a6b2c314")]
+            public virtual Ranorex.ButtonTag BtnAddClassification
+            {
+                get
+                {
+                    return _btnaddclassificationInfo.CreateAdapter<Ranorex.ButtonTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The BtnAddClassification item info.
+            /// </summary>
+            [RepositoryItemInfo("7c60111a-d5dd-4ac1-938b-6872a6b2c314")]
+            public virtual RepoItemInfo BtnAddClassificationInfo
+            {
+                get
+                {
+                    return _btnaddclassificationInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Percentage item.
+            /// </summary>
+            [RepositoryItem("f01745ac-67e9-4e34-900e-6b95dbc51b77")]
+            public virtual Ranorex.InputTag Percentage
+            {
+                get
+                {
+                    return _percentageInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Percentage item info.
+            /// </summary>
+            [RepositoryItemInfo("f01745ac-67e9-4e34-900e-6b95dbc51b77")]
+            public virtual RepoItemInfo PercentageInfo
+            {
+                get
+                {
+                    return _percentageInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ExpectedGrossReceipts item.
+            /// </summary>
+            [RepositoryItem("decf05d6-3116-493b-99db-cb2435514d89")]
+            public virtual Ranorex.InputTag ExpectedGrossReceipts
+            {
+                get
+                {
+                    return _expectedgrossreceiptsInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ExpectedGrossReceipts item info.
+            /// </summary>
+            [RepositoryItemInfo("decf05d6-3116-493b-99db-cb2435514d89")]
+            public virtual RepoItemInfo ExpectedGrossReceiptsInfo
+            {
+                get
+                {
+                    return _expectedgrossreceiptsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The InsuredSubcontractorsCost item.
+            /// </summary>
+            [RepositoryItem("5c80b600-3ae4-42f6-b415-d148fac466c5")]
+            public virtual Ranorex.InputTag InsuredSubcontractorsCost
+            {
+                get
+                {
+                    return _insuredsubcontractorscostInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The InsuredSubcontractorsCost item info.
+            /// </summary>
+            [RepositoryItemInfo("5c80b600-3ae4-42f6-b415-d148fac466c5")]
+            public virtual RepoItemInfo InsuredSubcontractorsCostInfo
+            {
+                get
+                {
+                    return _insuredsubcontractorscostInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ColLg12ColMd12ColSm12Pt2 item.
+            /// </summary>
+            [RepositoryItem("7babae39-b1d5-4653-96ae-e1e33d58656c")]
+            public virtual Ranorex.DivTag ColLg12ColMd12ColSm12Pt2
+            {
+                get
+                {
+                    return _collg12colmd12colsm12pt2Info.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ColLg12ColMd12ColSm12Pt2 item info.
+            /// </summary>
+            [RepositoryItemInfo("7babae39-b1d5-4653-96ae-e1e33d58656c")]
+            public virtual RepoItemInfo ColLg12ColMd12ColSm12Pt2Info
+            {
+                get
+                {
+                    return _collg12colmd12colsm12pt2Info;
+                }
+            }
+
+            /// <summary>
+            /// The InsuredSubcontractorsOperations item.
+            /// </summary>
+            [RepositoryItem("87697e81-6c0b-4c1a-aebe-bddd47f51035")]
+            public virtual Ranorex.InputTag InsuredSubcontractorsOperations
+            {
+                get
+                {
+                    return _insuredsubcontractorsoperationsInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The InsuredSubcontractorsOperations item info.
+            /// </summary>
+            [RepositoryItemInfo("87697e81-6c0b-4c1a-aebe-bddd47f51035")]
+            public virtual RepoItemInfo InsuredSubcontractorsOperationsInfo
+            {
+                get
+                {
+                    return _insuredsubcontractorsoperationsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Select2DdlClassCodesContainer item.
+            /// </summary>
+            [RepositoryItem("e67d3504-e5e1-4da4-8610-36e73a2a1a7c")]
+            public virtual Ranorex.SpanTag Select2DdlClassCodesContainer
+            {
+                get
+                {
+                    return _select2ddlclasscodescontainerInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Select2DdlClassCodesContainer item info.
+            /// </summary>
+            [RepositoryItemInfo("e67d3504-e5e1-4da4-8610-36e73a2a1a7c")]
+            public virtual RepoItemInfo Select2DdlClassCodesContainerInfo
+            {
+                get
+                {
+                    return _select2ddlclasscodescontainerInfo;
+                }
+            }
+
+            /// <summary>
+            /// The BtnAddClassCode item.
+            /// </summary>
+            [RepositoryItem("4c946563-6987-41c5-b5dc-e01195250e4b")]
+            public virtual Ranorex.ButtonTag BtnAddClassCode
+            {
+                get
+                {
+                    return _btnaddclasscodeInfo.CreateAdapter<Ranorex.ButtonTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The BtnAddClassCode item info.
+            /// </summary>
+            [RepositoryItemInfo("4c946563-6987-41c5-b5dc-e01195250e4b")]
+            public virtual RepoItemInfo BtnAddClassCodeInfo
+            {
+                get
+                {
+                    return _btnaddclasscodeInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Percentage1 item.
+            /// </summary>
+            [RepositoryItem("b85928a3-fff3-40fa-8eee-56a05fe9c5c5")]
+            public virtual Ranorex.InputTag Percentage1
+            {
+                get
+                {
+                    return _percentage1Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Percentage1 item info.
+            /// </summary>
+            [RepositoryItemInfo("b85928a3-fff3-40fa-8eee-56a05fe9c5c5")]
+            public virtual RepoItemInfo Percentage1Info
+            {
+                get
+                {
+                    return _percentage1Info;
+                }
+            }
+
+            /// <summary>
+            /// The FullAdmEmp item.
+            /// </summary>
+            [RepositoryItem("9c19ce70-0076-4a11-98f4-9e18bef2a572")]
+            public virtual Ranorex.InputTag FullAdmEmp
+            {
+                get
+                {
+                    return _fulladmempInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FullAdmEmp item info.
+            /// </summary>
+            [RepositoryItemInfo("9c19ce70-0076-4a11-98f4-9e18bef2a572")]
+            public virtual RepoItemInfo FullAdmEmpInfo
+            {
+                get
+                {
+                    return _fulladmempInfo;
+                }
+            }
+
+            /// <summary>
+            /// The PartAdmEmp item.
+            /// </summary>
+            [RepositoryItem("91f1d5d9-5dd9-4125-bc18-c9f95f2169cd")]
+            public virtual Ranorex.InputTag PartAdmEmp
+            {
+                get
+                {
+                    return _partadmempInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PartAdmEmp item info.
+            /// </summary>
+            [RepositoryItemInfo("91f1d5d9-5dd9-4125-bc18-c9f95f2169cd")]
+            public virtual RepoItemInfo PartAdmEmpInfo
+            {
+                get
+                {
+                    return _partadmempInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TotAdmPayroll item.
+            /// </summary>
+            [RepositoryItem("b0099066-26c2-4602-8e94-ce159e2d1c6d")]
+            public virtual Ranorex.InputTag TotAdmPayroll
+            {
+                get
+                {
+                    return _totadmpayrollInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TotAdmPayroll item info.
+            /// </summary>
+            [RepositoryItemInfo("b0099066-26c2-4602-8e94-ce159e2d1c6d")]
+            public virtual RepoItemInfo TotAdmPayrollInfo
+            {
+                get
+                {
+                    return _totadmpayrollInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FullSalesEmp item.
+            /// </summary>
+            [RepositoryItem("887c5bcc-5cbe-4687-b69f-cdf50d74c523")]
+            public virtual Ranorex.InputTag FullSalesEmp
+            {
+                get
+                {
+                    return _fullsalesempInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FullSalesEmp item info.
+            /// </summary>
+            [RepositoryItemInfo("887c5bcc-5cbe-4687-b69f-cdf50d74c523")]
+            public virtual RepoItemInfo FullSalesEmpInfo
+            {
+                get
+                {
+                    return _fullsalesempInfo;
+                }
+            }
+
+            /// <summary>
+            /// The PartSalesEmp item.
+            /// </summary>
+            [RepositoryItem("bd3c23ed-152a-4787-b9fc-23cb95df82a9")]
+            public virtual Ranorex.InputTag PartSalesEmp
+            {
+                get
+                {
+                    return _partsalesempInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PartSalesEmp item info.
+            /// </summary>
+            [RepositoryItemInfo("bd3c23ed-152a-4787-b9fc-23cb95df82a9")]
+            public virtual RepoItemInfo PartSalesEmpInfo
+            {
+                get
+                {
+                    return _partsalesempInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TotSalesPayroll item.
+            /// </summary>
+            [RepositoryItem("f48d404a-6b5a-459f-a09b-a466c2d8ce1e")]
+            public virtual Ranorex.InputTag TotSalesPayroll
+            {
+                get
+                {
+                    return _totsalespayrollInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TotSalesPayroll item info.
+            /// </summary>
+            [RepositoryItemInfo("f48d404a-6b5a-459f-a09b-a466c2d8ce1e")]
+            public virtual RepoItemInfo TotSalesPayrollInfo
+            {
+                get
+                {
+                    return _totsalespayrollInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FullPartners item.
+            /// </summary>
+            [RepositoryItem("6c699fbb-bb2f-4ed0-a028-6395de80b462")]
+            public virtual Ranorex.InputTag FullPartners
+            {
+                get
+                {
+                    return _fullpartnersInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FullPartners item info.
+            /// </summary>
+            [RepositoryItemInfo("6c699fbb-bb2f-4ed0-a028-6395de80b462")]
+            public virtual RepoItemInfo FullPartnersInfo
+            {
+                get
+                {
+                    return _fullpartnersInfo;
+                }
+            }
+
+            /// <summary>
+            /// The PartPartners item.
+            /// </summary>
+            [RepositoryItem("dbece0f6-2442-4d68-b99b-89e26be02aff")]
+            public virtual Ranorex.InputTag PartPartners
+            {
+                get
+                {
+                    return _partpartnersInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PartPartners item info.
+            /// </summary>
+            [RepositoryItemInfo("dbece0f6-2442-4d68-b99b-89e26be02aff")]
+            public virtual RepoItemInfo PartPartnersInfo
+            {
+                get
+                {
+                    return _partpartnersInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FullOtherEmp item.
+            /// </summary>
+            [RepositoryItem("196f6018-2690-4915-be4a-5c6f6aa5288e")]
+            public virtual Ranorex.InputTag FullOtherEmp
+            {
+                get
+                {
+                    return _fullotherempInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FullOtherEmp item info.
+            /// </summary>
+            [RepositoryItemInfo("196f6018-2690-4915-be4a-5c6f6aa5288e")]
+            public virtual RepoItemInfo FullOtherEmpInfo
+            {
+                get
+                {
+                    return _fullotherempInfo;
+                }
+            }
+
+            /// <summary>
+            /// The PartOtherEmp item.
+            /// </summary>
+            [RepositoryItem("612f3bd9-48d0-4fb4-b7db-55867be068ba")]
+            public virtual Ranorex.InputTag PartOtherEmp
+            {
+                get
+                {
+                    return _partotherempInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PartOtherEmp item info.
+            /// </summary>
+            [RepositoryItemInfo("612f3bd9-48d0-4fb4-b7db-55867be068ba")]
+            public virtual RepoItemInfo PartOtherEmpInfo
+            {
+                get
+                {
+                    return _partotherempInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TotOtherPayroll item.
+            /// </summary>
+            [RepositoryItem("c5bb66b2-97ab-4135-831a-823f77106d99")]
+            public virtual Ranorex.InputTag TotOtherPayroll
+            {
+                get
+                {
+                    return _tototherpayrollInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TotOtherPayroll item info.
+            /// </summary>
+            [RepositoryItemInfo("c5bb66b2-97ab-4135-831a-823f77106d99")]
+            public virtual RepoItemInfo TotOtherPayrollInfo
+            {
+                get
+                {
+                    return _tototherpayrollInfo;
+                }
+            }
+
+            /// <summary>
+            /// The BtnContinue item.
+            /// </summary>
+            [RepositoryItem("7d72091a-5486-44c4-96d2-2b2c5c80d913")]
+            public virtual Ranorex.InputTag BtnContinue
+            {
+                get
+                {
+                    return _btncontinueInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The BtnContinue item info.
+            /// </summary>
+            [RepositoryItemInfo("7d72091a-5486-44c4-96d2-2b2c5c80d913")]
+            public virtual RepoItemInfo BtnContinueInfo
+            {
+                get
+                {
+                    return _btncontinueInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ActiveOwnerValue item.
+            /// </summary>
+            [RepositoryItem("a8ccd088-169f-4bba-bd71-7b6f403f21b4")]
+            public virtual Ranorex.InputTag ActiveOwnerValue
+            {
+                get
+                {
+                    return _activeownervalueInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ActiveOwnerValue item info.
+            /// </summary>
+            [RepositoryItemInfo("a8ccd088-169f-4bba-bd71-7b6f403f21b4")]
+            public virtual RepoItemInfo ActiveOwnerValueInfo
+            {
+                get
+                {
+                    return _activeownervalueInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TotalValue item.
+            /// </summary>
+            [RepositoryItem("5e23acc7-3a7a-4ec3-8517-e29a6b591562")]
+            public virtual Ranorex.InputTag TotalValue
+            {
+                get
+                {
+                    return _totalvalueInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TotalValue item info.
+            /// </summary>
+            [RepositoryItemInfo("5e23acc7-3a7a-4ec3-8517-e29a6b591562")]
+            public virtual RepoItemInfo TotalValueInfo
+            {
+                get
+                {
+                    return _totalvalueInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Labelcheckbox item.
+            /// </summary>
+            [RepositoryItem("ddbe08ec-29ac-4397-90d6-8cc4e084781f")]
+            public virtual Ranorex.LabelTag Labelcheckbox
+            {
+                get
+                {
+                    return _labelcheckboxInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Labelcheckbox item info.
+            /// </summary>
+            [RepositoryItemInfo("ddbe08ec-29ac-4397-90d6-8cc4e084781f")]
+            public virtual RepoItemInfo LabelcheckboxInfo
+            {
+                get
+                {
+                    return _labelcheckboxInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Labelcheckbox1 item.
+            /// </summary>
+            [RepositoryItem("502d6eec-13ae-49da-80e8-3f08700740d1")]
+            public virtual Ranorex.LabelTag Labelcheckbox1
+            {
+                get
+                {
+                    return _labelcheckbox1Info.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Labelcheckbox1 item info.
+            /// </summary>
+            [RepositoryItemInfo("502d6eec-13ae-49da-80e8-3f08700740d1")]
+            public virtual RepoItemInfo Labelcheckbox1Info
+            {
+                get
+                {
+                    return _labelcheckbox1Info;
+                }
+            }
+
+            /// <summary>
+            /// The Text item.
+            /// </summary>
+            [RepositoryItem("576689c8-574c-4caf-ab26-ba1ae1c82375")]
+            public virtual Ranorex.InputTag Text
+            {
+                get
+                {
+                    return _textInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Text item info.
+            /// </summary>
+            [RepositoryItemInfo("576689c8-574c-4caf-ab26-ba1ae1c82375")]
+            public virtual RepoItemInfo TextInfo
+            {
+                get
+                {
+                    return _textInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Text1 item.
+            /// </summary>
+            [RepositoryItem("217638d0-dd55-4251-8b8f-d7f22de2f7a7")]
+            public virtual Ranorex.InputTag Text1
+            {
+                get
+                {
+                    return _text1Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Text1 item info.
+            /// </summary>
+            [RepositoryItemInfo("217638d0-dd55-4251-8b8f-d7f22de2f7a7")]
+            public virtual RepoItemInfo Text1Info
+            {
+                get
+                {
+                    return _text1Info;
+                }
+            }
+
+            /// <summary>
+            /// The Text2 item.
+            /// </summary>
+            [RepositoryItem("f6abcf5d-1478-4015-ade1-c87e9e0cbfdf")]
+            public virtual Ranorex.InputTag Text2
+            {
+                get
+                {
+                    return _text2Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Text2 item info.
+            /// </summary>
+            [RepositoryItemInfo("f6abcf5d-1478-4015-ade1-c87e9e0cbfdf")]
+            public virtual RepoItemInfo Text2Info
+            {
+                get
+                {
+                    return _text2Info;
+                }
+            }
+
+            /// <summary>
+            /// The Text3 item.
+            /// </summary>
+            [RepositoryItem("f2a96ab8-f42a-40fd-9331-2d7ca59cf9b6")]
+            public virtual Ranorex.InputTag Text3
+            {
+                get
+                {
+                    return _text3Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Text3 item info.
+            /// </summary>
+            [RepositoryItemInfo("f2a96ab8-f42a-40fd-9331-2d7ca59cf9b6")]
+            public virtual RepoItemInfo Text3Info
+            {
+                get
+                {
+                    return _text3Info;
+                }
+            }
+
+            /// <summary>
+            /// The Text4 item.
+            /// </summary>
+            [RepositoryItem("a1d5bb55-c73e-4de7-a666-1851b0867e3b")]
+            public virtual Ranorex.InputTag Text4
+            {
+                get
+                {
+                    return _text4Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Text4 item info.
+            /// </summary>
+            [RepositoryItemInfo("a1d5bb55-c73e-4de7-a666-1851b0867e3b")]
+            public virtual RepoItemInfo Text4Info
+            {
+                get
+                {
+                    return _text4Info;
+                }
+            }
+
+            /// <summary>
+            /// The Text5 item.
+            /// </summary>
+            [RepositoryItem("7a27d0a8-63cb-445a-82ec-441a15edae1e")]
+            public virtual Ranorex.InputTag Text5
+            {
+                get
+                {
+                    return _text5Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Text5 item info.
+            /// </summary>
+            [RepositoryItemInfo("7a27d0a8-63cb-445a-82ec-441a15edae1e")]
+            public virtual RepoItemInfo Text5Info
+            {
+                get
+                {
+                    return _text5Info;
+                }
+            }
+
+            /// <summary>
+            /// The Text6 item.
+            /// </summary>
+            [RepositoryItem("01de28b7-3374-407c-9a63-a19d4b311f07")]
+            public virtual Ranorex.InputTag Text6
+            {
+                get
+                {
+                    return _text6Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Text6 item info.
+            /// </summary>
+            [RepositoryItemInfo("01de28b7-3374-407c-9a63-a19d4b311f07")]
+            public virtual RepoItemInfo Text6Info
+            {
+                get
+                {
+                    return _text6Info;
+                }
+            }
+
+            /// <summary>
+            /// The Text7 item.
+            /// </summary>
+            [RepositoryItem("0fb2fbe1-4c42-43e9-b6f0-4a92af164632")]
+            public virtual Ranorex.InputTag Text7
+            {
+                get
+                {
+                    return _text7Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Text7 item info.
+            /// </summary>
+            [RepositoryItemInfo("0fb2fbe1-4c42-43e9-b6f0-4a92af164632")]
+            public virtual RepoItemInfo Text7Info
+            {
+                get
+                {
+                    return _text7Info;
+                }
+            }
+
+            /// <summary>
+            /// The Text8 item.
+            /// </summary>
+            [RepositoryItem("5806982d-2694-4a1e-b9f6-b3b61d24d33c")]
+            public virtual Ranorex.InputTag Text8
+            {
+                get
+                {
+                    return _text8Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Text8 item info.
+            /// </summary>
+            [RepositoryItemInfo("5806982d-2694-4a1e-b9f6-b3b61d24d33c")]
+            public virtual RepoItemInfo Text8Info
+            {
+                get
+                {
+                    return _text8Info;
+                }
+            }
+
+            /// <summary>
+            /// The Text9 item.
+            /// </summary>
+            [RepositoryItem("820058cd-f2a5-439b-a9eb-e962253b7b7f")]
+            public virtual Ranorex.InputTag Text9
+            {
+                get
+                {
+                    return _text9Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Text9 item info.
+            /// </summary>
+            [RepositoryItemInfo("820058cd-f2a5-439b-a9eb-e962253b7b7f")]
+            public virtual RepoItemInfo Text9Info
+            {
+                get
+                {
+                    return _text9Info;
+                }
+            }
+
+            /// <summary>
+            /// The Text10 item.
+            /// </summary>
+            [RepositoryItem("84f357c9-246a-4d01-9dd7-5ae22a0eccce")]
+            public virtual Ranorex.InputTag Text10
+            {
+                get
+                {
+                    return _text10Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Text10 item info.
+            /// </summary>
+            [RepositoryItemInfo("84f357c9-246a-4d01-9dd7-5ae22a0eccce")]
+            public virtual RepoItemInfo Text10Info
+            {
+                get
+                {
+                    return _text10Info;
+                }
+            }
+
+            /// <summary>
+            /// The Labelcheckbox2 item.
+            /// </summary>
+            [RepositoryItem("f958ae69-bd3e-4928-afc3-69e1fbf1f28d")]
+            public virtual Ranorex.LabelTag Labelcheckbox2
+            {
+                get
+                {
+                    return _labelcheckbox2Info.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Labelcheckbox2 item info.
+            /// </summary>
+            [RepositoryItemInfo("f958ae69-bd3e-4928-afc3-69e1fbf1f28d")]
+            public virtual RepoItemInfo Labelcheckbox2Info
+            {
+                get
+                {
+                    return _labelcheckbox2Info;
+                }
+            }
+
+            /// <summary>
+            /// The BtnSaveandContinue item.
+            /// </summary>
+            [RepositoryItem("ecd0aecf-55a2-49aa-8087-b656046ab56c")]
+            public virtual Ranorex.InputTag BtnSaveandContinue
+            {
+                get
+                {
+                    return _btnsaveandcontinueInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The BtnSaveandContinue item info.
+            /// </summary>
+            [RepositoryItemInfo("ecd0aecf-55a2-49aa-8087-b656046ab56c")]
+            public virtual RepoItemInfo BtnSaveandContinueInfo
+            {
+                get
+                {
+                    return _btnsaveandcontinueInfo;
+                }
+            }
+
+            /// <summary>
+            /// The fcg1002checkbox item.
+            /// </summary>
+            [RepositoryItem("11a403e7-8085-489a-b150-6a6e9522d1d1")]
+            public virtual Ranorex.InputTag fcg1002checkbox
+            {
+                get
+                {
+                    return _fcg1002checkboxInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The fcg1002checkbox item info.
+            /// </summary>
+            [RepositoryItemInfo("11a403e7-8085-489a-b150-6a6e9522d1d1")]
+            public virtual RepoItemInfo fcg1002checkboxInfo
+            {
+                get
+                {
+                    return _fcg1002checkboxInfo;
                 }
             }
 

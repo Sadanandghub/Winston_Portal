@@ -126,6 +126,18 @@
     <Compile Include="AssemblyInfo.cs">
       <id>c2b2366a-f372-42cd-a244-34c49626d886</id>
     </Compile>
+    <Compile Include="ClassandPayroll.cs">
+      <BoundTo>f2271bf6-6780-4e25-8122-b6a4f17a205c</BoundTo>
+      <DependentUpon>ClassandPayroll.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f7baf0a4-5216-4b88-9e51-dd3ebae51198</id>
+    </Compile>
+    <Compile Include="ClassandPayroll.UserCode.cs">
+      <BoundTo>f2271bf6-6780-4e25-8122-b6a4f17a205c</BoundTo>
+      <DependentUpon>ClassandPayroll.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>eb629f7e-2854-41d7-945e-32a2274e8ecc</id>
+    </Compile>
     <Compile Include="CloseBrowser.cs">
       <BoundTo>05bdfd82-2222-4ae2-8e42-040ebe0bb521</BoundTo>
       <DependentUpon>CloseBrowser.rxrec</DependentUpon>
@@ -137,6 +149,18 @@
       <DependentUpon>CloseBrowser.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>8db40f1b-be90-4260-84dd-b2ef7d659ba7</id>
+    </Compile>
+    <Compile Include="GAdditionalInsured.cs">
+      <BoundTo>b2fc8dfd-f3b1-4e27-8797-92374d4ea4ed</BoundTo>
+      <DependentUpon>GAdditionalInsured.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>20a4f708-d1fd-4c3d-886b-1078a42e1222</id>
+    </Compile>
+    <Compile Include="GAdditionalInsured.UserCode.cs">
+      <BoundTo>b2fc8dfd-f3b1-4e27-8797-92374d4ea4ed</BoundTo>
+      <DependentUpon>GAdditionalInsured.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9cf383b6-e93f-4428-ab21-64647025002a</id>
     </Compile>
     <Compile Include="GLRiskLevel.cs">
       <BoundTo>22cdd3bd-971f-49a8-8c5e-568685e70f8f</BoundTo>
@@ -231,10 +255,20 @@
     <None Include="app.config">
       <id>b6ad7086-fba5-4faa-90c2-691bdd2eea94</id>
     </None>
+    <None Include="ClassandPayroll.rxrec">
+      <BoundTo>0e49320b-8b55-4200-b36f-05e86fb26edd</BoundTo>
+      <id>f2271bf6-6780-4e25-8122-b6a4f17a205c</id>
+      <recordtableid>bdbc20ee-c165-46bd-852e-4229008de699</recordtableid>
+    </None>
     <None Include="CloseBrowser.rxrec">
       <BoundTo>0e49320b-8b55-4200-b36f-05e86fb26edd</BoundTo>
       <id>05bdfd82-2222-4ae2-8e42-040ebe0bb521</id>
       <recordtableid>2fe4b19c-ce56-4e71-a860-46c435e5f8d3</recordtableid>
+    </None>
+    <None Include="GAdditionalInsured.rxrec">
+      <BoundTo>0e49320b-8b55-4200-b36f-05e86fb26edd</BoundTo>
+      <id>b2fc8dfd-f3b1-4e27-8797-92374d4ea4ed</id>
+      <recordtableid>2fdcf850-2365-4266-92d6-a3e8bf434897</recordtableid>
     </None>
     <None Include="GLRiskLevel.rxrec">
       <BoundTo>0e49320b-8b55-4200-b36f-05e86fb26edd</BoundTo>

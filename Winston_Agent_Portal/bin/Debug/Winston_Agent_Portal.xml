@@ -4,6 +4,55 @@
         <name>Winston_Agent_Portal</name>
     </assembly>
     <members>
+        <member name="T:Winston_Agent_Portal.ClassandPayroll">
+             <summary>
+            The ClassandPayroll recording.
+             </summary>
+        </member>
+        <member name="F:Winston_Agent_Portal.ClassandPayroll.repo">
+            <summary>
+            Holds an instance of the Winston_Agent_PortalRepository repository.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.ClassandPayroll.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.ClassandPayroll.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.ClassandPayroll.OtherPayAmnt">
+            <summary>
+            Gets or sets the value of variable OtherPayAmnt.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.ClassandPayroll.ActiveOwnerValue">
+            <summary>
+            Gets or sets the value of variable ActiveOwnerValue.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.ClassandPayroll.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Winston_Agent_Portal.ClassandPayroll.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.ClassandPayroll.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Winston_Agent_Portal.ClassandPayroll.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
         <member name="T:Winston_Agent_Portal.CloseBrowser">
              <summary>
             The CloseBrowser recording.
@@ -17,6 +66,11 @@
         <member name="M:Winston_Agent_Portal.CloseBrowser.#ctor">
             <summary>
             Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:Winston_Agent_Portal.CloseBrowser.Start">
@@ -38,9 +92,43 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="P:Winston_Agent_Portal.CloseBrowser.Instance">
+        <member name="T:Winston_Agent_Portal.GAdditionalInsured">
+             <summary>
+            The GAdditionalInsured recording.
+             </summary>
+        </member>
+        <member name="F:Winston_Agent_Portal.GAdditionalInsured.repo">
+            <summary>
+            Holds an instance of the Winston_Agent_PortalRepository repository.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.GAdditionalInsured.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.GAdditionalInsured.Instance">
             <summary>
             Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.GAdditionalInsured.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Winston_Agent_Portal.GAdditionalInsured.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.GAdditionalInsured.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Winston_Agent_Portal.GAdditionalInsured.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
             </summary>
         </member>
         <member name="T:Winston_Agent_Portal.GLRiskLevel">
@@ -56,6 +144,11 @@
         <member name="M:Winston_Agent_Portal.GLRiskLevel.#ctor">
             <summary>
             Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.GLRiskLevel.Instance">
+            <summary>
+            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:Winston_Agent_Portal.GLRiskLevel.Start">
@@ -77,11 +170,6 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="P:Winston_Agent_Portal.GLRiskLevel.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
         <member name="T:Winston_Agent_Portal.NQ_GL">
              <summary>
             The NQ_GL recording.
@@ -95,6 +183,11 @@
         <member name="M:Winston_Agent_Portal.NQ_GL.#ctor">
             <summary>
             Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.NQ_GL.Instance">
+            <summary>
+            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:Winston_Agent_Portal.NQ_GL.Start">
@@ -116,11 +209,6 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="P:Winston_Agent_Portal.NQ_GL.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
         <member name="T:Winston_Agent_Portal.OpenBrowser">
              <summary>
             The OpenBrowser recording.
@@ -134,6 +222,11 @@
         <member name="M:Winston_Agent_Portal.OpenBrowser.#ctor">
             <summary>
             Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:Winston_Agent_Portal.OpenBrowser.Start">
@@ -155,11 +248,6 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="P:Winston_Agent_Portal.OpenBrowser.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
         <member name="T:Winston_Agent_Portal.Login">
              <summary>
             The Login recording.
@@ -173,25 +261,6 @@
         <member name="M:Winston_Agent_Portal.Login.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="M:Winston_Agent_Portal.Login.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:Winston_Agent_Portal.Login.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:Winston_Agent_Portal.Login.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:Winston_Agent_Portal.Login.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
             </summary>
         </member>
         <member name="P:Winston_Agent_Portal.Login.Instance">
@@ -214,6 +283,25 @@
             Gets or sets the value of variable AgencyName.
             </summary>
         </member>
+        <member name="M:Winston_Agent_Portal.Login.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Winston_Agent_Portal.Login.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.Login.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Winston_Agent_Portal.Login.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
         <member name="T:Winston_Agent_Portal.QuickStartQuestions">
              <summary>
             The QuickStartQuestions recording.
@@ -227,6 +315,11 @@
         <member name="M:Winston_Agent_Portal.QuickStartQuestions.#ctor">
             <summary>
             Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.QuickStartQuestions.Instance">
+            <summary>
+            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:Winston_Agent_Portal.QuickStartQuestions.Start">
@@ -248,11 +341,6 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="P:Winston_Agent_Portal.QuickStartQuestions.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
         <member name="T:Winston_Agent_Portal.Record_screen">
              <summary>
             The Record_screen recording.
@@ -266,6 +354,11 @@
         <member name="M:Winston_Agent_Portal.Record_screen.#ctor">
             <summary>
             Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Record_screen.Instance">
+            <summary>
+            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:Winston_Agent_Portal.Record_screen.Start">
@@ -287,24 +380,19 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="P:Winston_Agent_Portal.Record_screen.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
         <member name="T:Winston_Agent_Portal.Winston_Agent_PortalRepository">
             <summary>
             The class representing the Winston_Agent_PortalRepository element repository.
             </summary>
         </member>
-        <member name="M:Winston_Agent_Portal.Winston_Agent_PortalRepository.#ctor">
-            <summary>
-            Repository class constructor.
-            </summary>
-        </member>
         <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepository.Instance">
             <summary>
             Gets the singleton class instance representing the Winston_Agent_PortalRepository element repository.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.Winston_Agent_PortalRepository.#ctor">
+            <summary>
+            Repository class constructor.
             </summary>
         </member>
         <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepository.AgencyName">
@@ -590,6 +678,406 @@
         <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.BtnSubmitRIInfo">
             <summary>
             The BtnSubmitRI item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Select2DdlClassificationContainer">
+            <summary>
+            The Select2DdlClassificationContainer item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Select2DdlClassificationContainerInfo">
+            <summary>
+            The Select2DdlClassificationContainer item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.BtnAddClassification">
+            <summary>
+            The BtnAddClassification item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.BtnAddClassificationInfo">
+            <summary>
+            The BtnAddClassification item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Percentage">
+            <summary>
+            The Percentage item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.PercentageInfo">
+            <summary>
+            The Percentage item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.ExpectedGrossReceipts">
+            <summary>
+            The ExpectedGrossReceipts item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.ExpectedGrossReceiptsInfo">
+            <summary>
+            The ExpectedGrossReceipts item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.InsuredSubcontractorsCost">
+            <summary>
+            The InsuredSubcontractorsCost item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.InsuredSubcontractorsCostInfo">
+            <summary>
+            The InsuredSubcontractorsCost item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.ColLg12ColMd12ColSm12Pt2">
+            <summary>
+            The ColLg12ColMd12ColSm12Pt2 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.ColLg12ColMd12ColSm12Pt2Info">
+            <summary>
+            The ColLg12ColMd12ColSm12Pt2 item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.InsuredSubcontractorsOperations">
+            <summary>
+            The InsuredSubcontractorsOperations item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.InsuredSubcontractorsOperationsInfo">
+            <summary>
+            The InsuredSubcontractorsOperations item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Select2DdlClassCodesContainer">
+            <summary>
+            The Select2DdlClassCodesContainer item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Select2DdlClassCodesContainerInfo">
+            <summary>
+            The Select2DdlClassCodesContainer item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.BtnAddClassCode">
+            <summary>
+            The BtnAddClassCode item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.BtnAddClassCodeInfo">
+            <summary>
+            The BtnAddClassCode item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Percentage1">
+            <summary>
+            The Percentage1 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Percentage1Info">
+            <summary>
+            The Percentage1 item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.FullAdmEmp">
+            <summary>
+            The FullAdmEmp item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.FullAdmEmpInfo">
+            <summary>
+            The FullAdmEmp item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.PartAdmEmp">
+            <summary>
+            The PartAdmEmp item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.PartAdmEmpInfo">
+            <summary>
+            The PartAdmEmp item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.TotAdmPayroll">
+            <summary>
+            The TotAdmPayroll item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.TotAdmPayrollInfo">
+            <summary>
+            The TotAdmPayroll item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.FullSalesEmp">
+            <summary>
+            The FullSalesEmp item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.FullSalesEmpInfo">
+            <summary>
+            The FullSalesEmp item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.PartSalesEmp">
+            <summary>
+            The PartSalesEmp item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.PartSalesEmpInfo">
+            <summary>
+            The PartSalesEmp item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.TotSalesPayroll">
+            <summary>
+            The TotSalesPayroll item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.TotSalesPayrollInfo">
+            <summary>
+            The TotSalesPayroll item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.FullPartners">
+            <summary>
+            The FullPartners item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.FullPartnersInfo">
+            <summary>
+            The FullPartners item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.PartPartners">
+            <summary>
+            The PartPartners item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.PartPartnersInfo">
+            <summary>
+            The PartPartners item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.FullOtherEmp">
+            <summary>
+            The FullOtherEmp item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.FullOtherEmpInfo">
+            <summary>
+            The FullOtherEmp item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.PartOtherEmp">
+            <summary>
+            The PartOtherEmp item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.PartOtherEmpInfo">
+            <summary>
+            The PartOtherEmp item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.TotOtherPayroll">
+            <summary>
+            The TotOtherPayroll item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.TotOtherPayrollInfo">
+            <summary>
+            The TotOtherPayroll item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.BtnContinue">
+            <summary>
+            The BtnContinue item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.BtnContinueInfo">
+            <summary>
+            The BtnContinue item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.ActiveOwnerValue">
+            <summary>
+            The ActiveOwnerValue item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.ActiveOwnerValueInfo">
+            <summary>
+            The ActiveOwnerValue item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.TotalValue">
+            <summary>
+            The TotalValue item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.TotalValueInfo">
+            <summary>
+            The TotalValue item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Labelcheckbox">
+            <summary>
+            The Labelcheckbox item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.LabelcheckboxInfo">
+            <summary>
+            The Labelcheckbox item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Labelcheckbox1">
+            <summary>
+            The Labelcheckbox1 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Labelcheckbox1Info">
+            <summary>
+            The Labelcheckbox1 item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Text1">
+            <summary>
+            The Text1 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Text1Info">
+            <summary>
+            The Text1 item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Text2">
+            <summary>
+            The Text2 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Text2Info">
+            <summary>
+            The Text2 item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Text3">
+            <summary>
+            The Text3 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Text3Info">
+            <summary>
+            The Text3 item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Text4">
+            <summary>
+            The Text4 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Text4Info">
+            <summary>
+            The Text4 item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Text5">
+            <summary>
+            The Text5 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Text5Info">
+            <summary>
+            The Text5 item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Text6">
+            <summary>
+            The Text6 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Text6Info">
+            <summary>
+            The Text6 item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Text7">
+            <summary>
+            The Text7 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Text7Info">
+            <summary>
+            The Text7 item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Text8">
+            <summary>
+            The Text8 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Text8Info">
+            <summary>
+            The Text8 item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Text9">
+            <summary>
+            The Text9 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Text9Info">
+            <summary>
+            The Text9 item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Text10">
+            <summary>
+            The Text10 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Text10Info">
+            <summary>
+            The Text10 item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Labelcheckbox2">
+            <summary>
+            The Labelcheckbox2 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Labelcheckbox2Info">
+            <summary>
+            The Labelcheckbox2 item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.BtnSaveandContinue">
+            <summary>
+            The BtnSaveandContinue item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.BtnSaveandContinueInfo">
+            <summary>
+            The BtnSaveandContinue item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.fcg1002checkbox">
+            <summary>
+            The fcg1002checkbox item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.fcg1002checkboxInfo">
+            <summary>
+            The fcg1002checkbox item info.
             </summary>
         </member>
         <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.MyTable">

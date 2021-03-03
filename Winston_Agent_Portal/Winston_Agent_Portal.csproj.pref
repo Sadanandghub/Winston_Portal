@@ -1,9 +1,10 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="Winston_Agent_Portal.rxtst" />
+    <Element value="ClassandPayroll.rxrec" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
+    <Element value="ClassandPayroll.rxrec" />
     <Element value="CloseBrowser.rxrec" />
     <Element value="Winston_Agent_Portal.rxtst" />
     <Element value="OpenBrowser.rxrec" />

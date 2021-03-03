@@ -127,6 +127,12 @@
 			name="teardown">
 			</teardown>
 			<testmodule
+			id="41f8ddc1-dca5-4765-a671-bc76cee7a0b0"
+			name="GAdditionalInsured"
+			ref="2fdcf850-2365-4266-92d6-a3e8bf434897"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="54984b18-d29d-44d1-b023-d832eeac0cc5"
 			name="CloseBrowser"
 			ref="2fe4b19c-ce56-4e71-a860-46c435e5f8d3"
@@ -170,6 +176,12 @@
 			id="d203bcee-ebbb-4af8-b3a3-a89bf32fc87f"
 			name="CloseBrowser"
 			ref="2fe4b19c-ce56-4e71-a860-46c435e5f8d3"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="e154de89-ef1d-495b-9d31-173f740bb4fb"
+			name="ClassandPayroll"
+			ref="bdbc20ee-c165-46bd-852e-4229008de699"
 			type="Recording">
 			</testmodule>
 			<setup
@@ -238,6 +250,14 @@
 						<testmodule
 						id="ac8365dc-5835-496b-80d2-52b1a4ee1c09"
 						name="GLRiskLevel">
+						</testmodule>
+						<testmodule
+						id="e154de89-ef1d-495b-9d31-173f740bb4fb"
+						name="ClassandPayroll">
+						</testmodule>
+						<testmodule
+						id="41f8ddc1-dca5-4765-a671-bc76cee7a0b0"
+						name="GAdditionalInsured">
 						</testmodule>
 						<teardown
 						id="1fd395ef-21d4-4eaf-9a65-27aee895dbd4"
