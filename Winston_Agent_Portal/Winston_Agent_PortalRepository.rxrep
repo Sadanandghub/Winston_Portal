@@ -18,7 +18,7 @@ name="Winston_Agent_PortalRepository">
 		id="ee96e4cd-5a4c-4be2-828f-6b678101c20f"
 		isrooted="True"
 		name="ApplicationUnderTest"
-		refimgid="53fe9156-182e-4940-a898-f6dbcf771938"
+		refimgid="34c76739-9e80-4147-b78d-74ddb1cd0ecb"
 		searchtimeout="30000ms"
 		usecache="False">
 			<item
@@ -825,6 +825,127 @@ name="Winston_Agent_PortalRepository">
 			searchtimeout="30000ms">
 				/dom[@domain='dev_winston.fwcins.com']//tbody[#'Automatictbl']/tr[1]//input[@name='check']
 			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="96f8c2f5-0479-4de2-bcae-1b438e3dd08c"
+			name="LabelTagNo1"
+			refimgid="711e201b-5a42-4bec-aec4-18a6292fcf2f"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//table[#'tblGateKeeperQuestions']/tbody/tr[1]/td[4]/label[@innertext='No']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//table[#'tblGateKeeperQuestions']/tbody/tr[1]/td[4]/label[@innertext='No']
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="260a39e2-e014-48b0-b211-5caa3bdcc02e"
+			name="LabelTagNo2"
+			refimgid="d4a22bd1-84ba-4e9c-ba0b-19229e7fb9e5"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//table[#'tblGateKeeperQuestions']/tbody/tr[2]/td[4]/label[@innertext='No']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//table[#'tblGateKeeperQuestions']/tbody/tr[2]/td[4]/label[@innertext='No']
+			</item>
+			<item
+			addcaps="unknown,webelement,litag"
+			capname="litag"
+			id="d3dbd595-8c0c-44fe-8a73-43c0bc48aeab"
+			name="LiTagDollar10000"
+			refimgid="43aee673-13ab-488c-8725-3289d767087a"
+			refpath="/dom[@domain='dev_winston.fwcins.com']/body/span/span/span[2]/ul/li[@innertext='$10,000']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']/body/span//ul/li[@innertext='$10,000']
+			</item>
+			<item
+			addcaps="unknown,webelement,litag"
+			capname="litag"
+			id="ecd711d7-3cf9-4910-9bbb-7e073d3714d5"
+			name="NoResultsFound"
+			refimgid="22304099-be9d-48aa-9ce7-72e59f509972"
+			refpath="/dom[@domain='dev_winston.fwcins.com']/body/span/span/span[2]/ul/li[@innertext='No results found']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']/body/span//ul/li[@innertext='No results found']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="3ba66e94-8a16-4135-8c74-43bb89fe5e15"
+			name="BtnAdd"
+			refimgid="6d190ab9-6c77-45ae-994c-607922cf59aa"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//input[#'btnAdd']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//input[#'btnAdd']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="e247486c-383f-4806-9ac6-bf79dc886be0"
+			name="TxtType"
+			refimgid="ed8daf78-2603-4d38-815b-078789e63002"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//tbody[#'dynamicBody']/tr/td[2]/input[@name='txtType']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//tbody[#'dynamicBody']//input[@name='txtType']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="be53ef38-ee25-4bc0-8eaa-3af87155e1a3"
+			name="TxtACVLimit"
+			refimgid="01b046a6-45ba-44cd-97fd-22ebd11461b3"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//tbody[#'dynamicBody']/tr/td[3]/input[@name='txtACVLimit']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//tbody[#'dynamicBody']//input[@name='txtACVLimit']
+			</item>
+			<folder
+			capname="table"
+			id="b5d34147-7f47-4667-be4e-fef8158f9be7"
+			isrooted="True"
+			name="TblCoverages"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,btag"
+				capname="btag"
+				id="baedcbc3-914f-4914-bb00-84ec1de656f4"
+				name="SomeBTag"
+				refimgid="2936dad7-111a-4d95-8f3d-289d0082bd29"
+				refpath="/dom[@domain='dev_winston.fwcins.com']//table[#'tblCoverages']/tbody/tr[1]/td[2]/span/span[1]/span/span[2]/b"
+				searchtimeout="30000ms">
+					/dom[@domain='dev_winston.fwcins.com']//table[#'tblCoverages']/tbody/tr[1]/td[2]//b
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="fd078826-a1f5-40e7-9801-127084e73623"
+				name="NotCovered1"
+				refimgid="d1ddfae7-2a2d-476e-8ed0-488076e870a6"
+				refpath="/dom[@domain='dev_winston.fwcins.com']//table[#'tblCoverages']/tbody/tr[1]/td[2]/span/span[1]/span/span[@title='Not Covered']"
+				searchtimeout="30000ms">
+					/dom[@domain='dev_winston.fwcins.com']//table[#'tblCoverages']/tbody/tr[1]/td[2]//span[@title='Not Covered']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="e58a8e0f-a0b1-41e4-a3a1-beb2314c795e"
+				name="NotCovered"
+				refimgid="0e389236-a956-4b78-baba-62689ae2a2fa"
+				refpath="/dom[@domain='dev_winston.fwcins.com']//table[#'tblCoverages']/tbody/tr[2]/td[2]/span/span[1]/span/span[@title='Not Covered']"
+				searchtimeout="30000ms">
+					/dom[@domain='dev_winston.fwcins.com']//table[#'tblCoverages']/tbody/tr[2]/td[2]//span[@title='Not Covered']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="973f643a-4829-4fc4-9ab2-27c0fd318da5"
+				name="NotCovered2"
+				refimgid="3fc2680f-2181-4365-b64d-58f64c118a6e"
+				refpath="/dom[@domain='dev_winston.fwcins.com']//table[#'tblCoverages']/tbody/tr[3]/td[2]/span/span[1]/span/span[@title='Not Covered']"
+				searchtimeout="30000ms">
+					/dom[@domain='dev_winston.fwcins.com']//table[#'tblCoverages']/tbody/tr[3]/td[2]//span[@title='Not Covered']
+				</item>
+				<basepath>
+					/dom[@domain='dev_winston.fwcins.com']//table[#'tblCoverages']
+				</basepath>
+			</folder>
 			<basepath>
 				/dom[@domain='dev_winston.fwcins.com']
 			</basepath>

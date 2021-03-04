@@ -166,6 +166,12 @@
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="c0b6c109-3573-4267-b7db-375fb9cce1de"
+			name="InlandMarine"
+			ref="96d4deca-fec1-4dd8-b1cd-ae1551bf0b28"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="cf366710-5f53-4318-9129-99736406584b"
 			name="OpenBrowser"
 			ref="5e3279a7-27b8-4b84-be6f-98f3c6f958e1"
@@ -258,6 +264,10 @@
 						<testmodule
 						id="41f8ddc1-dca5-4765-a671-bc76cee7a0b0"
 						name="GAdditionalInsured">
+						</testmodule>
+						<testmodule
+						id="c0b6c109-3573-4267-b7db-375fb9cce1de"
+						name="InlandMarine">
 						</testmodule>
 						<teardown
 						id="1fd395ef-21d4-4eaf-9a65-27aee895dbd4"

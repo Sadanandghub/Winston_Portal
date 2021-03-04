@@ -174,6 +174,18 @@
       <UserCode>true</UserCode>
       <id>65524933-9e25-4ed6-8e7b-8df6b9f6a01f</id>
     </Compile>
+    <Compile Include="InlandMarine.cs">
+      <BoundTo>7f290e81-7dfe-4649-a9b5-a78b2e72e044</BoundTo>
+      <DependentUpon>InlandMarine.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>47eb4920-8c90-43f2-bdc1-8e32395fb091</id>
+    </Compile>
+    <Compile Include="InlandMarine.UserCode.cs">
+      <BoundTo>7f290e81-7dfe-4649-a9b5-a78b2e72e044</BoundTo>
+      <DependentUpon>InlandMarine.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>32694fda-4859-482a-86c0-26b1d55060b0</id>
+    </Compile>
     <Compile Include="NQ_GL.cs">
       <BoundTo>5b0689c3-f40f-4ee2-ba1b-57df9bf61050</BoundTo>
       <DependentUpon>NQ_GL.rxrec</DependentUpon>
@@ -274,6 +286,11 @@
       <BoundTo>0e49320b-8b55-4200-b36f-05e86fb26edd</BoundTo>
       <id>22cdd3bd-971f-49a8-8c5e-568685e70f8f</id>
       <recordtableid>7e41b08e-b8f7-4d24-b0a1-ac49ffcfee0d</recordtableid>
+    </None>
+    <None Include="InlandMarine.rxrec">
+      <BoundTo>0e49320b-8b55-4200-b36f-05e86fb26edd</BoundTo>
+      <id>7f290e81-7dfe-4649-a9b5-a78b2e72e044</id>
+      <recordtableid>96d4deca-fec1-4dd8-b1cd-ae1551bf0b28</recordtableid>
     </None>
     <None Include="NQ_GL.rxrec">
       <BoundTo>0e49320b-8b55-4200-b36f-05e86fb26edd</BoundTo>

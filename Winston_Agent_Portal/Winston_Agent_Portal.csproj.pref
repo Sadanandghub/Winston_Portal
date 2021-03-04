@@ -1,16 +1,10 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="ClassandPayroll.rxrec" />
+    <Element value="Winston_Agent_Portal.rxtst" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="ClassandPayroll.rxrec" />
-    <Element value="CloseBrowser.rxrec" />
     <Element value="Winston_Agent_Portal.rxtst" />
-    <Element value="OpenBrowser.rxrec" />
-    <Element value="Login.rxrec" />
-    <Element value="QuickStartQuestions.rxrec" />
-    <Element value="GLRiskLevel.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Array name="recentusercodeselections" />

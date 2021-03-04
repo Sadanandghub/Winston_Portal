@@ -170,6 +170,45 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="T:Winston_Agent_Portal.InlandMarine">
+             <summary>
+            The InlandMarine recording.
+             </summary>
+        </member>
+        <member name="F:Winston_Agent_Portal.InlandMarine.repo">
+            <summary>
+            Holds an instance of the Winston_Agent_PortalRepository repository.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.InlandMarine.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.InlandMarine.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.InlandMarine.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Winston_Agent_Portal.InlandMarine.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.InlandMarine.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Winston_Agent_Portal.InlandMarine.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
         <member name="T:Winston_Agent_Portal.NQ_GL">
              <summary>
             The NQ_GL recording.
@@ -1080,6 +1119,76 @@
             The fcg1002checkbox item info.
             </summary>
         </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.LabelTagNo1">
+            <summary>
+            The LabelTagNo1 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.LabelTagNo1Info">
+            <summary>
+            The LabelTagNo1 item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.LabelTagNo2">
+            <summary>
+            The LabelTagNo2 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.LabelTagNo2Info">
+            <summary>
+            The LabelTagNo2 item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.LiTagDollar10000">
+            <summary>
+            The LiTagDollar10000 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.LiTagDollar10000Info">
+            <summary>
+            The LiTagDollar10000 item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.NoResultsFound">
+            <summary>
+            The NoResultsFound item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.NoResultsFoundInfo">
+            <summary>
+            The NoResultsFound item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.BtnAdd">
+            <summary>
+            The BtnAdd item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.BtnAddInfo">
+            <summary>
+            The BtnAdd item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.TxtType">
+            <summary>
+            The TxtType item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.TxtTypeInfo">
+            <summary>
+            The TxtType item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.TxtACVLimit">
+            <summary>
+            The TxtACVLimit item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.TxtACVLimitInfo">
+            <summary>
+            The TxtACVLimit item info.
+            </summary>
+        </member>
         <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.MyTable">
             <summary>
             The MyTable folder.
@@ -1093,6 +1202,11 @@
         <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.BgGreyBorderBorderBottomBorderWhi">
             <summary>
             The BgGreyBorderBorderBottomBorderWhi folder.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.TblCoverages">
+            <summary>
+            The TblCoverages folder.
             </summary>
         </member>
         <member name="T:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.MyTableFolder">
@@ -1303,6 +1417,66 @@
         <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.BgGreyBorderBorderBottomBorderWhiFolder.LabelTagYes2Info">
             <summary>
             The LabelTagYes2 item info.
+            </summary>
+        </member>
+        <member name="T:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.TblCoveragesFolder">
+            <summary>
+            The TblCoveragesFolder folder.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.TblCoveragesFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TblCoverages  folder.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.TblCoveragesFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.TblCoveragesFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.TblCoveragesFolder.SomeBTag">
+            <summary>
+            The SomeBTag item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.TblCoveragesFolder.SomeBTagInfo">
+            <summary>
+            The SomeBTag item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.TblCoveragesFolder.NotCovered1">
+            <summary>
+            The NotCovered1 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.TblCoveragesFolder.NotCovered1Info">
+            <summary>
+            The NotCovered1 item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.TblCoveragesFolder.NotCovered">
+            <summary>
+            The NotCovered item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.TblCoveragesFolder.NotCoveredInfo">
+            <summary>
+            The NotCovered item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.TblCoveragesFolder.NotCovered2">
+            <summary>
+            The NotCovered2 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.TblCoveragesFolder.NotCovered2Info">
+            <summary>
+            The NotCovered2 item info.
             </summary>
         </member>
         <member name="T:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.HttpsDevWinstonFwcinsComFWCPortalAppFolder">
