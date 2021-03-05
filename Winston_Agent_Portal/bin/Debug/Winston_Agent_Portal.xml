@@ -53,6 +53,45 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="T:Winston_Agent_Portal.Class_Specific">
+             <summary>
+            The Class_Specific recording.
+             </summary>
+        </member>
+        <member name="F:Winston_Agent_Portal.Class_Specific.repo">
+            <summary>
+            Holds an instance of the Winston_Agent_PortalRepository repository.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.Class_Specific.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Class_Specific.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.Class_Specific.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Winston_Agent_Portal.Class_Specific.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.Class_Specific.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Winston_Agent_Portal.Class_Specific.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
         <member name="T:Winston_Agent_Portal.CloseBrowser">
              <summary>
             The CloseBrowser recording.
@@ -1307,6 +1346,56 @@
         <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.MyTableFolder.LabelTagNo6Info">
             <summary>
             The LabelTagNo6 item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.MyTableFolder.LabelTagNo7">
+            <summary>
+            The LabelTagNo7 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.MyTableFolder.LabelTagNo7Info">
+            <summary>
+            The LabelTagNo7 item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.MyTableFolder.LabelTagNo8">
+            <summary>
+            The LabelTagNo8 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.MyTableFolder.LabelTagNo8Info">
+            <summary>
+            The LabelTagNo8 item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.MyTableFolder.LabelTagNo9">
+            <summary>
+            The LabelTagNo9 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.MyTableFolder.LabelTagNo9Info">
+            <summary>
+            The LabelTagNo9 item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.MyTableFolder.LabelTagNo10">
+            <summary>
+            The LabelTagNo10 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.MyTableFolder.LabelTagNo10Info">
+            <summary>
+            The LabelTagNo10 item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.MyTableFolder.LabelTagNo11">
+            <summary>
+            The LabelTagNo11 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.MyTableFolder.LabelTagNo11Info">
+            <summary>
+            The LabelTagNo11 item info.
             </summary>
         </member>
         <member name="T:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.Mb4Pb2RowFolder">

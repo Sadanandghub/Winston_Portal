@@ -190,6 +190,12 @@
 			ref="bdbc20ee-c165-46bd-852e-4229008de699"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="e63de0eb-dbaa-4439-95a0-00d0f10c2836"
+			name="Class_Specific"
+			ref="e1fec56b-dacd-43fc-aa61-9e6fcf6a8955"
+			type="Recording">
+			</testmodule>
 			<setup
 			id="ee76c150-5bcb-4fc3-82d2-4be02e9fcd86"
 			name="setup">
@@ -268,6 +274,10 @@
 						<testmodule
 						id="c0b6c109-3573-4267-b7db-375fb9cce1de"
 						name="InlandMarine">
+						</testmodule>
+						<testmodule
+						id="e63de0eb-dbaa-4439-95a0-00d0f10c2836"
+						name="Class_Specific">
 						</testmodule>
 						<teardown
 						id="1fd395ef-21d4-4eaf-9a65-27aee895dbd4"

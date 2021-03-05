@@ -198,6 +198,56 @@ name="Winston_Agent_PortalRepository">
 				searchtimeout="30000ms">
 					/dom[@domain='dev_winston.fwcins.com']//table[#'myTable']/tbody/tr[7]//label[@innertext='No']
 				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="47c8c2fb-0be7-4bac-92f1-38304b3456a9"
+				name="LabelTagNo7"
+				refimgid="e04fe5a0-b68d-487e-8b3b-03bfc656fe66"
+				refpath="/dom[@domain='dev_winston.fwcins.com']//table[#'myTable']/tbody/tr[1]/td[7]/div/label[@innertext='No']"
+				searchtimeout="30000ms">
+					/dom[@domain='dev_winston.fwcins.com']//table[#'myTable']/tbody/tr[1]/td[7]/?/?/label[@innertext='No']
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="3e156786-27e7-4b58-809a-ca618c3e97c5"
+				name="LabelTagNo8"
+				refimgid="b7f17a51-bd09-4468-a4fc-44075a3eab2b"
+				refpath="/dom[@domain='dev_winston.fwcins.com']//table[#'myTable']/tbody/tr[3]/td[7]/div/label[@innertext='No']"
+				searchtimeout="30000ms">
+					/dom[@domain='dev_winston.fwcins.com']//table[#'myTable']/tbody/tr[3]/td[7]/?/?/label[@innertext='No']
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="18883b97-cb2e-4849-8ed2-ea45621b260f"
+				name="LabelTagNo9"
+				refimgid="59e75d7e-0c55-4983-9c49-8de0d227fe9e"
+				refpath="/dom[@domain='dev_winston.fwcins.com']//table[#'myTable']/tbody/tr[5]/td[7]/div/label[@innertext='No']"
+				searchtimeout="30000ms">
+					/dom[@domain='dev_winston.fwcins.com']//table[#'myTable']/tbody/tr[5]/td[7]/?/?/label[@innertext='No']
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="4feb5424-1ec6-4882-abe0-233b7b7a7b72"
+				name="LabelTagNo10"
+				refimgid="0f710f9d-92d1-4ae7-94c8-8d51460f10ff"
+				refpath="/dom[@domain='dev_winston.fwcins.com']//table[#'myTable']/tbody/tr[6]/td[7]/div/label[@innertext='No']"
+				searchtimeout="30000ms">
+					/dom[@domain='dev_winston.fwcins.com']//table[#'myTable']/tbody/tr[6]/td[7]/?/?/label[@innertext='No']
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="2c733e70-170a-42c7-bc1f-dfe83dafd6e0"
+				name="LabelTagNo11"
+				refimgid="82e9b2ec-d5e5-4ee9-82fc-e573f605eb1e"
+				refpath="/dom[@domain='dev_winston.fwcins.com']//table[#'myTable']/tbody/tr[8]/td[7]/div/label[@innertext='No']"
+				searchtimeout="30000ms">
+					/dom[@domain='dev_winston.fwcins.com']//table[#'myTable']/tbody/tr[8]/td[7]/?/?/label[@innertext='No']
+				</item>
 				<basepath>
 					/dom[@domain='dev_winston.fwcins.com']//table[#'myTable']
 				</basepath>

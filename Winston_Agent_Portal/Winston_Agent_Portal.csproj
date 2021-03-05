@@ -138,6 +138,18 @@
       <UserCode>true</UserCode>
       <id>eb629f7e-2854-41d7-945e-32a2274e8ecc</id>
     </Compile>
+    <Compile Include="Class_Specific.cs">
+      <BoundTo>f80aa5fb-bde6-4955-89bd-cd68a376e797</BoundTo>
+      <DependentUpon>Class_Specific.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1f1eec93-e85c-447e-a2fd-6847ed28d66f</id>
+    </Compile>
+    <Compile Include="Class_Specific.UserCode.cs">
+      <BoundTo>f80aa5fb-bde6-4955-89bd-cd68a376e797</BoundTo>
+      <DependentUpon>Class_Specific.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>52145476-c2ce-4236-abba-858368cc3c74</id>
+    </Compile>
     <Compile Include="CloseBrowser.cs">
       <BoundTo>05bdfd82-2222-4ae2-8e42-040ebe0bb521</BoundTo>
       <DependentUpon>CloseBrowser.rxrec</DependentUpon>
@@ -271,6 +283,11 @@
       <BoundTo>0e49320b-8b55-4200-b36f-05e86fb26edd</BoundTo>
       <id>f2271bf6-6780-4e25-8122-b6a4f17a205c</id>
       <recordtableid>bdbc20ee-c165-46bd-852e-4229008de699</recordtableid>
+    </None>
+    <None Include="Class_Specific.rxrec">
+      <BoundTo>0e49320b-8b55-4200-b36f-05e86fb26edd</BoundTo>
+      <id>f80aa5fb-bde6-4955-89bd-cd68a376e797</id>
+      <recordtableid>e1fec56b-dacd-43fc-aa61-9e6fcf6a8955</recordtableid>
     </None>
     <None Include="CloseBrowser.rxrec">
       <BoundTo>0e49320b-8b55-4200-b36f-05e86fb26edd</BoundTo>
