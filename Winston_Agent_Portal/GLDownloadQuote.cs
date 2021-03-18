@@ -24,29 +24,29 @@ namespace Winston_Agent_Portal
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The Class_Specific recording.
+    ///The GLDownloadQuote recording.
     /// </summary>
-    [TestModule("e1fec56b-dacd-43fc-aa61-9e6fcf6a8955", ModuleType.Recording, 1)]
-    public partial class Class_Specific : ITestModule
+    [TestModule("ada74755-0316-43e5-a1f2-b204b6638cdd", ModuleType.Recording, 1)]
+    public partial class GLDownloadQuote : ITestModule
     {
         /// <summary>
         /// Holds an instance of the Winston_Agent_PortalRepository repository.
         /// </summary>
         public static Winston_Agent_PortalRepository repo = Winston_Agent_PortalRepository.Instance;
 
-        static Class_Specific instance = new Class_Specific();
+        static GLDownloadQuote instance = new GLDownloadQuote();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public Class_Specific()
+        public GLDownloadQuote()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static Class_Specific Instance
+        public static GLDownloadQuote Instance
         {
             get { return instance; }
         }
@@ -79,32 +79,40 @@ namespace Winston_Agent_Portal
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.MyTable.LabelTagNo7' at Center.", repo.ApplicationUnderTest.MyTable.LabelTagNo7Info, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.MyTable.LabelTagNo7.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnDownloadQuote' at Center.", repo.ApplicationUnderTest.BtnDownloadQuoteInfo, new RecordItemIndex(0));
+            repo.ApplicationUnderTest.BtnDownloadQuote.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.MyTable.LabelTagNo8' at Center.", repo.ApplicationUnderTest.MyTable.LabelTagNo8Info, new RecordItemIndex(1));
-            repo.ApplicationUnderTest.MyTable.LabelTagNo8.Click();
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(1));
+            Delay.Duration(10000, false);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Chrome.TabClick' at Center.", repo.Chrome.TabClickInfo, new RecordItemIndex(2));
+            repo.Chrome.TabClick.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.MyTable.LabelTagNo9' at Center.", repo.ApplicationUnderTest.MyTable.LabelTagNo9Info, new RecordItemIndex(2));
-            repo.ApplicationUnderTest.MyTable.LabelTagNo9.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Right Click item 'Chrome.PageElement' at Center.", repo.Chrome.PageElementInfo, new RecordItemIndex(3));
+            repo.Chrome.PageElement.Click(System.Windows.Forms.MouseButtons.Right);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.MyTable.LabelTagNo10' at Center.", repo.ApplicationUnderTest.MyTable.LabelTagNo10Info, new RecordItemIndex(3));
-            repo.ApplicationUnderTest.MyTable.LabelTagNo10.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Chrome1.SaveAsCtrlPlusS' at Center.", repo.Chrome1.SaveAsCtrlPlusSInfo, new RecordItemIndex(4));
+            repo.Chrome1.SaveAsCtrlPlusS.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.MyTable.LabelTagNo11' at Center.", repo.ApplicationUnderTest.MyTable.LabelTagNo11Info, new RecordItemIndex(4));
-            repo.ApplicationUnderTest.MyTable.LabelTagNo11.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SaveAs.Text1001' at Center.", repo.SaveAs.Text1001Info, new RecordItemIndex(5));
+            repo.SaveAs.Text1001.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnSave1' at Center.", repo.ApplicationUnderTest.BtnSave1Info, new RecordItemIndex(5));
-            repo.ApplicationUnderTest.BtnSave1.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SaveAs.ButtonSave' at Center.", repo.SaveAs.ButtonSaveInfo, new RecordItemIndex(6));
+            repo.SaveAs.ButtonSave.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1.5m.", new RecordItemIndex(6));
-            Delay.Duration(90000, false);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Chrome.Close' at Center.", repo.Chrome.CloseInfo, new RecordItemIndex(7));
+            repo.Chrome.Close.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Chrome.FCGAGL' at Center.", repo.Chrome.FCGAGLInfo, new RecordItemIndex(8));
+            repo.Chrome.FCGAGL.Click();
+            Delay.Milliseconds(0);
             
         }
 

@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="44272ccb-4e11-4d64-9fad-30e6e9ac1426"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="GLApplicationPage"
+	namespace="Winston_Agent_Portal">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="74ee2bd5-c730-4278-94d9-b9456d172012"
+		sx="1102"
+		sy="624"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6c5d0260-18e8-4d9b-b8f5-89363e7b3514"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="1001,613,196,33"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						btn btn-success float-right ml-5
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						btnIssue
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						btn btn-success float-right ml-5
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						APPLICATION &amp; ISSUE
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						submit
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						APPLICATION &amp; ISSUE
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='dev_winston.fwcins.com']//input[#'btnIssue']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="9315cbc2-163d-44ed-a838-436ae7262639">
+				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
+FABRRRQB/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="0ebf7ece-ba43-48b5-8ae9-42cf3e6dd6e4"
+	name="Winston_Agent_PortalRepository"
+	relativepath="Winston_Agent_PortalRepository.rxrep">
+		<codegen
+		classname="Winston_Agent_PortalRepository"
+		namespace="Winston_Agent_Portal">
+		</codegen>
+		<rootfolder
+		id="7f2a20b6-644f-4206-825f-8ef87802e496"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		GLApplicationPage.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

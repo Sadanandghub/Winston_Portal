@@ -909,6 +909,15 @@ ipNmEn3Iv93+prpNFAGmx4AGc5/OiitKe5yYv+H8x2sAHTZcgHGMfnXOWX/H7D/viiinL4kLDfwm
 WLlF+0y/KPvnt70UUVzs6Y7I/9k=
 			</helperscreenshot>
 		</mouseitem>
+		<explicitdelayitem
+		duration="90000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 	</recorditems>
 	<repository
 	id="0ebf7ece-ba43-48b5-8ae9-42cf3e6dd6e4"

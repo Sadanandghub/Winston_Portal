@@ -170,6 +170,84 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="T:Winston_Agent_Portal.GLDownloadQuote">
+             <summary>
+            The GLDownloadQuote recording.
+             </summary>
+        </member>
+        <member name="F:Winston_Agent_Portal.GLDownloadQuote.repo">
+            <summary>
+            Holds an instance of the Winston_Agent_PortalRepository repository.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.GLDownloadQuote.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.GLDownloadQuote.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.GLDownloadQuote.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Winston_Agent_Portal.GLDownloadQuote.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.GLDownloadQuote.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Winston_Agent_Portal.GLDownloadQuote.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Winston_Agent_Portal.GLQuote">
+             <summary>
+            The GLQuote recording.
+             </summary>
+        </member>
+        <member name="F:Winston_Agent_Portal.GLQuote.repo">
+            <summary>
+            Holds an instance of the Winston_Agent_PortalRepository repository.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.GLQuote.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.GLQuote.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.GLQuote.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Winston_Agent_Portal.GLQuote.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.GLQuote.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Winston_Agent_Portal.GLQuote.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
         <member name="T:Winston_Agent_Portal.GLRiskLevel">
              <summary>
             The GLRiskLevel recording.
@@ -501,6 +579,21 @@
         <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepository.FCGAGLGoogleChrome">
             <summary>
             The FCGAGLGoogleChrome folder.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepository.Chrome">
+            <summary>
+            The Chrome folder.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepository.SaveAs">
+            <summary>
+            The SaveAs folder.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepository.Chrome1">
+            <summary>
+            The Chrome1 folder.
             </summary>
         </member>
         <member name="T:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders">
@@ -1228,6 +1321,86 @@
             The TxtACVLimit item info.
             </summary>
         </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.ExcessLiabilityOptions">
+            <summary>
+            The ExcessLiabilityOptions item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.ExcessLiabilityOptionsInfo">
+            <summary>
+            The ExcessLiabilityOptions item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.GeneralLiabilityInsuranceCompany">
+            <summary>
+            The GeneralLiabilityInsuranceCompany item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.GeneralLiabilityInsuranceCompanyInfo">
+            <summary>
+            The GeneralLiabilityInsuranceCompany item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.BtnSave2">
+            <summary>
+            The BtnSave2 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.BtnSave2Info">
+            <summary>
+            The BtnSave2 item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.CLOSE">
+            <summary>
+            The CLOSE item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.CLOSEInfo">
+            <summary>
+            The CLOSE item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.BtnDownloadQuote">
+            <summary>
+            The BtnDownloadQuote item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.BtnDownloadQuoteInfo">
+            <summary>
+            The BtnDownloadQuote item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Element13864848">
+            <summary>
+            The Element13864848 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Element13864848Info">
+            <summary>
+            The Element13864848 item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.NewTabClick">
+            <summary>
+            The NewTabClick item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.NewTabClickInfo">
+            <summary>
+            The NewTabClick item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Element2206544">
+            <summary>
+            The Element2206544 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.Element2206544Info">
+            <summary>
+            The Element2206544 item info.
+            </summary>
+        </member>
         <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ApplicationUnderTestAppFolder.MyTable">
             <summary>
             The MyTable folder.
@@ -1706,6 +1879,146 @@
         <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.FCGAGLGoogleChromeAppFolder.PaneInfo">
             <summary>
             The Pane item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.FCGAGLGoogleChromeAppFolder.HttpsDevWinstonFwcinsComFWCPortal">
+            <summary>
+            The HttpsDevWinstonFwcinsComFWCPortal item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.FCGAGLGoogleChromeAppFolder.HttpsDevWinstonFwcinsComFWCPortalInfo">
+            <summary>
+            The HttpsDevWinstonFwcinsComFWCPortal item info.
+            </summary>
+        </member>
+        <member name="T:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ChromeAppFolder">
+            <summary>
+            The ChromeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ChromeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Chrome  folder.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ChromeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ChromeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ChromeAppFolder.TabClick">
+            <summary>
+            The TabClick item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ChromeAppFolder.TabClickInfo">
+            <summary>
+            The TabClick item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ChromeAppFolder.PageElement">
+            <summary>
+            The PageElement item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ChromeAppFolder.PageElementInfo">
+            <summary>
+            The PageElement item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ChromeAppFolder.Close">
+            <summary>
+            The Close item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ChromeAppFolder.CloseInfo">
+            <summary>
+            The Close item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ChromeAppFolder.FCGAGL">
+            <summary>
+            The FCGAGL item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.ChromeAppFolder.FCGAGLInfo">
+            <summary>
+            The FCGAGL item info.
+            </summary>
+        </member>
+        <member name="T:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.SaveAsAppFolder">
+            <summary>
+            The SaveAsAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.SaveAsAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SaveAs  folder.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.SaveAsAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.SaveAsAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.SaveAsAppFolder.Text1001">
+            <summary>
+            The Text1001 item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.SaveAsAppFolder.Text1001Info">
+            <summary>
+            The Text1001 item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.SaveAsAppFolder.ButtonSave">
+            <summary>
+            The ButtonSave item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.SaveAsAppFolder.ButtonSaveInfo">
+            <summary>
+            The ButtonSave item info.
+            </summary>
+        </member>
+        <member name="T:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.Chrome1AppFolder">
+            <summary>
+            The Chrome1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.Chrome1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Chrome1  folder.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.Chrome1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.Chrome1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.Chrome1AppFolder.SaveAsCtrlPlusS">
+            <summary>
+            The SaveAsCtrlPlusS item.
+            </summary>
+        </member>
+        <member name="P:Winston_Agent_Portal.Winston_Agent_PortalRepositoryFolders.Chrome1AppFolder.SaveAsCtrlPlusSInfo">
+            <summary>
+            The SaveAsCtrlPlusS item info.
             </summary>
         </member>
         <member name="T:__RxMain.__RxProgram">

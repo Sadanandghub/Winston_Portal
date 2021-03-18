@@ -174,6 +174,42 @@
       <UserCode>true</UserCode>
       <id>9cf383b6-e93f-4428-ab21-64647025002a</id>
     </Compile>
+    <Compile Include="GLApplicationPage.cs">
+      <BoundTo>dc8a9420-7278-4aaa-91f3-32522c5706e3</BoundTo>
+      <DependentUpon>GLApplicationPage.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7a9c034f-85e2-4814-aeed-43eb46d5af74</id>
+    </Compile>
+    <Compile Include="GLApplicationPage.UserCode.cs">
+      <BoundTo>dc8a9420-7278-4aaa-91f3-32522c5706e3</BoundTo>
+      <DependentUpon>GLApplicationPage.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7eac28fa-508e-47f4-990d-72696d5ec093</id>
+    </Compile>
+    <Compile Include="GLDownloadQuote.cs">
+      <BoundTo>7955dcdd-fb83-48a9-b913-9e8b0f75885a</BoundTo>
+      <DependentUpon>GLDownloadQuote.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9ca7930b-766c-45f4-be13-9d2316ee38b9</id>
+    </Compile>
+    <Compile Include="GLDownloadQuote.UserCode.cs">
+      <BoundTo>7955dcdd-fb83-48a9-b913-9e8b0f75885a</BoundTo>
+      <DependentUpon>GLDownloadQuote.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c7fb5330-2b2c-4d04-b2b1-e8579f8cb93b</id>
+    </Compile>
+    <Compile Include="GLQuote.cs">
+      <BoundTo>bb6dd4ec-105c-4aa9-8b03-81539dca6ba2</BoundTo>
+      <DependentUpon>GLQuote.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f29af6f9-0122-4677-a781-0fba554d5873</id>
+    </Compile>
+    <Compile Include="GLQuote.UserCode.cs">
+      <BoundTo>bb6dd4ec-105c-4aa9-8b03-81539dca6ba2</BoundTo>
+      <DependentUpon>GLQuote.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>011e89e4-2ba3-439e-821d-c81c34b65a6a</id>
+    </Compile>
     <Compile Include="GLRiskLevel.cs">
       <BoundTo>22cdd3bd-971f-49a8-8c5e-568685e70f8f</BoundTo>
       <DependentUpon>GLRiskLevel.rxrec</DependentUpon>
@@ -298,6 +334,21 @@
       <BoundTo>0e49320b-8b55-4200-b36f-05e86fb26edd</BoundTo>
       <id>b2fc8dfd-f3b1-4e27-8797-92374d4ea4ed</id>
       <recordtableid>2fdcf850-2365-4266-92d6-a3e8bf434897</recordtableid>
+    </None>
+    <None Include="GLApplicationPage.rxrec">
+      <BoundTo>0e49320b-8b55-4200-b36f-05e86fb26edd</BoundTo>
+      <id>dc8a9420-7278-4aaa-91f3-32522c5706e3</id>
+      <recordtableid>44272ccb-4e11-4d64-9fad-30e6e9ac1426</recordtableid>
+    </None>
+    <None Include="GLDownloadQuote.rxrec">
+      <BoundTo>0e49320b-8b55-4200-b36f-05e86fb26edd</BoundTo>
+      <id>7955dcdd-fb83-48a9-b913-9e8b0f75885a</id>
+      <recordtableid>ada74755-0316-43e5-a1f2-b204b6638cdd</recordtableid>
+    </None>
+    <None Include="GLQuote.rxrec">
+      <BoundTo>0e49320b-8b55-4200-b36f-05e86fb26edd</BoundTo>
+      <id>bb6dd4ec-105c-4aa9-8b03-81539dca6ba2</id>
+      <recordtableid>b441bce3-98ae-4c2b-8d25-c7a0a98a8e32</recordtableid>
     </None>
     <None Include="GLRiskLevel.rxrec">
       <BoundTo>0e49320b-8b55-4200-b36f-05e86fb26edd</BoundTo>

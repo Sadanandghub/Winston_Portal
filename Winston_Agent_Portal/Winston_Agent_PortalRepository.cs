@@ -31,6 +31,9 @@ namespace Winston_Agent_Portal
         Winston_Agent_PortalRepositoryFolders.HttpsDevWinstonFwcinsComFWCPortalAppFolder _httpsdevwinstonfwcinscomfwcportal;
         Winston_Agent_PortalRepositoryFolders.ExplorerAppFolder _explorer;
         Winston_Agent_PortalRepositoryFolders.FCGAGLGoogleChromeAppFolder _fcgaglgooglechrome;
+        Winston_Agent_PortalRepositoryFolders.ChromeAppFolder _chrome;
+        Winston_Agent_PortalRepositoryFolders.SaveAsAppFolder _saveas;
+        Winston_Agent_PortalRepositoryFolders.Chrome1AppFolder _chrome1;
 
         /// <summary>
         /// Gets the singleton class instance representing the Winston_Agent_PortalRepository element repository.
@@ -51,6 +54,9 @@ namespace Winston_Agent_Portal
             _httpsdevwinstonfwcinscomfwcportal = new Winston_Agent_PortalRepositoryFolders.HttpsDevWinstonFwcinsComFWCPortalAppFolder(this);
             _explorer = new Winston_Agent_PortalRepositoryFolders.ExplorerAppFolder(this);
             _fcgaglgooglechrome = new Winston_Agent_PortalRepositoryFolders.FCGAGLGoogleChromeAppFolder(this);
+            _chrome = new Winston_Agent_PortalRepositoryFolders.ChromeAppFolder(this);
+            _saveas = new Winston_Agent_PortalRepositoryFolders.SaveAsAppFolder(this);
+            _chrome1 = new Winston_Agent_PortalRepositoryFolders.Chrome1AppFolder(this);
         }
 
 #region Variables
@@ -115,6 +121,33 @@ namespace Winston_Agent_Portal
         public virtual Winston_Agent_PortalRepositoryFolders.FCGAGLGoogleChromeAppFolder FCGAGLGoogleChrome
         {
             get { return _fcgaglgooglechrome; }
+        }
+
+        /// <summary>
+        /// The Chrome folder.
+        /// </summary>
+        [RepositoryFolder("46fbc645-93e6-4ff0-8923-6f53a283f590")]
+        public virtual Winston_Agent_PortalRepositoryFolders.ChromeAppFolder Chrome
+        {
+            get { return _chrome; }
+        }
+
+        /// <summary>
+        /// The SaveAs folder.
+        /// </summary>
+        [RepositoryFolder("a82bd78c-dd35-4c40-986a-0b2f1fbee65b")]
+        public virtual Winston_Agent_PortalRepositoryFolders.SaveAsAppFolder SaveAs
+        {
+            get { return _saveas; }
+        }
+
+        /// <summary>
+        /// The Chrome1 folder.
+        /// </summary>
+        [RepositoryFolder("0c72c750-2f53-4243-bdfb-628ccbc7febf")]
+        public virtual Winston_Agent_PortalRepositoryFolders.Chrome1AppFolder Chrome1
+        {
+            get { return _chrome1; }
         }
     }
 
@@ -204,6 +237,15 @@ namespace Winston_Agent_Portal
             RepoItemInfo _btnaddInfo;
             RepoItemInfo _txttypeInfo;
             RepoItemInfo _txtacvlimitInfo;
+            RepoItemInfo _excessliabilityoptionsInfo;
+            RepoItemInfo _generalliabilityinsurancecompanyInfo;
+            RepoItemInfo _btnsave2Info;
+            RepoItemInfo _closeInfo;
+            RepoItemInfo _btndownloadquoteInfo;
+            RepoItemInfo _element13864848Info;
+            RepoItemInfo _newtabclickInfo;
+            RepoItemInfo _element2206544Info;
+            RepoItemInfo _btnissueInfo;
 
             /// <summary>
             /// Creates a new ApplicationUnderTest  folder.
@@ -285,6 +327,15 @@ namespace Winston_Agent_Portal
                 _btnaddInfo = new RepoItemInfo(this, "BtnAdd", ".//input[#'btnAdd']", 30000, null, "3ba66e94-8a16-4135-8c74-43bb89fe5e15");
                 _txttypeInfo = new RepoItemInfo(this, "TxtType", ".//tbody[#'dynamicBody']//input[@name='txtType']", 30000, null, "e247486c-383f-4806-9ac6-bf79dc886be0");
                 _txtacvlimitInfo = new RepoItemInfo(this, "TxtACVLimit", ".//tbody[#'dynamicBody']//input[@name='txtACVLimit']", 30000, null, "be53ef38-ee25-4bc0-8eaa-3af87155e1a3");
+                _excessliabilityoptionsInfo = new RepoItemInfo(this, "ExcessLiabilityOptions", ".//table[#'tblPolicyPremium']/tbody/tr[2]//label[@innertext>'$1,000,000 per occurrence']", 30000, null, "09db7c81-d715-41b1-9065-587ea45dc727");
+                _generalliabilityinsurancecompanyInfo = new RepoItemInfo(this, "GeneralLiabilityInsuranceCompany", ".//table[#'tblPolicyPremium']/tbody/tr[8]//label[@innertext='FWCI (B++)']", 30000, null, "f988bde7-ca53-4cde-8456-60cbf4486b6b");
+                _btnsave2Info = new RepoItemInfo(this, "BtnSave2", ".//input[#'btnSave']", 30000, null, "70e0593a-7e78-4de3-9ad7-bd00269ef7d1");
+                _closeInfo = new RepoItemInfo(this, "CLOSE", "body/div[10]/div/div/div[3]/input[@name='CLOSE']", 30000, null, "ddd6d00f-375f-4637-8672-527d7100804b");
+                _btndownloadquoteInfo = new RepoItemInfo(this, "BtnDownloadQuote", ".//input[#'btnDownloadQuote']", 30000, null, "bac3b45e-bb53-4f51-a16d-845001d60568");
+                _element13864848Info = new RepoItemInfo(this, "Element13864848", "body/div[2]/?/?/form[@title>'https://dev_winston.fwcin']/element[@controlid='13864848']", 30000, null, "1c1c97ea-2704-4b5a-bf04-9d76619897bc");
+                _newtabclickInfo = new RepoItemInfo(this, "NewTabClick", ".//form[@title>'https://dev_winston.fwcin']/container[@accessiblename>'https://dev_winston.fwcin']/container[@accessiblename='Google Chrome']/container[2]/container[1]//tabpage[@accessiblename>'https://dev_winston.fwcin']", 30000, null, "72e536d4-0414-4c91-b3b5-43447a060f21");
+                _element2206544Info = new RepoItemInfo(this, "Element2206544", "body/div[2]/?/?/form[@title>'https://dev_winston.fwcin']/element[@controlid='2206544']", 30000, null, "711bf93a-2423-49c7-a5f7-5d92a8f41cd8");
+                _btnissueInfo = new RepoItemInfo(this, "BtnIssue", ".//input[#'btnIssue']", 30000, null, "6c5d0260-18e8-4d9b-b8f5-89363e7b3514");
             }
 
             /// <summary>
@@ -1992,6 +2043,222 @@ namespace Winston_Agent_Portal
             }
 
             /// <summary>
+            /// The ExcessLiabilityOptions item.
+            /// </summary>
+            [RepositoryItem("09db7c81-d715-41b1-9065-587ea45dc727")]
+            public virtual Ranorex.LabelTag ExcessLiabilityOptions
+            {
+                get
+                {
+                    return _excessliabilityoptionsInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ExcessLiabilityOptions item info.
+            /// </summary>
+            [RepositoryItemInfo("09db7c81-d715-41b1-9065-587ea45dc727")]
+            public virtual RepoItemInfo ExcessLiabilityOptionsInfo
+            {
+                get
+                {
+                    return _excessliabilityoptionsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The GeneralLiabilityInsuranceCompany item.
+            /// </summary>
+            [RepositoryItem("f988bde7-ca53-4cde-8456-60cbf4486b6b")]
+            public virtual Ranorex.LabelTag GeneralLiabilityInsuranceCompany
+            {
+                get
+                {
+                    return _generalliabilityinsurancecompanyInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The GeneralLiabilityInsuranceCompany item info.
+            /// </summary>
+            [RepositoryItemInfo("f988bde7-ca53-4cde-8456-60cbf4486b6b")]
+            public virtual RepoItemInfo GeneralLiabilityInsuranceCompanyInfo
+            {
+                get
+                {
+                    return _generalliabilityinsurancecompanyInfo;
+                }
+            }
+
+            /// <summary>
+            /// The BtnSave2 item.
+            /// </summary>
+            [RepositoryItem("70e0593a-7e78-4de3-9ad7-bd00269ef7d1")]
+            public virtual Ranorex.InputTag BtnSave2
+            {
+                get
+                {
+                    return _btnsave2Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The BtnSave2 item info.
+            /// </summary>
+            [RepositoryItemInfo("70e0593a-7e78-4de3-9ad7-bd00269ef7d1")]
+            public virtual RepoItemInfo BtnSave2Info
+            {
+                get
+                {
+                    return _btnsave2Info;
+                }
+            }
+
+            /// <summary>
+            /// The CLOSE item.
+            /// </summary>
+            [RepositoryItem("ddd6d00f-375f-4637-8672-527d7100804b")]
+            public virtual Ranorex.InputTag CLOSE
+            {
+                get
+                {
+                    return _closeInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The CLOSE item info.
+            /// </summary>
+            [RepositoryItemInfo("ddd6d00f-375f-4637-8672-527d7100804b")]
+            public virtual RepoItemInfo CLOSEInfo
+            {
+                get
+                {
+                    return _closeInfo;
+                }
+            }
+
+            /// <summary>
+            /// The BtnDownloadQuote item.
+            /// </summary>
+            [RepositoryItem("bac3b45e-bb53-4f51-a16d-845001d60568")]
+            public virtual Ranorex.InputTag BtnDownloadQuote
+            {
+                get
+                {
+                    return _btndownloadquoteInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The BtnDownloadQuote item info.
+            /// </summary>
+            [RepositoryItemInfo("bac3b45e-bb53-4f51-a16d-845001d60568")]
+            public virtual RepoItemInfo BtnDownloadQuoteInfo
+            {
+                get
+                {
+                    return _btndownloadquoteInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Element13864848 item.
+            /// </summary>
+            [RepositoryItem("1c1c97ea-2704-4b5a-bf04-9d76619897bc")]
+            public virtual Ranorex.Unknown Element13864848
+            {
+                get
+                {
+                    return _element13864848Info.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Element13864848 item info.
+            /// </summary>
+            [RepositoryItemInfo("1c1c97ea-2704-4b5a-bf04-9d76619897bc")]
+            public virtual RepoItemInfo Element13864848Info
+            {
+                get
+                {
+                    return _element13864848Info;
+                }
+            }
+
+            /// <summary>
+            /// The NewTabClick item.
+            /// </summary>
+            [RepositoryItem("72e536d4-0414-4c91-b3b5-43447a060f21")]
+            public virtual Ranorex.TabPage NewTabClick
+            {
+                get
+                {
+                    return _newtabclickInfo.CreateAdapter<Ranorex.TabPage>(true);
+                }
+            }
+
+            /// <summary>
+            /// The NewTabClick item info.
+            /// </summary>
+            [RepositoryItemInfo("72e536d4-0414-4c91-b3b5-43447a060f21")]
+            public virtual RepoItemInfo NewTabClickInfo
+            {
+                get
+                {
+                    return _newtabclickInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Element2206544 item.
+            /// </summary>
+            [RepositoryItem("711bf93a-2423-49c7-a5f7-5d92a8f41cd8")]
+            public virtual Ranorex.Unknown Element2206544
+            {
+                get
+                {
+                    return _element2206544Info.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Element2206544 item info.
+            /// </summary>
+            [RepositoryItemInfo("711bf93a-2423-49c7-a5f7-5d92a8f41cd8")]
+            public virtual RepoItemInfo Element2206544Info
+            {
+                get
+                {
+                    return _element2206544Info;
+                }
+            }
+
+            /// <summary>
+            /// The BtnIssue item.
+            /// </summary>
+            [RepositoryItem("6c5d0260-18e8-4d9b-b8f5-89363e7b3514")]
+            public virtual Ranorex.InputTag BtnIssue
+            {
+                get
+                {
+                    return _btnissueInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The BtnIssue item info.
+            /// </summary>
+            [RepositoryItemInfo("6c5d0260-18e8-4d9b-b8f5-89363e7b3514")]
+            public virtual RepoItemInfo BtnIssueInfo
+            {
+                get
+                {
+                    return _btnissueInfo;
+                }
+            }
+
+            /// <summary>
             /// The MyTable folder.
             /// </summary>
             [RepositoryFolder("33f035cf-284c-43cf-89fa-7e00886d150e")]
@@ -3081,6 +3348,7 @@ namespace Winston_Agent_Portal
         public partial class FCGAGLGoogleChromeAppFolder : RepoGenBaseFolder
         {
             RepoItemInfo _paneInfo;
+            RepoItemInfo _httpsdevwinstonfwcinscomfwcportalInfo;
 
             /// <summary>
             /// Creates a new FCGAGLGoogleChrome  folder.
@@ -3089,6 +3357,7 @@ namespace Winston_Agent_Portal
                     base("FCGAGLGoogleChrome", "/form[@title='FCGA - GL - Google Chrome']", parentFolder, 30000, null, true, "af7f34a6-d981-4c18-80a3-95596321ab21", "")
             {
                 _paneInfo = new RepoItemInfo(this, "Pane", "container[@accessiblename='FCGA - GL - Google Chrome']/container[@accessiblename='Google Chrome']//tabpagelist/container[2]", 30000, null, "3ba0c3c2-1f7c-4b1c-a9f4-97b1ea6a3a18");
+                _httpsdevwinstonfwcinscomfwcportalInfo = new RepoItemInfo(this, "HttpsDevWinstonFwcinsComFWCPortal", "container[@accessiblename>'https://dev_winston.fwcin']/container[@accessiblename='Google Chrome']/container[2]/container[1]//tabpage[@accessiblename>'https://dev_winston.fwcin']", 30000, null, "abacb4e0-f0b2-4939-9fea-18c3a489af97");
             }
 
             /// <summary>
@@ -3136,6 +3405,332 @@ namespace Winston_Agent_Portal
                 get
                 {
                     return _paneInfo;
+                }
+            }
+
+            /// <summary>
+            /// The HttpsDevWinstonFwcinsComFWCPortal item.
+            /// </summary>
+            [RepositoryItem("abacb4e0-f0b2-4939-9fea-18c3a489af97")]
+            public virtual Ranorex.TabPage HttpsDevWinstonFwcinsComFWCPortal
+            {
+                get
+                {
+                    return _httpsdevwinstonfwcinscomfwcportalInfo.CreateAdapter<Ranorex.TabPage>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HttpsDevWinstonFwcinsComFWCPortal item info.
+            /// </summary>
+            [RepositoryItemInfo("abacb4e0-f0b2-4939-9fea-18c3a489af97")]
+            public virtual RepoItemInfo HttpsDevWinstonFwcinsComFWCPortalInfo
+            {
+                get
+                {
+                    return _httpsdevwinstonfwcinscomfwcportalInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The ChromeAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("46fbc645-93e6-4ff0-8923-6f53a283f590")]
+        public partial class ChromeAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _tabclickInfo;
+            RepoItemInfo _pageelementInfo;
+            RepoItemInfo _closeInfo;
+            RepoItemInfo _fcgaglInfo;
+
+            /// <summary>
+            /// Creates a new Chrome  folder.
+            /// </summary>
+            public ChromeAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("Chrome", "/form[@title>'https://dev_winston.fwcin']", parentFolder, 30000, null, true, "46fbc645-93e6-4ff0-8923-6f53a283f590", "")
+            {
+                _tabclickInfo = new RepoItemInfo(this, "TabClick", "container[@accessiblename>'https://dev_winston.fwcin']/container[@accessiblename='Google Chrome']/container[2]/container[1]//tabpage[@accessiblename>'https://dev_winston.fwcin']", 30000, null, "06089ce3-33ca-4ada-a2ed-3f713b269b7f");
+                _pageelementInfo = new RepoItemInfo(this, "PageElement", "element[@visible='True']", 30000, null, "e9e5d7bc-72a8-43a8-8b2a-d89f74b0c4e2");
+                _closeInfo = new RepoItemInfo(this, "Close", "container[@accessiblename>'https://dev_winston.fwcin']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename>'https://dev_winston.fwcin']/button[@accessiblename='Close']", 30000, null, "578c353a-19c1-4f74-82eb-d8f7286a90c9");
+                _fcgaglInfo = new RepoItemInfo(this, "FCGAGL", "container[@accessiblename='FCGA - GL - Google Chrome']/container[@accessiblename='Google Chrome']/container[2]/container[1]//tabpage[@accessiblename='FCGA - GL']", 30000, null, "19c08975-5cd3-4245-9a97-9d5b0d318639");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("46fbc645-93e6-4ff0-8923-6f53a283f590")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("46fbc645-93e6-4ff0-8923-6f53a283f590")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TabClick item.
+            /// </summary>
+            [RepositoryItem("06089ce3-33ca-4ada-a2ed-3f713b269b7f")]
+            public virtual Ranorex.TabPage TabClick
+            {
+                get
+                {
+                    return _tabclickInfo.CreateAdapter<Ranorex.TabPage>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TabClick item info.
+            /// </summary>
+            [RepositoryItemInfo("06089ce3-33ca-4ada-a2ed-3f713b269b7f")]
+            public virtual RepoItemInfo TabClickInfo
+            {
+                get
+                {
+                    return _tabclickInfo;
+                }
+            }
+
+            /// <summary>
+            /// The PageElement item.
+            /// </summary>
+            [RepositoryItem("e9e5d7bc-72a8-43a8-8b2a-d89f74b0c4e2")]
+            public virtual Ranorex.Unknown PageElement
+            {
+                get
+                {
+                    return _pageelementInfo.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PageElement item info.
+            /// </summary>
+            [RepositoryItemInfo("e9e5d7bc-72a8-43a8-8b2a-d89f74b0c4e2")]
+            public virtual RepoItemInfo PageElementInfo
+            {
+                get
+                {
+                    return _pageelementInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Close item.
+            /// </summary>
+            [RepositoryItem("578c353a-19c1-4f74-82eb-d8f7286a90c9")]
+            public virtual Ranorex.Button Close
+            {
+                get
+                {
+                    return _closeInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Close item info.
+            /// </summary>
+            [RepositoryItemInfo("578c353a-19c1-4f74-82eb-d8f7286a90c9")]
+            public virtual RepoItemInfo CloseInfo
+            {
+                get
+                {
+                    return _closeInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FCGAGL item.
+            /// </summary>
+            [RepositoryItem("19c08975-5cd3-4245-9a97-9d5b0d318639")]
+            public virtual Ranorex.TabPage FCGAGL
+            {
+                get
+                {
+                    return _fcgaglInfo.CreateAdapter<Ranorex.TabPage>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FCGAGL item info.
+            /// </summary>
+            [RepositoryItemInfo("19c08975-5cd3-4245-9a97-9d5b0d318639")]
+            public virtual RepoItemInfo FCGAGLInfo
+            {
+                get
+                {
+                    return _fcgaglInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The SaveAsAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("a82bd78c-dd35-4c40-986a-0b2f1fbee65b")]
+        public partial class SaveAsAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _text1001Info;
+            RepoItemInfo _buttonsaveInfo;
+
+            /// <summary>
+            /// Creates a new SaveAs  folder.
+            /// </summary>
+            public SaveAsAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("SaveAs", "/form[@title='Save As']", parentFolder, 30000, null, true, "a82bd78c-dd35-4c40-986a-0b2f1fbee65b", "")
+            {
+                _text1001Info = new RepoItemInfo(this, "Text1001", "element[@class='DUIViewWndClassName']//combobox[@class='ComboBox']/text[@controlid='1001']", 30000, null, "dcfa5c4c-3fe1-42a5-b299-0e4867fae71c");
+                _buttonsaveInfo = new RepoItemInfo(this, "ButtonSave", "button[@text='&Save']", 30000, null, "c9cc32c2-7979-4d56-a205-6b1bab7f3d38");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("a82bd78c-dd35-4c40-986a-0b2f1fbee65b")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("a82bd78c-dd35-4c40-986a-0b2f1fbee65b")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Text1001 item.
+            /// </summary>
+            [RepositoryItem("dcfa5c4c-3fe1-42a5-b299-0e4867fae71c")]
+            public virtual Ranorex.Text Text1001
+            {
+                get
+                {
+                    return _text1001Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Text1001 item info.
+            /// </summary>
+            [RepositoryItemInfo("dcfa5c4c-3fe1-42a5-b299-0e4867fae71c")]
+            public virtual RepoItemInfo Text1001Info
+            {
+                get
+                {
+                    return _text1001Info;
+                }
+            }
+
+            /// <summary>
+            /// The ButtonSave item.
+            /// </summary>
+            [RepositoryItem("c9cc32c2-7979-4d56-a205-6b1bab7f3d38")]
+            public virtual Ranorex.Button ButtonSave
+            {
+                get
+                {
+                    return _buttonsaveInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ButtonSave item info.
+            /// </summary>
+            [RepositoryItemInfo("c9cc32c2-7979-4d56-a205-6b1bab7f3d38")]
+            public virtual RepoItemInfo ButtonSaveInfo
+            {
+                get
+                {
+                    return _buttonsaveInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The Chrome1AppFolder folder.
+        /// </summary>
+        [RepositoryFolder("0c72c750-2f53-4243-bdfb-628ccbc7febf")]
+        public partial class Chrome1AppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _saveasctrlplussInfo;
+
+            /// <summary>
+            /// Creates a new Chrome1  folder.
+            /// </summary>
+            public Chrome1AppFolder(RepoGenBaseFolder parentFolder) :
+                    base("Chrome1", "/form[@title='']", parentFolder, 30000, null, true, "0c72c750-2f53-4243-bdfb-628ccbc7febf", "")
+            {
+                _saveasctrlplussInfo = new RepoItemInfo(this, "SaveAsCtrlPlusS", "container[@accessiblename='']/menubar[@accessiblename='']//menuitem[@accessiblename='Save as… Ctrl+S']", 30000, null, "534506d4-b1b2-4d2b-b788-44481ba1514e");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("0c72c750-2f53-4243-bdfb-628ccbc7febf")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("0c72c750-2f53-4243-bdfb-628ccbc7febf")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SaveAsCtrlPlusS item.
+            /// </summary>
+            [RepositoryItem("534506d4-b1b2-4d2b-b788-44481ba1514e")]
+            public virtual Ranorex.MenuItem SaveAsCtrlPlusS
+            {
+                get
+                {
+                    return _saveasctrlplussInfo.CreateAdapter<Ranorex.MenuItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SaveAsCtrlPlusS item info.
+            /// </summary>
+            [RepositoryItemInfo("534506d4-b1b2-4d2b-b788-44481ba1514e")]
+            public virtual RepoItemInfo SaveAsCtrlPlusSInfo
+            {
+                get
+                {
+                    return _saveasctrlplussInfo;
                 }
             }
         }

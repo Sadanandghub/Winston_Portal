@@ -3,6 +3,12 @@
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
 			<testmodule
+			id="01e22765-b2a7-4d76-9b0b-1f372cd17d06"
+			name="GLQuote"
+			ref="b441bce3-98ae-4c2b-8d25-c7a0a98a8e32"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="0beb7c9f-bbcb-4a1a-bf52-8a77a8b079d1"
 			name="NQ_GL"
 			ref="88ebd9d3-571d-4a2a-982d-38eb9c2eea70"
@@ -196,6 +202,12 @@
 			ref="e1fec56b-dacd-43fc-aa61-9e6fcf6a8955"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="e8c50240-fe47-4b43-83c4-9b395d6c2c1d"
+			name="GLDownloadQuote"
+			ref="ada74755-0316-43e5-a1f2-b204b6638cdd"
+			type="Recording">
+			</testmodule>
 			<setup
 			id="ee76c150-5bcb-4fc3-82d2-4be02e9fcd86"
 			name="setup">
@@ -278,6 +290,14 @@
 						<testmodule
 						id="e63de0eb-dbaa-4439-95a0-00d0f10c2836"
 						name="Class_Specific">
+						</testmodule>
+						<testmodule
+						id="01e22765-b2a7-4d76-9b0b-1f372cd17d06"
+						name="GLQuote">
+						</testmodule>
+						<testmodule
+						id="e8c50240-fe47-4b43-83c4-9b395d6c2c1d"
+						name="GLDownloadQuote">
 						</testmodule>
 						<teardown
 						id="1fd395ef-21d4-4eaf-9a65-27aee895dbd4"

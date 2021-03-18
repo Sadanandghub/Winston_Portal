@@ -996,6 +996,93 @@ name="Winston_Agent_PortalRepository">
 					/dom[@domain='dev_winston.fwcins.com']//table[#'tblCoverages']
 				</basepath>
 			</folder>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="09db7c81-d715-41b1-9065-587ea45dc727"
+			name="ExcessLiabilityOptions"
+			refimgid="353668fe-4225-4b8a-bed4-56deb81a4a5b"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//table[#'tblPolicyPremium']/tbody/tr[2]/td[1]/div/label[@innertext>'$1,000,000 per occurrence']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//table[#'tblPolicyPremium']/tbody/tr[2]//label[@innertext&gt;'$1,000,000 per occurrence']
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="f988bde7-ca53-4cde-8456-60cbf4486b6b"
+			name="GeneralLiabilityInsuranceCompany"
+			refimgid="28c4961b-7288-4564-94d1-702612d26c56"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//table[#'tblPolicyPremium']/tbody/tr[8]/td[2]/div/label[@innertext='FWCI (B++)']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//table[#'tblPolicyPremium']/tbody/tr[8]//label[@innertext='FWCI (B++)']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="70e0593a-7e78-4de3-9ad7-bd00269ef7d1"
+			name="BtnSave2"
+			refimgid="de0ed88d-af5a-4190-a3e1-02a006d07b31"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//input[#'btnSave']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//input[#'btnSave']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="ddd6d00f-375f-4637-8672-527d7100804b"
+			name="CLOSE"
+			refimgid="0b004e5c-c2a9-4ab7-bb7a-30c91806b215"
+			refpath="/dom[@domain='dev_winston.fwcins.com']/body/div[10]/div/div/div[3]/input[@name='CLOSE']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']/body/div[10]/div/div/div[3]/input[@name='CLOSE']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="bac3b45e-bb53-4f51-a16d-845001d60568"
+			name="BtnDownloadQuote"
+			refimgid="70aad715-d255-463a-b9cb-32f892851b64"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//input[#'btnDownloadQuote']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//input[#'btnDownloadQuote']
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="1c1c97ea-2704-4b5a-bf04-9d76619897bc"
+			name="Element13864848"
+			refimgid="4730139b-fd56-4df9-a274-d3054438f09c"
+			refpath="/dom[@domain='dev_winston.fwcins.com' and @caption>'https://dev_winston.fwcin']/body/div[2]/object/form/element[@controlid='13864848']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']/body/div[2]/?/?/form[@title&gt;'https://dev_winston.fwcin']/element[@controlid='13864848']
+			</item>
+			<item
+			capname="tabpage"
+			id="72e536d4-0414-4c91-b3b5-43447a060f21"
+			name="NewTabClick"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//form[@title&gt;'https://dev_winston.fwcin']/container[@accessiblename&gt;'https://dev_winston.fwcin']/container[@accessiblename='Google Chrome']/container[2]/container[1]//tabpage[@accessiblename&gt;'https://dev_winston.fwcin']
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="711bf93a-2423-49c7-a5f7-5d92a8f41cd8"
+			name="Element2206544"
+			refimgid="8757f7bb-c304-409e-a7db-4e8b47860bbd"
+			refpath="/dom[@domain='dev_winston.fwcins.com' and @caption>'https://dev_winston.fwcin']/body/div[2]/object/form/element[@controlid='2206544']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']/body/div[2]/?/?/form[@title&gt;'https://dev_winston.fwcin']/element[@controlid='2206544']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="6c5d0260-18e8-4d9b-b8f5-89363e7b3514"
+			name="BtnIssue"
+			refimgid="38b6db46-fe67-4191-9ed8-72a5968efd37"
+			refpath="/dom[@domain='dev_winston.fwcins.com']//input[#'btnIssue']"
+			searchtimeout="30000ms">
+				/dom[@domain='dev_winston.fwcins.com']//input[#'btnIssue']
+			</item>
 			<basepath>
 				/dom[@domain='dev_winston.fwcins.com']
 			</basepath>
@@ -1158,8 +1245,165 @@ j0QigXQ6DZoLgsDvWK/XBzc6hsu1BRMfpP7Bj/TsAAAAAElFTkSuQmCC
 			searchtimeout="30000ms">
 				/form[@title='FCGA - GL - Google Chrome']/container[@accessiblename='FCGA - GL - Google Chrome']/container[@accessiblename='Google Chrome']//tabpagelist/container[2]
 			</item>
+			<item
+			addcaps="tabpage,accessible"
+			capname="tabpage"
+			id="abacb4e0-f0b2-4939-9fea-18c3a489af97"
+			name="HttpsDevWinstonFwcinsComFWCPortal"
+			refimgid="012e74b0-c1bd-45a1-8ec2-9197e5d5c456"
+			refpath="/form[@title>'https://dev_winston.fwcin']/container/container/container[2]/container[1]/tabpagelist/container[1]/tabpage[@accessiblename>'https://dev_winston.fwcin']"
+			searchtimeout="30000ms">
+				/form[@title='FCGA - GL - Google Chrome']/container[@accessiblename&gt;'https://dev_winston.fwcin']/container[@accessiblename='Google Chrome']/container[2]/container[1]//tabpage[@accessiblename&gt;'https://dev_winston.fwcin']
+			</item>
 			<basepath>
 				/form[@title='FCGA - GL - Google Chrome']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJMSURBVDhPrZJLTxNhFIbnD8CmgqDiJbKQlUsT
+pbTTaaWt9EYVlaGUFht0ISsT117QqGw06o5eMYArSNSNxHgtKIylBMXYmWkxxii40WkkKp3X+YYZ
+sVFX+ibP7nvec07yUf89H1l7pdjmOC+22WdFv0MSfM2S6LNmea+tb8m9u0J79ufkD7ns+bZ9bwR/
+M4TWvRB8NggeBrybBt9iBu+iFwSXxaY9Lw/nsTLCAYcs7rdDLSCy16oUWFYLXKTEBN5hlHl7I6Np
+q6m/c7yyr9f7dk4R1AJteo71loQT/rzQY+KFSBMvRsw5MWIkpMvOqR86em7XtcDKXece5DxKSfgg
+hAcTuPlEwvBjCfmXaSze8uDz7UYsj5vw/X4TSpPMWU2nqK03ume3DUZw5KQHzxxGiA8n0Hm9CFd/
+ES2XimCvFvEuPwk8t2kwkDk6o+lKwWC3tCXVjR0DIQwHWjCiTNVl58VVhh5JKGVaFdkKcKTAImk6
+RdUlQ9LmVBgEtj+oFvwqOy7oBX5VBmchG6wVbEp2ZTcmukCoS4Tk9PzrJbK2Lh++UsSr/PwHfbpW
+sHZCbSp4ZkMiCEKtws7hXoy9yKhTCaNZDu+n2K+6DI5GiaNPaTpFGUbDFTWx4EJNvBOE9fGASsPQ
+MTQke3B5zPtzsipPWwryvLv8V1YnAtbqeEBWAKEq1oF1MRbbB9qxPGWTdVnmzLI8Q1s0rTyGGMtU
+RQMFQ5SFzvg957e1yebCX2U95BxDvOO0Ido+Q4+0L355ynxamTZnyM2/rf3voagf2nKwO/rr1QsA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="46fbc645-93e6-4ff0-8923-6f53a283f590"
+		isrooted="True"
+		name="Chrome"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="tabpage"
+			id="06089ce3-33ca-4ada-a2ed-3f713b269b7f"
+			name="TabClick"
+			searchtimeout="30000ms">
+				/form[@title&gt;'https://dev_winston.fwcin']/container[@accessiblename&gt;'https://dev_winston.fwcin']/container[@accessiblename='Google Chrome']/container[2]/container[1]//tabpage[@accessiblename&gt;'https://dev_winston.fwcin']
+			</item>
+			<item
+			capname="unknown"
+			id="e9e5d7bc-72a8-43a8-8b2a-d89f74b0c4e2"
+			name="PageElement"
+			searchtimeout="30000ms">
+				/form[@title&gt;'https://dev_winston.fwcin']/element[@visible='True']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="578c353a-19c1-4f74-82eb-d8f7286a90c9"
+			name="Close"
+			refimgid="63701ba6-4cd9-44f4-8c78-9583ffeb8d8c"
+			refpath="/form[@title>'https://dev_winston.fwcin']/container/container/container[2]/container[1]/tabpagelist/container[1]/tabpage[@accessiblename>'https://dev_winston.fwcin']/button[@accessiblename='Close']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'https://dev_winston.fwcin']/container[@accessiblename&gt;'https://dev_winston.fwcin']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename&gt;'https://dev_winston.fwcin']/button[@accessiblename='Close']
+			</item>
+			<item
+			addcaps="tabpage,accessible"
+			capname="tabpage"
+			id="19c08975-5cd3-4245-9a97-9d5b0d318639"
+			name="FCGAGL"
+			refimgid="bb2d9005-4780-4900-a9d5-460e76b01a2b"
+			refpath="/form[@title='FCGA - GL - Google Chrome']/container/container/container[2]/container[1]/tabpagelist/container[1]/tabpage[@accessiblename='FCGA - GL']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'https://dev_winston.fwcin']/container[@accessiblename='FCGA - GL - Google Chrome']/container[@accessiblename='Google Chrome']/container[2]/container[1]//tabpage[@accessiblename='FCGA - GL']
+			</item>
+			<basepath>
+				/form[@title&gt;'https://dev_winston.fwcin']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJMSURBVDhPrZJLTxNhFIbnD8CmgqDiJbKQlUsT
+pbTTaaWt9EYVlaGUFht0ISsT117QqGw06o5eMYArSNSNxHgtKIylBMXYmWkxxii40WkkKp3X+YYZ
+sVFX+ibP7nvec07yUf89H1l7pdjmOC+22WdFv0MSfM2S6LNmea+tb8m9u0J79ufkD7ns+bZ9bwR/
+M4TWvRB8NggeBrybBt9iBu+iFwSXxaY9Lw/nsTLCAYcs7rdDLSCy16oUWFYLXKTEBN5hlHl7I6Np
+q6m/c7yyr9f7dk4R1AJteo71loQT/rzQY+KFSBMvRsw5MWIkpMvOqR86em7XtcDKXece5DxKSfgg
+hAcTuPlEwvBjCfmXaSze8uDz7UYsj5vw/X4TSpPMWU2nqK03ume3DUZw5KQHzxxGiA8n0Hm9CFd/
+ES2XimCvFvEuPwk8t2kwkDk6o+lKwWC3tCXVjR0DIQwHWjCiTNVl58VVhh5JKGVaFdkKcKTAImk6
+RdUlQ9LmVBgEtj+oFvwqOy7oBX5VBmchG6wVbEp2ZTcmukCoS4Tk9PzrJbK2Lh++UsSr/PwHfbpW
+sHZCbSp4ZkMiCEKtws7hXoy9yKhTCaNZDu+n2K+6DI5GiaNPaTpFGUbDFTWx4EJNvBOE9fGASsPQ
+MTQke3B5zPtzsipPWwryvLv8V1YnAtbqeEBWAKEq1oF1MRbbB9qxPGWTdVnmzLI8Q1s0rTyGGMtU
+RQMFQ5SFzvg957e1yebCX2U95BxDvOO0Ido+Q4+0L355ynxamTZnyM2/rf3voagf2nKwO/rr1QsA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="a82bd78c-dd35-4c40-986a-0b2f1fbee65b"
+		isrooted="True"
+		name="SaveAs"
+		refpath="/form[@title='Save As']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="dcfa5c4c-3fe1-42a5-b299-0e4867fae71c"
+			name="Text1001"
+			refimgid="24e23f8d-4048-45d2-8f64-29c6eb124ae7"
+			refpath="/form[@title='Save As']/element[@class='DUIViewWndClassName']/container/element[@class='FloatNotifySink' and @instance='0']/combobox/text[@controlid='1001']"
+			searchtimeout="30000ms">
+				/form[@title='Save As']/element[@class='DUIViewWndClassName']//combobox[@class='ComboBox']/text[@controlid='1001']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="c9cc32c2-7979-4d56-a205-6b1bab7f3d38"
+			name="ButtonSave"
+			refimgid="d0554005-685b-421a-a8bb-86fb8427cc9a"
+			refpath="/form[@title='Save As']/button[@text='&amp;Save']"
+			searchtimeout="30000ms">
+				/form[@title='Save As']/button[@text='&amp;Save']
+			</item>
+			<basepath>
+				/form[@title='Save As']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJMSURBVDhPrZJLTxNhFIbnD8CmgqDiJbKQlUsT
+pbTTaaWt9EYVlaGUFht0ISsT117QqGw06o5eMYArSNSNxHgtKIylBMXYmWkxxii40WkkKp3X+YYZ
+sVFX+ibP7nvec07yUf89H1l7pdjmOC+22WdFv0MSfM2S6LNmea+tb8m9u0J79ufkD7ns+bZ9bwR/
+M4TWvRB8NggeBrybBt9iBu+iFwSXxaY9Lw/nsTLCAYcs7rdDLSCy16oUWFYLXKTEBN5hlHl7I6Np
+q6m/c7yyr9f7dk4R1AJteo71loQT/rzQY+KFSBMvRsw5MWIkpMvOqR86em7XtcDKXece5DxKSfgg
+hAcTuPlEwvBjCfmXaSze8uDz7UYsj5vw/X4TSpPMWU2nqK03ume3DUZw5KQHzxxGiA8n0Hm9CFd/
+ES2XimCvFvEuPwk8t2kwkDk6o+lKwWC3tCXVjR0DIQwHWjCiTNVl58VVhh5JKGVaFdkKcKTAImk6
+RdUlQ9LmVBgEtj+oFvwqOy7oBX5VBmchG6wVbEp2ZTcmukCoS4Tk9PzrJbK2Lh++UsSr/PwHfbpW
+sHZCbSp4ZkMiCEKtws7hXoy9yKhTCaNZDu+n2K+6DI5GiaNPaTpFGUbDFTWx4EJNvBOE9fGASsPQ
+MTQke3B5zPtzsipPWwryvLv8V1YnAtbqeEBWAKEq1oF1MRbbB9qxPGWTdVnmzLI8Q1s0rTyGGMtU
+RQMFQ5SFzvg957e1yebCX2U95BxDvOO0Ido+Q4+0L355ynxamTZnyM2/rf3voagf2nKwO/rr1QsA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="0c72c750-2f53-4243-bdfb-628ccbc7febf"
+		isrooted="True"
+		name="Chrome1"
+		refpath="/form[@title='']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="534506d4-b1b2-4d2b-b788-44481ba1514e"
+			name="SaveAsCtrlPlusS"
+			refimgid="f4e0db57-7132-4b88-ae0b-71be0b316ed5"
+			refpath="/form[@title='']/container/menubar/container/contextmenu/menuitem[@accessiblename='Save as… Ctrl+S']"
+			searchtimeout="30000ms">
+				/form[@title='']/container[@accessiblename='']/menubar[@accessiblename='']//menuitem[@accessiblename='Save as… Ctrl+S']
+			</item>
+			<basepath>
+				/form[@title='']
 			</basepath>
 			<icon>
 				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
